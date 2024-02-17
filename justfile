@@ -11,7 +11,7 @@ setup:
 
 # Remove all files in the output directory
 clean:
-    rm -fv {{output}}/*.md
+    rm -fv {{output}}/*.toml
 
 # Generate a single flavor, e.g. "mocha"
 gen flavor:
