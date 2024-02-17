@@ -38,6 +38,11 @@
 
 1. Copy the theme file of your choice from `themes/` to your [Yazi configuration directory](https://yazi-rs.github.io/docs/configuration/overview) with the filename `theme.toml`.
 
+## 🙋 FAQ
+
+- Q: **_"How do I get Catppuccin syntax highlighting?"_**\
+  A: Replace the path for `syntect_theme` (line 27) with a path to a [catppuccin/bat](https://github.com/catppuccin/bat) `.tmTheme` file.
+
 ## 💝 Thanks to
 
 - [uncenter](https://github.com/uncenter)
