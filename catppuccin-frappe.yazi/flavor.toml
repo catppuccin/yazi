@@ -1,17 +1,22 @@
+# vim:fileencoding=utf-8:foldmethod=marker
+
+# : Manager {{{
+
 [manager]
 cwd = { fg = "#81c8be" }
 
 # Hovered
-hovered         = { fg = "#303446", bg = "#8caaee" }
+hovered         = { reversed = true }
 preview_hovered = { underline = true }
 
 # Find
-find_keyword  = { fg = "#e5c890", italic = true }
-find_position = { fg = "#f4b8e4", bg = "reset", italic = true }
+find_keyword  = { fg = "#e5c890", bold = true, italic = true, underline = true }
+find_position = { fg = "#f4b8e4", bg = "reset", bold = true, italic = true }
 
 # Marker
 marker_copied   = { fg = "#a6d189", bg = "#a6d189" }
 marker_cut      = { fg = "#e78284", bg = "#e78284" }
+marker_marked   = { fg = "#e5c890", bg = "#e5c890" }
 marker_selected = { fg = "#8caaee", bg = "#8caaee" }
 
 # Tab
@@ -28,8 +33,10 @@ count_selected = { fg = "#303446", bg = "#8caaee" }
 border_symbol = "│"
 border_style  = { fg = "#838ba7" }
 
-# Highlighting
-syntect_theme = "~/.config/yazi/Catppuccin-frappe.tmTheme"
+# : }}}
+
+
+# : Status {{{
 
 [status]
 separator_open  = ""
@@ -53,21 +60,41 @@ permissions_w = { fg = "#e78284" }
 permissions_x = { fg = "#a6d189" }
 permissions_s = { fg = "#838ba7" }
 
+# : }}}
+
+
+# : Input {{{
+
 [input]
 border   = { fg = "#8caaee" }
 title    = {}
 value    = {}
 selected = { reversed = true }
 
+# : }}}
+
+
+# : Select {{{
+
 [select]
 border   = { fg = "#8caaee" }
 active   = { fg = "#f4b8e4" }
 inactive = {}
 
+# : }}}
+
+
+# : Tasks {{{
+
 [tasks]
 border  = { fg = "#8caaee" }
 title   = {}
 hovered = { underline = true }
+
+# : }}}
+
+
+# : Which {{{
 
 [which]
 mask            = { bg = "#414559" }
@@ -77,12 +104,22 @@ desc            = { fg = "#f4b8e4" }
 separator       = "  "
 separator_style = { fg = "#626880" }
 
+# : }}}
+
+
+# : Help {{{
+
 [help]
 on      = { fg = "#f4b8e4" }
 exec    = { fg = "#81c8be" }
 desc    = { fg = "#949cbb" }
 hovered = { bg = "#626880", bold = true }
 footer  = { fg = "#51576d", bg = "#c6d0f5" }
+
+# : }}}
+
+
+# : File-specific styles {{{
 
 [filetype]
 
@@ -107,3 +144,5 @@ rules = [
 	{ name = "*", fg = "#c6d0f5" },
 	{ name = "*/", fg = "#8caaee" }
 ]
+
+# : }}}

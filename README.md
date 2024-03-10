@@ -12,34 +12,48 @@
 </p>
 
 <p align="center">
-	<img src="assets/previews/preview.webp"/>
+	<img src="preview.webp"/>
 </p>
 
 ## Previews
 
 <details>
 <summary>🌻 Latte</summary>
-<img src="assets/previews/latte.webp"/>
+<img src="catppuccin-frappe.yazi/screenshot.png"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="assets/previews/frappe.webp"/>
+<img src="catppuccin-latte.yazi/screenshot.png"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="assets/previews/macchiato.webp"/>
+<img src="catppuccin-macchiato.yazi/screenshot.png"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="assets/previews/mocha.webp"/>
+<img src="catppuccin-mocha.yazi/screenshot.png"/>
 </details>
 
 ## Usage
 
-1. Copy the theme file of your choice from `themes/` to your [Yazi configuration directory](https://yazi-rs.github.io/docs/configuration/overview) with the filename `theme.toml`.
-2. For Catppuccin-themed syntax highlighting in the preview pane: 
-	- Download the `.tmTheme` file of your choice from [catppuccin/bat](https://github.com/catppuccin/bat).
-	- Replace the path of `syntect_theme` (line 27) with the path of your downloaded `.tmTheme` file.
+Choose one flavor you like:
+
+- [catppuccin-frappe.yazi](./catppuccin-frappe.yazi/)
+- [catppuccin-latte.yazi](./catppuccin-latte.yazi/)
+- [catppuccin-macchiato.yazi](./catppuccin-macchiato.yazi/)
+- [catppuccin-mocha.yazi](./catppuccin-mocha.yazi/)
+
+For example, `catppuccin-mocha.yazi`, download and copy this folder as:
+
+- `~/.config/yazi/flavors/catppuccin-mocha.yazi` on Linux/macOS
+- `%AppData%\yazi\config\flavors\catppuccin-mocha.yazi` on Windows
+
+Then add these lines to your `theme.toml` configuration file to use it:
+
+```toml
+[flavor]
+use = "catppuccin-mocha"
+```
 
 ## 💝 Thanks to
 
