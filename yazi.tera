@@ -1,0 +1,116 @@
+---
+whiskers:
+  version: "2.2.0"
+  matrix:
+    - flavor
+  filename: "themes/{{ flavor.identifier }}.toml"
+---
+[manager]
+cwd = { fg = "#{{ teal.hex }}" }
+
+# Hovered
+hovered         = { fg = "#{{ base.hex }}", bg = "#{{ blue.hex }}" }
+preview_hovered = { underline = true }
+
+# Find
+find_keyword  = { fg = "#{{ yellow.hex }}", italic = true }
+find_position = { fg = "#{{ pink.hex }}", bg = "reset", italic = true }
+
+# Marker
+marker_copied   = { fg = "#{{ green.hex }}", bg = "#{{ green.hex }}" }
+marker_cut      = { fg = "#{{ red.hex }}", bg = "#{{ red.hex }}" }
+marker_selected = { fg = "#{{ blue.hex }}", bg = "#{{ blue.hex }}" }
+
+# Tab
+tab_active   = { fg = "#{{ base.hex }}", bg = "#{{ text.hex }}" }
+tab_inactive = { fg = "#{{ text.hex }}", bg = "#{{ surface1.hex }}" }
+tab_width    = 1
+
+# Count
+count_copied   = { fg = "#{{ base.hex }}", bg = "#{{ green.hex }}" }
+count_cut      = { fg = "#{{ base.hex }}", bg = "#{{ red.hex }}" }
+count_selected = { fg = "#{{ base.hex }}", bg = "#{{ blue.hex }}" }
+
+# Border
+border_symbol = "│"
+border_style  = { fg = "#{{ overlay1.hex }}" }
+
+# Highlighting
+syntect_theme = "~/.config/yazi/Catppuccin-{{flavor.identifier }}.tmTheme"
+
+[status]
+separator_open  = ""
+separator_close = ""
+separator_style = { fg = "#{{ surface1.hex }}", bg = "#{{ surface1.hex }}" }
+
+# Mode
+mode_normal = { fg = "#{{ base.hex }}", bg = "#{{ blue.hex }}", bold = true }
+mode_select = { fg = "#{{ base.hex }}", bg = "#{{ green.hex }}", bold = true }
+mode_unset  = { fg = "#{{ base.hex }}", bg = "#{{ flamingo.hex }}", bold = true }
+
+# Progress
+progress_label  = { fg = "#ffffff", bold = true }
+progress_normal = { fg = "#{{ blue.hex }}", bg = "#{{ surface1.hex }}" }
+progress_error  = { fg = "#{{ red.hex }}", bg = "#{{ surface1.hex }}" }
+
+# Permissions
+permissions_t = { fg = "#{{ blue.hex }}" }
+permissions_r = { fg = "#{{ yellow.hex }}" }
+permissions_w = { fg = "#{{ red.hex }}" }
+permissions_x = { fg = "#{{ green.hex }}" }
+permissions_s = { fg = "#{{ overlay1.hex }}" }
+
+[input]
+border   = { fg = "#{{ blue.hex }}" }
+title    = {}
+value    = {}
+selected = { reversed = true }
+
+[select]
+border   = { fg = "#{{ blue.hex }}" }
+active   = { fg = "#{{ pink.hex }}" }
+inactive = {}
+
+[tasks]
+border  = { fg = "#{{ blue.hex }}" }
+title   = {}
+hovered = { underline = true }
+
+[which]
+mask            = { bg = "#{{ surface0.hex }}" }
+cand            = { fg = "#{{ teal.hex }}" }
+rest            = { fg = "#{{ overlay2.hex }}" }
+desc            = { fg = "#{{ pink.hex }}" }
+separator       = "  "
+separator_style = { fg = "#{{ surface2.hex }}" }
+
+[help]
+on      = { fg = "#{{ pink.hex }}" }
+exec    = { fg = "#{{ teal.hex }}" }
+desc    = { fg = "#{{ overlay2.hex }}" }
+hovered = { bg = "#{{ surface2.hex }}", bold = true }
+footer  = { fg = "#{{ surface1.hex }}", bg = "#{{ text.hex }}" }
+
+[filetype]
+
+rules = [
+	# Images
+	{ mime = "image/*", fg = "#{{ teal.hex }}" },
+
+	# Videos
+	{ mime = "video/*", fg = "#{{ yellow.hex }}" },
+	{ mime = "audio/*", fg = "#{{ yellow.hex }}" },
+
+	# Archives
+	{ mime = "application/zip",             fg = "#{{ pink.hex }}" },
+	{ mime = "application/gzip",            fg = "#{{ pink.hex }}" },
+	{ mime = "application/x-tar",           fg = "#{{ pink.hex }}" },
+	{ mime = "application/x-bzip",          fg = "#{{ pink.hex }}" },
+	{ mime = "application/x-bzip2",         fg = "#{{ pink.hex }}" },
+	{ mime = "application/x-7z-compressed", fg = "#{{ pink.hex }}" },
+	{ mime = "application/x-rar",           fg = "#{{ pink.hex }}" },
+
+	# Fallback
+	{ name = "*", fg = "#{{ text.hex }}" },
+	{ name = "*/", fg = "#{{ blue.hex }}" }
+]
