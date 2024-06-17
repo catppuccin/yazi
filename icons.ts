@@ -1,5 +1,6 @@
 import { closest } from "ctpvert";
 import { type ColorName, flavorEntries, flavors } from "@catppuccin/palette";
+import { stringify } from "smol-toml";
 
 const { icons_by_filename, icons_by_file_extension } = JSON.parse(
   Deno.args.join("")!,
@@ -17,34 +18,50 @@ const { icons_by_filename, icons_by_file_extension } = JSON.parse(
 >;
 
 for (const [identifier] of flavorEntries) {
-  let output = `[icon]\nprepend_rules = [\n`;
+  const output: {
+    "icon": Record<
+      "files" | "exts",
+      Array<{ name: string; text: string; fg_dark: string; fg_light: string }>
+    >;
+  } = {
+    icon: {
+      files: [],
+      exts: [],
+    },
+  };
 
   for (
     const [filename, { color, icon }] of Object.entries(icons_by_filename)
-      .sort(([a], [b]) => a < b ? -1 : a > b ? 1 : 0)
   ) {
     const match = closest(color);
-    output += `	{ name = "${filename}", text = "${icon}", fg = "${
-      flavors[identifier].colors[match[identifier].name as ColorName].hex
-    }" },\n`;
+    const fg =
+      flavors[identifier].colors[match[identifier].name as ColorName].hex;
+    output.icon.files.push({
+      name: filename,
+      text: icon,
+      fg_dark: fg,
+      fg_light: fg,
+    });
   }
 
   for (
     const [ext, { color, icon }] of Object.entries(icons_by_file_extension)
-      .sort(([a], [b]) => a < b ? -1 : a > b ? 1 : 0)
   ) {
     const match = closest(color);
-    output += `	{ name = "*.${ext}", text = "${icon}", fg = "${
-      flavors[identifier].colors[match[identifier].name as ColorName].hex
-    }" },\n`;
+    const fg =
+      flavors[identifier].colors[match[identifier].name as ColorName].hex;
+    output.icon.exts.push({
+      name: ext,
+      text: icon,
+      fg_dark: fg,
+      fg_light: fg,
+    });
   }
-
-  output += "]\n";
 
   const dist = `themes/${identifier}.toml`;
   const theme = await Deno.readTextFile(dist);
   await Deno.writeTextFile(
     dist,
-    theme + "\n" + output,
+    theme + "\n" + stringify(output),
   );
 }
