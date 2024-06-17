@@ -41,9 +41,10 @@ for (const [identifier] of flavorEntries) {
 
   output += "]\n";
 
-  const theme = await Deno.readTextFile(`themes/${identifier}/theme.toml`);
+  const dist = `themes/${identifier}.toml`;
+  const theme = await Deno.readTextFile(dist);
   await Deno.writeTextFile(
-    `themes/${identifier}/theme-with-icons.toml`,
+    dist,
     theme + "\n" + output,
   );
 }
