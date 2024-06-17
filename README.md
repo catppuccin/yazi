@@ -37,9 +37,15 @@
 ## Usage
 
 1. Copy the theme file of your choice from `themes/` to your [Yazi configuration directory](https://yazi-rs.github.io/docs/configuration/overview) with the filename `theme.toml`.
-2. For Catppuccin-themed syntax highlighting in the preview pane: 
-	- Download the `.tmTheme` file of your choice from [catppuccin/bat](https://github.com/catppuccin/bat).
-	- Replace the path of `syntect_theme` (line 27) with the path of your downloaded `.tmTheme` file.
+2. For Catppuccin-themed syntax highlighting in the preview pane:
+   - Download the `.tmTheme` file of your choice from [catppuccin/bat](https://github.com/catppuccin/bat).
+   - Replace the path of `syntect_theme` (line 27) with the path of your downloaded `.tmTheme` file.
+
+## Contributing
+
+To contribute to this port you will need the following dependencies installed: [Whiskers](https://github.com/catppuccin/whiskers), [Deno](https://docs.deno.com/runtime/manual/getting_started/installation), [Lua](https://lua.org/start.html), [LuaRocks](https://luarocks.org/), and the [`dkjson` LuaRocks module](https://luarocks.org/modules/dhkolf/dkjson).
+
+Edit `yazi.tera` to make changes to the theme. Run `just build` to build the output themes (including the `-with-icons` variants) in `themes/`.
 
 ## 💝 Thanks to
 
