@@ -29,7 +29,7 @@ border_symbol = "│"
 border_style  = { fg = "#8087a2" }
 
 # Highlighting
-syntect_theme = "~/.config/yazi/Catppuccin-macchiato.tmTheme"
+syntect_theme = "~/.config/yazi/Catppuccin Macchiato.tmTheme"
 
 [status]
 separator_open  = ""
