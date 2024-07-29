@@ -3,7 +3,7 @@ import { type ColorName, flavorEntries, flavors } from "@catppuccin/palette";
 import { stringify } from "smol-toml";
 
 const { icons_by_filename, icons_by_file_extension } = JSON.parse(
-  Deno.args.join("")!,
+  await Deno.readTextFile("./icons.json"),
 ) as Record<
   string,
   Record<
@@ -17,46 +17,40 @@ const { icons_by_filename, icons_by_file_extension } = JSON.parse(
   >
 >;
 
+type IconEntry = {
+  name: string;
+  text: string;
+  fg_dark: string;
+  fg_light: string;
+};
+
 for (const [identifier] of flavorEntries) {
-  const output: {
-    "icon": Record<
-      "files" | "exts",
-      Array<{ name: string; text: string; fg_dark: string; fg_light: string }>
-    >;
-  } = {
+  const output = {
     icon: {
-      files: [],
-      exts: [],
+      files: [] as IconEntry[],
+      exts: [] as IconEntry[],
     },
   };
 
-  for (
-    const [filename, { color, icon }] of Object.entries(icons_by_filename)
-  ) {
-    const match = closest(color);
-    const fg =
-      flavors[identifier].colors[match[identifier].name as ColorName].hex;
-    output.icon.files.push({
-      name: filename,
-      text: icon,
-      fg_dark: fg,
-      fg_light: fg,
-    });
-  }
+  const addIcons = (
+    icons: Record<string, { color: string; icon: string }>,
+    output: IconEntry[],
+  ) => {
+    for (const [key, { color, icon }] of Object.entries(icons)) {
+      const match = closest(color);
+      const fg =
+        flavors[identifier].colors[match[identifier].name as ColorName].hex;
+      output.push({
+        name: key,
+        text: icon,
+        fg_dark: fg,
+        fg_light: fg,
+      });
+    }
+  };
 
-  for (
-    const [ext, { color, icon }] of Object.entries(icons_by_file_extension)
-  ) {
-    const match = closest(color);
-    const fg =
-      flavors[identifier].colors[match[identifier].name as ColorName].hex;
-    output.icon.exts.push({
-      name: ext,
-      text: icon,
-      fg_dark: fg,
-      fg_light: fg,
-    });
-  }
+  addIcons(icons_by_filename, output.icon.files);
+  addIcons(icons_by_file_extension, output.icon.exts);
 
   const dist = `themes/${identifier}.toml`;
   const theme = await Deno.readTextFile(dist);
