@@ -16,6 +16,10 @@ const { icons_by_filename, icons_by_file_extension } = JSON.parse(
   >
 >;
 
+const hex_to_color_overrides = {
+  "#dddddd": "text",
+};
+
 for (const [identifier] of flavorEntries) {
   let output = "[icon]\n\n";
 
@@ -25,9 +29,14 @@ for (const [identifier] of flavorEntries) {
   ) => {
     output += `${name} = [\n`;
     for (const [key, { color, icon }] of Object.entries(icons)) {
-      const match = closest(color);
-      const fg =
-        flavors[identifier].colors[match[identifier].name as ColorName].hex;
+      const fg = flavors[identifier]
+        .colors[
+          (hex_to_color_overrides[
+            color as keyof typeof hex_to_color_overrides
+          ] ||
+            closest(color)[identifier].name) as ColorName
+        ]
+        .hex;
       output +=
         `  { name = "${key}", text = "${icon}", fg_dark = "${fg}", fg_light = "${fg}" },\n`;
     }
