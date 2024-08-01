@@ -4,7 +4,6 @@
   },
   "imports": {
     "@catppuccin/palette": "https://esm.sh/@catppuccin/palette@1.2.0",
-    "ctpvert": "https://deno.land/x/ctpvert@v0.4.0/main.ts",
-    "smol-toml": "https://esm.sh/smol-toml@1.2.1"
+    "ctpvert": "https://deno.land/x/ctpvert@v0.4.0/main.ts"
   }
 }

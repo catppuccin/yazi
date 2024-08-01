@@ -6,10 +6,8 @@
     "https://esm.sh/@catppuccin/palette@1.2.0": "24b0910540a399c9ac377554a26ec7b7bd1bf4bef124d1f6e2e00498cf96dec7",
     "https://esm.sh/colortranslator@4.1.0": "5ba52dd413c611961ed57c53ea0ec1bb853dc43bf95738e4a5f680d8906b5aeb",
     "https://esm.sh/delta-e@0.0.8": "16f14a2b47277c18d4d57204ac71fe90b0b25b17ccd5b75c81f9b6bb827e42e2",
-    "https://esm.sh/smol-toml@1.2.1": "96e5d39acb4035612926a4d5e46ee8062ae7653db20bb55a6a8f38d30e75e40c",
     "https://esm.sh/v135/@catppuccin/palette@1.2.0/denonext/palette.mjs": "ac0b3c7fa00100f96ccbcc2a5ac8188a6cf04baae223acccc0bf0bc0ac000355",
     "https://esm.sh/v135/colortranslator@4.1.0/denonext/colortranslator.mjs": "317faffdb982637d60da1a7fb5dc6e7e3fbb5020cb618cbe53275743f24bcd7d",
-    "https://esm.sh/v135/delta-e@0.0.8/denonext/delta-e.mjs": "12744c95a44a13ba0788cbc8f6ad4de0cb0053d6d4397bfdcfc460ae8791baef",
-    "https://esm.sh/v135/smol-toml@1.2.1/denonext/smol-toml.mjs": "7ffe9f729a73af9f6e899f0533a5ea78307cd577df5bf78585db614f0a3edc19"
+    "https://esm.sh/v135/delta-e@0.0.8/denonext/delta-e.mjs": "12744c95a44a13ba0788cbc8f6ad4de0cb0053d6d4397bfdcfc460ae8791baef"
   }
 }
