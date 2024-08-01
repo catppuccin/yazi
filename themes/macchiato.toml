@@ -87,21 +87,13 @@ footer  = { fg = "#494d64", bg = "#cad3f5" }
 [filetype]
 
 rules = [
-	# Images
+	# Media
 	{ mime = "image/*", fg = "#8bd5ca" },
-
-	# Videos
-	{ mime = "video/*", fg = "#eed49f" },
-	{ mime = "audio/*", fg = "#eed49f" },
+	{ mime = "{audio,video}/*", fg = "#eed49f" },
 
 	# Archives
-	{ mime = "application/zip",             fg = "#f5bde6" },
-	{ mime = "application/gzip",            fg = "#f5bde6" },
-	{ mime = "application/x-tar",           fg = "#f5bde6" },
-	{ mime = "application/x-bzip",          fg = "#f5bde6" },
-	{ mime = "application/x-bzip2",         fg = "#f5bde6" },
-	{ mime = "application/x-7z-compressed", fg = "#f5bde6" },
-	{ mime = "application/x-rar",           fg = "#f5bde6" },
+  { mime = "application/{,g}zip", fg = "#f5bde6" },
+	{ mime = "application/x-{tar,bzip*,7z-compressed,xz,rar}", fg = "#f5bde6" },
 
 	# Fallback
 	{ name = "*", fg = "#cad3f5" },
