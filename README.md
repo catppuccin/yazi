@@ -43,9 +43,14 @@
 
 ## Contributing
 
-To contribute to this port you will need the following dependencies installed: [Whiskers](https://github.com/catppuccin/whiskers), [Deno](https://docs.deno.com/runtime/manual/getting_started/installation), [Lua](https://lua.org/start.html), [LuaRocks](https://luarocks.org/), and the [`dkjson` LuaRocks module](https://luarocks.org/modules/dhkolf/dkjson).
+To contribute to this port you will need the following dependencies installed:
 
-Edit `yazi.tera` to make changes to the theme. Run `just build` to build the output themes (including the `-with-icons` variants) in `themes/`.
+- [Whiskers](https://github.com/catppuccin/whiskers)
+- [Deno](https://docs.deno.com/runtime/manual/getting_started/installation)
+
+Edit `yazi.tera` to make changes to the theme. Run `just build` to build the output themes in `themes/`.
+
+To update the icons data, you will additionally need [Lua](https://lua.org/start.html), [LuaRocks](https://luarocks.org/), and the [`dkjson` LuaRocks module](https://luarocks.org/modules/dhkolf/dkjson). Run `just icons` to fetch and process the data from [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons).
 
 ## 💝 Thanks to
 

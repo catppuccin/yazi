@@ -94,21 +94,13 @@ footer  = { fg = "#{{ surface1.hex }}", bg = "#{{ text.hex }}" }
 [filetype]
 
 rules = [
-	# Images
+	# Media
 	{ mime = "image/*", fg = "#{{ teal.hex }}" },
-
-	# Videos
-	{ mime = "video/*", fg = "#{{ yellow.hex }}" },
-	{ mime = "audio/*", fg = "#{{ yellow.hex }}" },
+	{ mime = "{audio,video}/*", fg = "#{{ yellow.hex }}" },
 
 	# Archives
-	{ mime = "application/zip",             fg = "#{{ pink.hex }}" },
-	{ mime = "application/gzip",            fg = "#{{ pink.hex }}" },
-	{ mime = "application/x-tar",           fg = "#{{ pink.hex }}" },
-	{ mime = "application/x-bzip",          fg = "#{{ pink.hex }}" },
-	{ mime = "application/x-bzip2",         fg = "#{{ pink.hex }}" },
-	{ mime = "application/x-7z-compressed", fg = "#{{ pink.hex }}" },
-	{ mime = "application/x-rar",           fg = "#{{ pink.hex }}" },
+  { mime = "application/{,g}zip", fg = "#{{ pink.hex }}" },
+	{ mime = "application/x-{tar,bzip*,7z-compressed,xz,rar}", fg = "#{{ pink.hex }}" },
 
 	# Fallback
 	{ name = "*", fg = "#{{ text.hex }}" },
