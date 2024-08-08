@@ -6,9 +6,9 @@
 </h3>
 
 <p align="center">
-	<a href="https://github.com/imsi32/yatline-catppuccin.yazi/stargazers"><img src="https://img.shields.io/github/stars/imsi32/yatline-catppuccin.yazi?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/imsi32/yatline-catppuccin.yazi/issues"><img src="https://img.shields.io/github/issues/imsi32/yatline-catppuccin.yazi?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/imsi32/yatline-catppuccin.yazi/contributors"><img src="https://img.shields.io/github/contributors/imsi32/yatline-catppuccin.yazi?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/yazi/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/yazi?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/yazi/issues"><img src="https://img.shields.io/github/issues/catppuccin/yazi?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/yazi/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/yazi?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
