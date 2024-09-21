@@ -175,6 +175,8 @@ local function catppuccin_theme(flavor)
     prefix_color = catppuccin_palette.subtext0,
     branch_color = catppuccin_palette.sapphire,
     commit_color = catppuccin_palette.mauve,
+    behind_color = catppuccin_palette.flamingo,
+    ahead_color = catppuccin_palette.lavender,
     stashes_color = catppuccin_palette.pink,
     state_color = catppuccin_palette.maroon,
     staged_color = catppuccin_palette.yellow,
