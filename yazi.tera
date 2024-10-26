@@ -14,7 +14,7 @@ cwd = { fg = "#{{ teal.hex }}" }
 
 # Hovered
 hovered         = { fg = "#{{ base.hex }}", bg = "#{{ accent.hex }}" }
-preview_hovered = { underline = true }
+preview_hovered = { fg = "#{{ base.hex }}", bg = "#{{ text.hex }}" }
 
 # Find
 find_keyword  = { fg = "#{{ yellow.hex }}", italic = true }
