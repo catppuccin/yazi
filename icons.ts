@@ -46,7 +46,7 @@ for (const [identifier, { colors, colorEntries }] of flavorEntries) {
   addIcons(icons_by_file_extension, "exts");
 
   await Promise.all(colorEntries.filter(([_, c]) => c.accent).map(async ([accent]) => {
-    const dist = `themes/${identifier}/${identifier}-${accent}.toml`;
+    const dist = `themes/${identifier}/catppuccin-${identifier}-${accent}.toml`;
     const theme = await Deno.readTextFile(dist);
     await Deno.writeTextFile(
       dist,
