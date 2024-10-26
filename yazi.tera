@@ -71,7 +71,7 @@ value    = {}
 selected = { reversed = true }
 
 [select]
-border   = { fg = "#{{ blue.hex }}" }
+border   = { fg = "#{{ accent.hex }}" }
 active   = { fg = "#{{ pink.hex }}" }
 inactive = {}
 
@@ -108,5 +108,5 @@ rules = [
 
 	# Fallback
 	{ name = "*", fg = "#{{ text.hex }}" },
-	{ name = "*/", fg = "#{{ blue.hex }}" }
+	{ name = "*/", fg = "#{{ accent.hex }}" }
 ]
