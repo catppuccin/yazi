@@ -3,7 +3,7 @@ cwd = { fg = "#179299" }
 
 # Hovered
 hovered         = { fg = "#eff1f5", bg = "#1e66f5" }
-preview_hovered = { underline = true }
+preview_hovered = { fg = "#eff1f5", bg = "#4c4f69" }
 
 # Find
 find_keyword  = { fg = "#df8e1d", italic = true }
