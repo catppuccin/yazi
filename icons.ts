@@ -20,7 +20,7 @@ const hex_to_color_overrides = {
   "#dddddd": "text",
 };
 
-for (const [identifier] of flavorEntries) {
+for (const [identifier, { colors, colorEntries }] of flavorEntries) {
   let output = "[icon]\n\n";
 
   const addIcons = (
@@ -29,8 +29,7 @@ for (const [identifier] of flavorEntries) {
   ) => {
     output += `${name} = [\n`;
     for (const [key, { color, icon }] of Object.entries(icons)) {
-      const fg = flavors[identifier]
-        .colors[
+      const fg = colors[
           (hex_to_color_overrides[
             color as keyof typeof hex_to_color_overrides
           ] ||
@@ -46,10 +45,12 @@ for (const [identifier] of flavorEntries) {
   addIcons(icons_by_filename, "files");
   addIcons(icons_by_file_extension, "exts");
 
-  const dist = `themes/${identifier}.toml`;
-  const theme = await Deno.readTextFile(dist);
-  await Deno.writeTextFile(
-    dist,
-    theme + "\n" + output,
-  );
+  await Promise.all(colorEntries.filter(([_, c]) => c.accent).map(async ([accent]) => {
+    const dist = `themes/${identifier}/${identifier}-${accent}.toml`;
+    const theme = await Deno.readTextFile(dist);
+    await Deno.writeTextFile(
+      dist,
+      theme + "\n" + output,
+    );
+  }));
 }

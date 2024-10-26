@@ -1,15 +1,19 @@
 ---
 whiskers:
-  version: "2.2.0"
+  version: "2.5.0"
   matrix:
     - flavor
-  filename: "themes/{{ flavor.identifier }}.toml"
+    - accent
+  filename: "themes/{{ flavor.identifier }}/{{ flavor.identifier }}-{{ accent }}.toml"
 ---
+
+{%- set accent = flavor.colors[accent] -%}
+
 [manager]
 cwd = { fg = "#{{ teal.hex }}" }
 
 # Hovered
-hovered         = { fg = "#{{ base.hex }}", bg = "#{{ blue.hex }}" }
+hovered         = { fg = "#{{ base.hex }}", bg = "#{{ accent.hex }}" }
 preview_hovered = { underline = true }
 
 # Find
@@ -19,7 +23,7 @@ find_position = { fg = "#{{ pink.hex }}", bg = "reset", italic = true }
 # Marker
 marker_copied   = { fg = "#{{ green.hex }}", bg = "#{{ green.hex }}" }
 marker_cut      = { fg = "#{{ red.hex }}", bg = "#{{ red.hex }}" }
-marker_selected = { fg = "#{{ blue.hex }}", bg = "#{{ blue.hex }}" }
+marker_selected = { fg = "#{{ accent.hex }}", bg = "#{{ accent.hex }}" }
 
 # Tab
 tab_active   = { fg = "#{{ base.hex }}", bg = "#{{ text.hex }}" }
@@ -29,14 +33,14 @@ tab_width    = 1
 # Count
 count_copied   = { fg = "#{{ base.hex }}", bg = "#{{ green.hex }}" }
 count_cut      = { fg = "#{{ base.hex }}", bg = "#{{ red.hex }}" }
-count_selected = { fg = "#{{ base.hex }}", bg = "#{{ blue.hex }}" }
+count_selected = { fg = "#{{ base.hex }}", bg = "#{{ accent.hex }}" }
 
 # Border
 border_symbol = "│"
 border_style  = { fg = "#{{ overlay1.hex }}" }
 
 # Highlighting
-syntect_theme = "~/.config/yazi/Catppuccin-{{flavor.identifier }}.tmTheme"
+syntect_theme = "~/.config/yazi/Catppuccin-{{ flavor.identifier }}.tmTheme"
 
 [status]
 separator_open  = ""
@@ -44,7 +48,7 @@ separator_close = ""
 separator_style = { fg = "#{{ surface1.hex }}", bg = "#{{ surface1.hex }}" }
 
 # Mode
-mode_normal = { fg = "#{{ base.hex }}", bg = "#{{ blue.hex }}", bold = true }
+mode_normal = { fg = "#{{ base.hex }}", bg = "#{{ accent.hex }}", bold = true }
 mode_select = { fg = "#{{ base.hex }}", bg = "#{{ green.hex }}", bold = true }
 mode_unset  = { fg = "#{{ base.hex }}", bg = "#{{ flamingo.hex }}", bold = true }
 
@@ -61,7 +65,7 @@ permissions_x = { fg = "#{{ green.hex }}" }
 permissions_s = { fg = "#{{ overlay1.hex }}" }
 
 [input]
-border   = { fg = "#{{ blue.hex }}" }
+border   = { fg = "#{{ accent.hex }}" }
 title    = {}
 value    = {}
 selected = { reversed = true }
@@ -72,7 +76,7 @@ active   = { fg = "#{{ pink.hex }}" }
 inactive = {}
 
 [tasks]
-border  = { fg = "#{{ blue.hex }}" }
+border  = { fg = "#{{ accent.hex }}" }
 title   = {}
 hovered = { underline = true }
 
