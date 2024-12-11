@@ -1,56 +1,48 @@
 [manager]
 cwd = { fg = "#81c8be" }
 
-# Hovered
 hovered         = { fg = "#303446", bg = "#81c8be" }
 preview_hovered = { fg = "#303446", bg = "#c6d0f5" }
 
-# Find
 find_keyword  = { fg = "#e5c890", italic = true }
 find_position = { fg = "#f4b8e4", bg = "reset", italic = true }
 
-# Marker
 marker_copied   = { fg = "#a6d189", bg = "#a6d189" }
 marker_cut      = { fg = "#e78284", bg = "#e78284" }
+marker_marked   = { fg = "#81c8be", bg = "#81c8be" }
 marker_selected = { fg = "#81c8be", bg = "#81c8be" }
 
-# Tab
 tab_active   = { fg = "#303446", bg = "#c6d0f5" }
 tab_inactive = { fg = "#c6d0f5", bg = "#51576d" }
 tab_width    = 1
 
-# Count
 count_copied   = { fg = "#303446", bg = "#a6d189" }
 count_cut      = { fg = "#303446", bg = "#e78284" }
 count_selected = { fg = "#303446", bg = "#81c8be" }
 
-# Border
 border_symbol = "│"
 border_style  = { fg = "#838ba7" }
 
-# Highlighting
 syntect_theme = "~/.config/yazi/Catppuccin-frappe.tmTheme"
 
 [mode]
 normal_main = { fg = "#303446", bg = "#81c8be", bold = true }
-normal_alt = { fg = "#81c8be", bg = "#414559"}
+normal_alt  = { fg = "#81c8be", bg = "#414559"}
 
 select_main = { fg = "#303446", bg = "#a6d189", bold = true }
-select_alt = { fg = "#a6d189", bg = "#414559"}
+select_alt  = { fg = "#a6d189", bg = "#414559"}
 
 unset_main  = { fg = "#303446", bg = "#eebebe", bold = true }
-unset_alt = { fg = "#eebebe", bg = "#414559"}
+unset_alt   = { fg = "#eebebe", bg = "#414559"}
 
 [status]
 separator_open  = ""
 separator_close = ""
 
-# Progress
 progress_label  = { fg = "#ffffff", bold = true }
 progress_normal = { fg = "#8caaee", bg = "#51576d" }
 progress_error  = { fg = "#e78284", bg = "#51576d" }
 
-# Permissions
 perm_type  = { fg = "#8caaee" }
 perm_read  = { fg = "#e5c890" }
 perm_write = { fg = "#e78284" }
@@ -68,6 +60,9 @@ border   = { fg = "#81c8be" }
 active   = { fg = "#f4b8e4" }
 inactive = {}
 
+[completion]
+border = { fg = "#81c8be" }
+
 [tasks]
 border  = { fg = "#81c8be" }
 title   = {}
@@ -82,22 +77,29 @@ separator       = "  "
 separator_style = { fg = "#626880" }
 
 [help]
-on      = { fg = "#f4b8e4" }
-run     = { fg = "#81c8be" }
+on      = { fg = "#81c8be" }
+run     = { fg = "#f4b8e4" }
 desc    = { fg = "#949cbb" }
 hovered = { bg = "#626880", bold = true }
-footer  = { fg = "#51576d", bg = "#c6d0f5" }
+footer  = { fg = "#c6d0f5", bg = "#51576d" }
+
+[notify]
+title_info  = { fg = "#81c8be" }
+title_warn  = { fg = "#e5c890" }
+title_error = { fg = "#e78284" }
 
 [filetype]
-
 rules = [
 	# Media
 	{ mime = "image/*", fg = "#81c8be" },
 	{ mime = "{audio,video}/*", fg = "#e5c890" },
 
 	# Archives
-  { mime = "application/{,g}zip", fg = "#f4b8e4" },
+	{ mime = "application/*zip", fg = "#f4b8e4" },
 	{ mime = "application/x-{tar,bzip*,7z-compressed,xz,rar}", fg = "#f4b8e4" },
+
+	# Documents
+	{ mime = "application/{pdf,doc,rtf}", fg = "#a6d189" },
 
 	# Fallback
 	{ name = "*", fg = "#c6d0f5" },
