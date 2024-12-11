@@ -37,7 +37,7 @@ for (const [identifier, { colors, colorEntries }] of flavorEntries) {
         ]
         .hex;
       output +=
-        `  { name = "${key}", text = "${icon}", fg_dark = "${fg}", fg_light = "${fg}" },\n`;
+        `  { name = "${key}", text = "${icon}", fg = "${fg}" },\n`;
     }
     output += "]\n";
   };
