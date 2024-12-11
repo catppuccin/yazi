@@ -108,8 +108,11 @@ rules = [
 	{ mime = "{audio,video}/*", fg = "{{ yellow.hex }}" },
 
 	# Archives
-  { mime = "application/{,g}zip", fg = "{{ pink.hex }}" },
+	{ mime = "application/*zip", fg = "{{ pink.hex }}" },
 	{ mime = "application/x-{tar,bzip*,7z-compressed,xz,rar}", fg = "{{ pink.hex }}" },
+
+	# Documents
+	{ mime = "application/{pdf,doc,rtf}", fg = "{{ green.hex }}" },
 
 	# Fallback
 	{ name = "*", fg = "{{ text.hex }}" },
