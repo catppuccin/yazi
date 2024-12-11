@@ -60,6 +60,14 @@ border   = { fg = "#d20f39" }
 active   = { fg = "#ea76cb" }
 inactive = {}
 
+[confirm]
+border     = { fg = "#d20f39" }
+title      = { fg = "#d20f39" }
+content    = {}
+list       = {}
+btn_yes    = { reversed = true }
+btn_no     = {}
+
 [completion]
 border = { fg = "#d20f39" }
 

@@ -72,6 +72,14 @@ border   = { fg = "{{ accent.hex }}" }
 active   = { fg = "{{ pink.hex }}" }
 inactive = {}
 
+[confirm]
+border     = { fg = "{{ accent.hex }}" }
+title      = { fg = "{{ accent.hex }}" }
+content    = {}
+list       = {}
+btn_yes    = { reversed = true }
+btn_no     = {}
+
 [completion]
 border = { fg = "{{ accent.hex }}" }
 
