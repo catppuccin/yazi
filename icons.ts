@@ -21,7 +21,7 @@ const hex_to_color_overrides = {
 };
 
 for (const [identifier, { colors, colorEntries }] of flavorEntries) {
-  let output = "[icon]\n\n";
+  let output = "[icon]\n";
 
   const addIcons = (
     icons: Record<string, { color: string; icon: string }>,

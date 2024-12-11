@@ -115,7 +115,6 @@ rules = [
 ]
 
 [icon]
-
 files = [
   { name = "gulpfile.js", text = "", fg = "#ed8796" },
   { name = ".babelrc", text = "", fg = "#eed49f" },
