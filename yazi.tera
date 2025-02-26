@@ -80,7 +80,7 @@ list       = {}
 btn_yes    = { reversed = true }
 btn_no     = {}
 
-[completion]
+[cmp]
 border = { fg = "{{ accent.hex }}" }
 
 [tasks]
@@ -125,3 +125,9 @@ rules = [
 	{ name = "*", fg = "{{ text.hex }}" },
 	{ name = "*/", fg = "{{ accent.hex }}" }
 ]
+
+[spot]
+border = { fg = "{{ accent.hex }}" }
+title  = { fg = "{{ accent.hex }}" }
+tbl_cell = { fg = "{{ accent.hex }}", reversed = true }
+tbl_col = { bold = true }
