@@ -68,7 +68,7 @@ list       = {}
 btn_yes    = { reversed = true }
 btn_no     = {}
 
-[completion]
+[cmp]
 border = { fg = "#f38ba8" }
 
 [tasks]
@@ -113,6 +113,12 @@ rules = [
 	{ name = "*", fg = "#cdd6f4" },
 	{ name = "*/", fg = "#f38ba8" }
 ]
+
+[spot]
+border = { fg = "#f38ba8" }
+title  = { fg = "#f38ba8" }
+tbl_cell = { fg = "#f38ba8", reversed = true }
+tbl_col = { bold = true }
 
 [icon]
 files = [
