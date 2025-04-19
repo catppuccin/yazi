@@ -39,7 +39,7 @@
 1. Copy the theme file of your choice from `themes/` to your [Yazi configuration directory](https://yazi-rs.github.io/docs/configuration/overview) with the filename `theme.toml`.
 2. For Catppuccin-themed syntax highlighting in the preview pane:
    - Download the `.tmTheme` file of your choice from [catppuccin/bat](https://github.com/catppuccin/bat).
-   - Replace the path of `syntect_theme` (line 32) with the path of your downloaded `.tmTheme` file.
+   - Set the `syntect_theme` option of your theme file downloaded in step 1 with the path of your downloaded `.tmTheme` file.
 
 ## Contributing
 
