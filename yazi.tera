@@ -10,7 +10,7 @@ whiskers:
 
 {%- set accent = flavor.colors[accent] -%}
 
-[manager]
+[mgr]
 cwd = { fg = "{{ teal.hex }}" }
 
 hovered         = { fg = "{{ base.hex }}", bg = "{{ accent.hex }}" }
