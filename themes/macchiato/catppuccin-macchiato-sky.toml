@@ -12,10 +12,6 @@ marker_cut      = { fg = "#ed8796", bg = "#ed8796" }
 marker_marked   = { fg = "#8bd5ca", bg = "#8bd5ca" }
 marker_selected = { fg = "#91d7e3", bg = "#91d7e3" }
 
-tab_active   = { fg = "#24273a", bg = "#cad3f5" }
-tab_inactive = { fg = "#cad3f5", bg = "#494d64" }
-tab_width    = 1
-
 count_copied   = { fg = "#24273a", bg = "#a6da95" }
 count_cut      = { fg = "#24273a", bg = "#ed8796" }
 count_selected = { fg = "#24273a", bg = "#91d7e3" }
@@ -24,6 +20,10 @@ border_symbol = "│"
 border_style  = { fg = "#8087a2" }
 
 syntect_theme = "~/.config/yazi/Catppuccin-macchiato.tmTheme"
+
+[tabs]
+active   = { fg = "#24273a", bg = "#cad3f5", bold = true }
+inactive = { fg = "#cad3f5", bg = "#494d64" }
 
 [mode]
 normal_main = { fg = "#24273a", bg = "#91d7e3", bold = true }
