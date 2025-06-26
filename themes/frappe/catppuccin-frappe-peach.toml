@@ -63,7 +63,7 @@ inactive = {}
 [confirm]
 border     = { fg = "#ef9f76" }
 title      = { fg = "#ef9f76" }
-content    = {}
+body       = {}
 list       = {}
 btn_yes    = { reversed = true }
 btn_no     = {}
