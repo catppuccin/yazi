@@ -48,8 +48,8 @@ unset_main  = { fg = "{{ base.hex }}", bg = "{{ flamingo.hex }}", bold = true }
 unset_alt   = { fg = "{{ flamingo.hex }}", bg = "{{ surface0.hex }}"}
 
 [status]
-separator_open  = ""
-separator_close = ""
+sep_left  = { open = "", close = "" }
+sep_right = { open = "", close = "" }
 
 progress_label  = { fg = "#ffffff", bold = true }
 progress_normal = { fg = "{{ blue.hex }}", bg = "{{ surface1.hex }}" }
