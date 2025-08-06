@@ -63,7 +63,7 @@ inactive = {}
 [confirm]
 border     = { fg = "#ea76cb" }
 title      = { fg = "#ea76cb" }
-content    = {}
+body       = {}
 list       = {}
 btn_yes    = { reversed = true }
 btn_no     = {}
@@ -110,8 +110,8 @@ rules = [
 	{ mime = "application/{pdf,doc,rtf}", fg = "#40a02b" },
 
 	# Fallback
-	{ name = "*", fg = "#4c4f69" },
-	{ name = "*/", fg = "#ea76cb" }
+	{ url = "*", fg = "#4c4f69" },
+	{ url = "*/", fg = "#ea76cb" }
 ]
 
 [spot]
