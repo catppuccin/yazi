@@ -110,8 +110,8 @@ rules = [
 	{ mime = "application/{pdf,doc,rtf}", fg = "#a6d189" },
 
 	# Fallback
-	{ name = "*", fg = "#c6d0f5" },
-	{ name = "*/", fg = "#99d1db" }
+	{ url = "*", fg = "#c6d0f5" },
+	{ url = "*/", fg = "#99d1db" }
 ]
 
 [spot]
