@@ -122,8 +122,8 @@ rules = [
 	{ mime = "application/{pdf,doc,rtf}", fg = "{{ green.hex }}" },
 
 	# Fallback
-	{ name = "*", fg = "{{ text.hex }}" },
-	{ name = "*/", fg = "{{ accent.hex }}" }
+	{ url = "*", fg = "{{ text.hex }}" },
+	{ url = "*/", fg = "{{ accent.hex }}" }
 ]
 
 [spot]
