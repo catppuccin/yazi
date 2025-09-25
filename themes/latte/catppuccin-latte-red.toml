@@ -74,7 +74,7 @@ border = { fg = "#d20f39" }
 [tasks]
 border  = { fg = "#d20f39" }
 title   = {}
-hovered = { underline = true }
+hovered = { fg = "#ea76cb", bold = true }
 
 [which]
 mask            = { bg = "#ccd0da" }

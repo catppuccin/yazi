@@ -86,7 +86,7 @@ border = { fg = "{{ accent.hex }}" }
 [tasks]
 border  = { fg = "{{ accent.hex }}" }
 title   = {}
-hovered = { underline = true }
+hovered = { fg = "{{ pink.hex }}", bold = true }
 
 [which]
 mask            = { bg = "{{ surface0.hex }}" }
