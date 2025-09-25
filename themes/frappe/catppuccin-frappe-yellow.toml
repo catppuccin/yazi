@@ -109,9 +109,19 @@ rules = [
 	# Documents
 	{ mime = "application/{pdf,doc,rtf}", fg = "#a6d189" },
 
+	# Virtual file system
+	{ mime = "vfs/*", fg = "#51576d" },
+
+	# Special file
+	{ url = "*", is = "orphan", bg = "#e78284" },
+	{ url = "*", is = "exec"  , fg = "#a6d189" },
+
+	# Dummy file
+	{ url = "*", is = "dummy", bg = "#e78284" },
+	{ url = "*/", is = "dummy", bg = "#e78284" },
+
 	# Fallback
-	{ url = "*", fg = "#c6d0f5" },
-	{ url = "*/", fg = "#e5c890" }
+	{ url = "*/", fg = "#e5c890" },
 ]
 
 [spot]

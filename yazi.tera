@@ -121,8 +121,18 @@ rules = [
 	# Documents
 	{ mime = "application/{pdf,doc,rtf}", fg = "{{ green.hex }}" },
 
+	# Virtual file system
+	{ mime = "vfs/*", fg = "{{ surface1.hex }}" },
+
+	# Special file
+	{ url = "*", is = "orphan", bg = "{{ red.hex }}" },
+	{ url = "*", is = "exec"  , fg = "{{ green.hex }}" },
+
+	# Dummy file
+	{ url = "*", is = "dummy", bg = "{{ red.hex }}" },
+	{ url = "*/", is = "dummy", bg = "{{ red.hex }}" },
+
 	# Fallback
-	{ url = "*", fg = "{{ text.hex }}" },
 	{ url = "*/", fg = "{{ accent.hex }}" }
 ]
 
