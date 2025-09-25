@@ -103,7 +103,7 @@ rules = [
 	{ mime = "{audio,video}/*", fg = "#eed49f" },
 
 	# Archives
-  { mime = "application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "#f5bde6" },
+	{ mime = "application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "#f5bde6" },
 
 	# Documents
 	{ mime = "application/{pdf,doc,rtf}", fg = "#a6da95" },
