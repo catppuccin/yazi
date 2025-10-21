@@ -110,7 +110,7 @@ rules = [
 	{ mime = "application/{pdf,doc,rtf}", fg = "#a6e3a1" },
 
 	# Virtual file system
-	{ mime = "vfs/*", fg = "#45475a" },
+	{ mime = "vfs/{absent,stale}", fg = "#45475a" },
 
 	# Special file
 	{ url = "*", is = "orphan", bg = "#f38ba8" },

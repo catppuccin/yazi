@@ -122,7 +122,7 @@ rules = [
 	{ mime = "application/{pdf,doc,rtf}", fg = "{{ green.hex }}" },
 
 	# Virtual file system
-	{ mime = "vfs/*", fg = "{{ surface1.hex }}" },
+	{ mime = "vfs/{absent,stale}", fg = "{{ surface1.hex }}" },
 
 	# Special file
 	{ url = "*", is = "orphan", bg = "{{ red.hex }}" },
