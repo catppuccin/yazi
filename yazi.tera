@@ -52,8 +52,8 @@ sep_left  = { open = "", close = "" }
 sep_right = { open = "", close = "" }
 
 progress_label  = { fg = "#ffffff", bold = true }
-progress_normal = { fg = "{{ blue.hex }}", bg = "{{ surface1.hex }}" }
-progress_error  = { fg = "{{ blue.hex }}", bg = "{{ red.hex }}" }
+progress_normal = { fg = "{{ green.hex }}", bg = "{{ surface1.hex }}" }
+progress_error  = { fg = "{{ yellow.hex }}", bg = "{{ red.hex }}" }
 
 perm_type  = { fg = "{{ blue.hex }}" }
 perm_read  = { fg = "{{ yellow.hex }}" }
