@@ -1,9 +1,6 @@
 [mgr]
 cwd = { fg = "#94e2d5" }
 
-hovered         = { fg = "#1e1e2e", bg = "#b4befe" }
-preview_hovered = { fg = "#1e1e2e", bg = "#cdd6f4" }
-
 find_keyword  = { fg = "#f9e2af", italic = true }
 find_position = { fg = "#f5c2e7", bg = "reset", italic = true }
 
@@ -34,6 +31,11 @@ select_alt  = { fg = "#a6e3a1", bg = "#313244"}
 
 unset_main  = { fg = "#1e1e2e", bg = "#f2cdcd", bold = true }
 unset_alt   = { fg = "#f2cdcd", bg = "#313244"}
+
+[indicator]
+parent = { fg = "#1e1e2e", bg = "#cdd6f4" }
+current = { fg = "#1e1e2e", bg = "#b4befe" }
+preview = { fg = "#1e1e2e", bg = "#cdd6f4" }
 
 [status]
 sep_left  = { open = "", close = "" }

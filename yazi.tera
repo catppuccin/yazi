@@ -13,9 +13,6 @@ whiskers:
 [mgr]
 cwd = { fg = "{{ teal.hex }}" }
 
-hovered         = { fg = "{{ base.hex }}", bg = "{{ accent.hex }}" }
-preview_hovered = { fg = "{{ base.hex }}", bg = "{{ text.hex }}" }
-
 find_keyword  = { fg = "{{ yellow.hex }}", italic = true }
 find_position = { fg = "{{ pink.hex }}", bg = "reset", italic = true }
 
@@ -46,6 +43,11 @@ select_alt  = { fg = "{{ green.hex }}", bg = "{{ surface0.hex }}"}
 
 unset_main  = { fg = "{{ base.hex }}", bg = "{{ flamingo.hex }}", bold = true }
 unset_alt   = { fg = "{{ flamingo.hex }}", bg = "{{ surface0.hex }}"}
+
+[indicator]
+parent = { fg = "{{ base.hex }}", bg = "{{ text.hex }}" }
+current = { fg = "{{ base.hex }}", bg = "{{ accent.hex }}" }
+preview = { fg = "{{ base.hex }}", bg = "{{ text.hex }}" }
 
 [status]
 sep_left  = { open = "", close = "" }
