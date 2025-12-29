@@ -1,8 +1,8 @@
+[app]
+overall = { bg = "#24273a" }
+
 [mgr]
 cwd = { fg = "#8bd5ca" }
-
-hovered         = { fg = "#24273a", bg = "#8aadf4" }
-preview_hovered = { fg = "#24273a", bg = "#cad3f5" }
 
 find_keyword  = { fg = "#eed49f", italic = true }
 find_position = { fg = "#f5bde6", bg = "reset", italic = true }
@@ -35,13 +35,18 @@ select_alt  = { fg = "#a6da95", bg = "#363a4f"}
 unset_main  = { fg = "#24273a", bg = "#f0c6c6", bold = true }
 unset_alt   = { fg = "#f0c6c6", bg = "#363a4f"}
 
+[indicator]
+parent = { fg = "#24273a", bg = "#cad3f5" }
+current = { fg = "#24273a", bg = "#8aadf4" }
+preview = { fg = "#24273a", bg = "#cad3f5" }
+
 [status]
 sep_left  = { open = "", close = "" }
 sep_right = { open = "", close = "" }
 
 progress_label  = { fg = "#ffffff", bold = true }
-progress_normal = { fg = "#8aadf4", bg = "#494d64" }
-progress_error  = { fg = "#ed8796", bg = "#494d64" }
+progress_normal = { fg = "#a6da95", bg = "#494d64" }
+progress_error  = { fg = "#eed49f", bg = "#ed8796" }
 
 perm_type  = { fg = "#8aadf4" }
 perm_read  = { fg = "#eed49f" }
@@ -63,7 +68,7 @@ inactive = {}
 [confirm]
 border     = { fg = "#8aadf4" }
 title      = { fg = "#8aadf4" }
-content    = {}
+body       = {}
 list       = {}
 btn_yes    = { reversed = true }
 btn_no     = {}
@@ -74,7 +79,7 @@ border = { fg = "#8aadf4" }
 [tasks]
 border  = { fg = "#8aadf4" }
 title   = {}
-hovered = { underline = true }
+hovered = { fg = "#f5bde6", bold = true }
 
 [which]
 mask            = { bg = "#363a4f" }
@@ -109,9 +114,19 @@ rules = [
 	# Documents
 	{ mime = "application/{pdf,doc,rtf}", fg = "#a6da95" },
 
+	# Virtual file system
+	{ mime = "vfs/{absent,stale}", fg = "#494d64" },
+
+	# Special file
+	{ url = "*", is = "orphan", bg = "#ed8796" },
+	{ url = "*", is = "exec"  , fg = "#a6da95" },
+
+	# Dummy file
+	{ url = "*", is = "dummy", bg = "#ed8796" },
+	{ url = "*/", is = "dummy", bg = "#ed8796" },
+
 	# Fallback
-	{ name = "*", fg = "#cad3f5" },
-	{ name = "*/", fg = "#8aadf4" }
+	{ url = "*/", fg = "#8aadf4" },
 ]
 
 [spot]
