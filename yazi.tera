@@ -120,10 +120,10 @@ rules = [
 	{ mime = "{audio,video}/*", fg = "{{ pink.hex }}" },
 
 	# Archives
-	{ mime = "application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "{{ pink.hex }}" },
+	{ mime = "application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "{{ red.hex }}" },
 
 	# Documents
-	{ mime = "application/{pdf,doc,rtf}", fg = "{{ green.hex }}" },
+	{ mime = "application/{pdf,doc,rtf}", fg = "{{ sky.hex }}" },
 
 	# Virtual file system
 	{ mime = "vfs/{absent,stale}", fg = "{{ surface1.hex }}" },
