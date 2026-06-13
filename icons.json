@@ -1,1 +1,4254 @@
-{"icons_by_filename":{"kritadisplayrc":{"icon":"","color":"#f245fb","cterm_color":"201","name":"Kritadisplayrc"},".gtkrc-2.0":{"icon":"","color":"#ffffff","cterm_color":"231","name":"GTK"},"bspwmrc":{"icon":"","color":"#2f2f2f","cterm_color":"236","name":"BSPWM"},"webpack":{"icon":"󰜫","color":"#519aba","cterm_color":"74","name":"Webpack"},"tsconfig.json":{"icon":"","color":"#519aba","cterm_color":"74","name":"TSConfig"},".vimrc":{"icon":"","color":"#019833","cterm_color":"28","name":"Vimrc"},"gemfile$":{"icon":"","color":"#701516","cterm_color":"52","name":"Gemfile"},"xmobarrc":{"icon":"","color":"#fd4d5d","cterm_color":"203","name":"xmonad"},"avif":{"icon":"","color":"#a074c4","cterm_color":"140","name":"Avif"},"fp-info-cache":{"icon":"","color":"#ffffff","cterm_color":"231","name":"KiCadCache"},".zshrc":{"icon":"","color":"#89e051","cterm_color":"113","name":"Zshrc"},"robots.txt":{"icon":"󰚩","color":"#5d7096","cterm_color":"60","name":"RobotsTxt"},"dockerfile":{"icon":"󰡨","color":"#458ee6","cterm_color":"68","name":"Dockerfile"},".git-blame-ignore-revs":{"icon":"","color":"#f54d27","cterm_color":"196","name":"GitBlameIgnore"},".nvmrc":{"icon":"","color":"#5FA04E","cterm_color":"71","name":"node"},"hyprpaper.conf":{"icon":"","color":"#00aaae","cterm_color":"37","name":"Hyprpaper"},".prettierignore":{"icon":"","color":"#4285F4","cterm_color":"33","name":"PrettierIgnore"},"rakefile":{"icon":"","color":"#701516","cterm_color":"52","name":"Rakefile"},"code_of_conduct":{"icon":"","color":"#E41662","cterm_color":"161","name":"CodeOfConduct"},"cmakelists.txt":{"icon":"","color":"#dce3eb","cterm_color":"254","name":"CMakeLists"},".env":{"icon":"","color":"#faf743","cterm_color":"227","name":"Env"},"copying.lesser":{"icon":"","color":"#cbcb41","cterm_color":"185","name":"License"},"readme":{"icon":"󰂺","color":"#ededed","cterm_color":"255","name":"Readme"},"settings.gradle":{"icon":"","color":"#005f87","cterm_color":"24","name":"GradleSettings"},"gruntfile.coffee":{"icon":"","color":"#e37933","cterm_color":"166","name":"Gruntfile"},".eslintignore":{"icon":"","color":"#4b32c3","cterm_color":"56","name":"EslintIgnore"},"kalgebrarc":{"icon":"","color":"#1c99f3","cterm_color":"32","name":"Kalgebrarc"},"kdenliverc":{"icon":"","color":"#83b8f2","cterm_color":"110","name":"Kdenliverc"},".prettierrc.cjs":{"icon":"","color":"#4285F4","cterm_color":"33","name":"PrettierConfig"},"cantorrc":{"icon":"","color":"#1c99f3","cterm_color":"32","name":"Cantorrc"},"rmd":{"icon":"","color":"#519aba","cterm_color":"74","name":"Rmd"},"vagrantfile$":{"icon":"","color":"#1563FF","cterm_color":"27","name":"Vagrantfile"},".Xauthority":{"icon":"","color":"#e54d18","cterm_color":"196","name":"Xauthority"},"prettier.config.ts":{"icon":"","color":"#4285F4","cterm_color":"33","name":"PrettierConfig"},"node_modules":{"icon":"","color":"#E8274B","cterm_color":"197","name":"NodeModules"},".prettierrc.toml":{"icon":"","color":"#4285F4","cterm_color":"33","name":"PrettierConfig"},"build.zig.zon":{"icon":"","color":"#f69a1b","cterm_color":"172","name":"ZigObjectNotation"},".ds_store":{"icon":"","color":"#41535b","cterm_color":"239","name":"DsStore"},"PKGBUILD":{"icon":"","color":"#0f94d2","cterm_color":"67","name":"PKGBUILD"},".prettierrc":{"icon":"","color":"#4285F4","cterm_color":"33","name":"PrettierConfig"},".bash_profile":{"icon":"","color":"#89e051","cterm_color":"113","name":"BashProfile"},".npmignore":{"icon":"","color":"#E8274B","cterm_color":"197","name":"NPMIgnore"},".mailmap":{"icon":"󰊢","color":"#f54d27","cterm_color":"196","name":"Mailmap"},".codespellrc":{"icon":"󰓆","color":"#35DA60","cterm_color":"41","name":"Codespell"},"svelte.config.js":{"icon":"","color":"#ff3e00","cterm_color":"196","name":"SvelteConfig"},"eslint.config.ts":{"icon":"","color":"#4b32c3","cterm_color":"56","name":"Eslintrc"},"config":{"icon":"","color":"#6d8086","cterm_color":"66","name":"Config"},".gitlab-ci.yml":{"icon":"","color":"#e24329","cterm_color":"196","name":"GitlabCI"},".gitconfig":{"icon":"","color":"#f54d27","cterm_color":"196","name":"GitConfig"},"_gvimrc":{"icon":"","color":"#019833","cterm_color":"28","name":"Gvimrc"},".xinitrc":{"icon":"","color":"#e54d18","cterm_color":"196","name":"XInitrc"},"checkhealth":{"icon":"󰓙","color":"#75B4FB","cterm_color":"75","name":"Checkhealth"},"sxhkdrc":{"icon":"","color":"#2f2f2f","cterm_color":"236","name":"BSPWM"},".bashrc":{"icon":"","color":"#89e051","cterm_color":"113","name":"Bashrc"},"tailwind.config.mjs":{"icon":"󱏿","color":"#20c2e3","cterm_color":"45","name":"TailwindConfig"},"ext_typoscript_setup.txt":{"icon":"","color":"#FF8700","cterm_color":"208","name":"TypoScriptSetup"},"commitlint.config.ts":{"icon":"󰜘","color":"#2b9689","cterm_color":"30","name":"CommitlintConfig"},"py.typed":{"icon":"","color":"#ffbc03","cterm_color":"214","name":"Py.typed"},".nanorc":{"icon":"","color":"#440077","cterm_color":"54","name":"Nano"},"commit_editmsg":{"icon":"","color":"#f54d27","cterm_color":"196","name":"GitCommit"},".luaurc":{"icon":"","color":"#00a2ff","cterm_color":"75","name":"Luaurc"},"fp-lib-table":{"icon":"","color":"#ffffff","cterm_color":"231","name":"KiCadFootprintTable"},".editorconfig":{"icon":"","color":"#fff2f2","cterm_color":"255","name":"EditorConfig"},"justfile":{"icon":"","color":"#6d8086","cterm_color":"66","name":"Justfile"},"kdeglobals":{"icon":"","color":"#1c99f3","cterm_color":"32","name":"KDEglobals"},"license.md":{"icon":"","color":"#d0bf41","cterm_color":"185","name":"License"},".clang-format":{"icon":"","color":"#6d8086","cterm_color":"66","name":"ClangConfig"},"docker-compose.yaml":{"icon":"󰡨","color":"#458ee6","cterm_color":"68","name":"Dockerfile"},"copying":{"icon":"","color":"#cbcb41","cterm_color":"185","name":"License"},"go.mod":{"icon":"","color":"#519aba","cterm_color":"74","name":"GoMod"},"lxqt.conf":{"icon":"","color":"#0192d3","cterm_color":"32","name":"LXQtConfigFile"},"brewfile":{"icon":"","color":"#701516","cterm_color":"52","name":"Brewfile"},"gulpfile.coffee":{"icon":"","color":"#cc3e44","cterm_color":"167","name":"Gulpfile"},".dockerignore":{"icon":"󰡨","color":"#458ee6","cterm_color":"68","name":"Dockerfile"},".settings.json":{"icon":"","color":"#854CC7","cterm_color":"98","name":"SettingsJson"},"tailwind.config.js":{"icon":"󱏿","color":"#20c2e3","cterm_color":"45","name":"TailwindConfig"},".clang-tidy":{"icon":"","color":"#6d8086","cterm_color":"66","name":"ClangConfig"},".gvimrc":{"icon":"","color":"#019833","cterm_color":"28","name":"Gvimrc"},"nuxt.config.cjs":{"icon":"󱄆","color":"#00c58e","cterm_color":"42","name":"NuxtConfig"},"xsettingsd.conf":{"icon":"","color":"#e54d18","cterm_color":"196","name":"XSettingsdConf"},"nuxt.config.js":{"icon":"󱄆","color":"#00c58e","cterm_color":"42","name":"NuxtConfig"},"eslint.config.cjs":{"icon":"","color":"#4b32c3","cterm_color":"56","name":"Eslintrc"},"sym-lib-table":{"icon":"","color":"#ffffff","cterm_color":"231","name":"KiCadSymbolTable"},".condarc":{"icon":"","color":"#43b02a","cterm_color":"34","name":"Conda"},"xmonad.hs":{"icon":"","color":"#fd4d5d","cterm_color":"203","name":"xmonad"},"tmux.conf":{"icon":"","color":"#14ba19","cterm_color":"34","name":"Tmux"},"xmobarrc.hs":{"icon":"","color":"#fd4d5d","cterm_color":"203","name":"xmonad"},".prettierrc.yaml":{"icon":"","color":"#4285F4","cterm_color":"33","name":"PrettierConfig"},".pre-commit-config.yaml":{"icon":"󰛢","color":"#F8B424","cterm_color":"214","name":"PreCommitConfig"},"i3blocks.conf":{"icon":"","color":"#e8ebee","cterm_color":"255","name":"i3"},"xorg.conf":{"icon":"","color":"#e54d18","cterm_color":"196","name":"XorgConf"},".zshenv":{"icon":"","color":"#89e051","cterm_color":"113","name":"Zshenv"},"vlcrc":{"icon":"󰕼","color":"#ee7a00","cterm_color":"208","name":"VLC"},"license":{"icon":"","color":"#d0bf41","cterm_color":"185","name":"License"},"unlicense":{"icon":"","color":"#d0bf41","cterm_color":"185","name":"License"},"tmux.conf.local":{"icon":"","color":"#14ba19","cterm_color":"34","name":"Tmux"},".SRCINFO":{"icon":"󰣇","color":"#0f94d2","cterm_color":"67","name":"SRCINFO"},"tailwind.config.ts":{"icon":"󱏿","color":"#20c2e3","cterm_color":"45","name":"TailwindConfig"},"security.md":{"icon":"󰒃","color":"#BEC4C9","cterm_color":"251","name":"Security"},"security":{"icon":"󰒃","color":"#BEC4C9","cterm_color":"251","name":"Security"},".eslintrc":{"icon":"","color":"#4b32c3","cterm_color":"56","name":"Eslintrc"},"gradle.properties":{"icon":"","color":"#005f87","cterm_color":"24","name":"GradleProperties"},"code_of_conduct.md":{"icon":"","color":"#E41662","cterm_color":"161","name":"CodeOfConduct"},"PrusaSlicerGcodeViewer.ini":{"icon":"","color":"#ec6b23","cterm_color":"202","name":"PrusaSlicer"},"PrusaSlicer.ini":{"icon":"","color":"#ec6b23","cterm_color":"202","name":"PrusaSlicer"},"procfile":{"icon":"","color":"#a074c4","cterm_color":"140","name":"Procfile"},"mpv.conf":{"icon":"","color":"#3b1342","cterm_color":"53","name":"Mpv"},".prettierrc.json5":{"icon":"","color":"#4285F4","cterm_color":"33","name":"PrettierConfig"},"i3status.conf":{"icon":"","color":"#e8ebee","cterm_color":"255","name":"i3"},"prettier.config.mjs":{"icon":"","color":"#4285F4","cterm_color":"33","name":"PrettierConfig"},".pylintrc":{"icon":"","color":"#6d8086","cterm_color":"66","name":"PyLintConfig"},"prettier.config.cjs":{"icon":"","color":"#4285F4","cterm_color":"33","name":"PrettierConfig"},".luacheckrc":{"icon":"","color":"#00a2ff","cterm_color":"75","name":"Luaurc"},"containerfile":{"icon":"󰡨","color":"#458ee6","cterm_color":"68","name":"Dockerfile"},"eslint.config.mjs":{"icon":"","color":"#4b32c3","cterm_color":"56","name":"Eslintrc"},"gruntfile.js":{"icon":"","color":"#e37933","cterm_color":"166","name":"Gruntfile"},"bun.lockb":{"icon":"","color":"#eadcd1","cterm_color":"253","name":"BunLockfile"},".gitattributes":{"icon":"","color":"#f54d27","cterm_color":"196","name":"GitAttributes"},"gruntfile.ts":{"icon":"","color":"#e37933","cterm_color":"166","name":"Gruntfile"},"pom.xml":{"icon":"","color":"#7a0d21","cterm_color":"52","name":"Maven"},"favicon.ico":{"icon":"","color":"#cbcb41","cterm_color":"185","name":"Favicon"},"package-lock.json":{"icon":"","color":"#7a0d21","cterm_color":"52","name":"PackageLockJson"},"build":{"icon":"","color":"#89e051","cterm_color":"113","name":"BazelBuild"},"package.json":{"icon":"","color":"#e8274b","cterm_color":"197","name":"PackageJson"},"nuxt.config.ts":{"icon":"󱄆","color":"#00c58e","cterm_color":"42","name":"NuxtConfig"},"nuxt.config.mjs":{"icon":"󱄆","color":"#00c58e","cterm_color":"42","name":"NuxtConfig"},"mix.lock":{"icon":"","color":"#a074c4","cterm_color":"140","name":"MixLock"},"makefile":{"icon":"","color":"#6d8086","cterm_color":"66","name":"Makefile"},"gulpfile.js":{"icon":"","color":"#cc3e44","cterm_color":"167","name":"Gulpfile"},"lxde-rc.xml":{"icon":"","color":"#909090","cterm_color":"246","name":"LXDEConfigFile"},"kritarc":{"icon":"","color":"#f245fb","cterm_color":"201","name":"Kritarc"},"gtkrc":{"icon":"","color":"#ffffff","cterm_color":"231","name":"GTK"},"ionic.config.json":{"icon":"","color":"#4f8ff7","cterm_color":"33","name":"Ionic"},".prettierrc.mjs":{"icon":"","color":"#4285F4","cterm_color":"33","name":"PrettierConfig"},".prettierrc.yml":{"icon":"","color":"#4285F4","cterm_color":"33","name":"PrettierConfig"},".npmrc":{"icon":"","color":"#E8274B","cterm_color":"197","name":"NPMrc"},"weston.ini":{"icon":"","color":"#ffbb01","cterm_color":"214","name":"Weston"},"gulpfile.babel.js":{"icon":"","color":"#cc3e44","cterm_color":"167","name":"Gulpfile"},"i18n.config.ts":{"icon":"󰗊","color":"#7986cb","cterm_color":"104","name":"I18nConfig"},"commitlint.config.js":{"icon":"󰜘","color":"#2b9689","cterm_color":"30","name":"CommitlintConfig"},".gitmodules":{"icon":"","color":"#f54d27","cterm_color":"196","name":"GitModules"},"gradle-wrapper.properties":{"icon":"","color":"#005f87","cterm_color":"24","name":"GradleWrapperProperties"},"hypridle.conf":{"icon":"","color":"#00aaae","cterm_color":"37","name":"Hypridle"},"vercel.json":{"icon":"▲","color":"#ffffff","cterm_color":"231","name":"Vercel"},"hyprlock.conf":{"icon":"","color":"#00aaae","cterm_color":"37","name":"Hyprlock"},"go.sum":{"icon":"","color":"#519aba","cterm_color":"74","name":"GoSum"},"kdenlive-layoutsrc":{"icon":"","color":"#83b8f2","cterm_color":"110","name":"KdenliveLayoutsrc"},"gruntfile.babel.js":{"icon":"","color":"#e37933","cterm_color":"166","name":"Gruntfile"},"compose.yml":{"icon":"󰡨","color":"#458ee6","cterm_color":"68","name":"Dockerfile"},"i18n.config.js":{"icon":"󰗊","color":"#7986cb","cterm_color":"104","name":"I18nConfig"},"readme.md":{"icon":"󰂺","color":"#ededed","cterm_color":"255","name":"Readme"},"gradlew":{"icon":"","color":"#005f87","cterm_color":"24","name":"GradleWrapperScript"},"go.work":{"icon":"","color":"#519aba","cterm_color":"74","name":"GoWork"},"gulpfile.ts":{"icon":"","color":"#cc3e44","cterm_color":"167","name":"Gulpfile"},"gnumakefile":{"icon":"","color":"#6d8086","cterm_color":"66","name":"Makefile"},"FreeCAD.conf":{"icon":"","color":"#CB333B","cterm_color":"160","name":"FreeCADConfig"},"compose.yaml":{"icon":"󰡨","color":"#458ee6","cterm_color":"68","name":"Dockerfile"},"eslint.config.js":{"icon":"","color":"#4b32c3","cterm_color":"56","name":"Eslintrc"},"hyprland.conf":{"icon":"","color":"#00aaae","cterm_color":"37","name":"Hyprland"},"docker-compose.yml":{"icon":"󰡨","color":"#458ee6","cterm_color":"68","name":"Dockerfile"},"groovy":{"icon":"","color":"#4a687c","cterm_color":"24","name":"Groovy"},"QtProject.conf":{"icon":"","color":"#40cd52","cterm_color":"77","name":"Qt"},"platformio.ini":{"icon":"","color":"#f6822b","cterm_color":"208","name":"Platformio"},"build.gradle":{"icon":"","color":"#005f87","cterm_color":"24","name":"GradleBuildScript"},".nuxtrc":{"icon":"󱄆","color":"#00c58e","cterm_color":"42","name":"NuxtConfig"},"_vimrc":{"icon":"","color":"#019833","cterm_color":"28","name":"Vimrc"},".zprofile":{"icon":"","color":"#89e051","cterm_color":"113","name":"Zshprofile"},".xsession":{"icon":"","color":"#e54d18","cterm_color":"196","name":"Xsession"},"prettier.config.js":{"icon":"","color":"#4285F4","cterm_color":"33","name":"PrettierConfig"},".babelrc":{"icon":"","color":"#cbcb41","cterm_color":"185","name":"Babelrc"},"workspace":{"icon":"","color":"#89e051","cterm_color":"113","name":"BazelWorkspace"},".prettierrc.json":{"icon":"","color":"#4285F4","cterm_color":"33","name":"PrettierConfig"},".prettierrc.js":{"icon":"","color":"#4285F4","cterm_color":"33","name":"PrettierConfig"},".Xresources":{"icon":"","color":"#e54d18","cterm_color":"196","name":"Xresources"},".gitignore":{"icon":"","color":"#f54d27","cterm_color":"196","name":"GitIgnore"},".justfile":{"icon":"","color":"#6d8086","cterm_color":"66","name":"Justfile"}},"icons_by_operating_system":{"gentoo":{"icon":"󰣨","color":"#b1abce","cterm_color":"146","name":"Gentoo"},"fedora":{"icon":"","color":"#072a5e","cterm_color":"17","name":"Fedora"},"xerolinux":{"icon":"","color":"#888fe2","cterm_color":"104","name":"XeroLinux"},"vanillaos":{"icon":"","color":"#fabd4d","cterm_color":"214","name":"VanillaOS"},"centos":{"icon":"","color":"#a2518d","cterm_color":"132","name":"Centos"},"void":{"icon":"","color":"#295340","cterm_color":"23","name":"Void"},"linux":{"icon":"","color":"#fdfdfb","cterm_color":"231","name":"Linux"},"ubuntu":{"icon":"","color":"#dd4814","cterm_color":"196","name":"Ubuntu"},"sabayon":{"icon":"","color":"#c6c6c6","cterm_color":"251","name":"Sabayon"},"debian":{"icon":"","color":"#a80030","cterm_color":"88","name":"Debian"},"trisquel":{"icon":"","color":"#0f58b6","cterm_color":"25","name":"TrisquelGNULinux"},"alma":{"icon":"","color":"#ff4649","cterm_color":"203","name":"Almalinux"},"elementary":{"icon":"","color":"#5890c2","cterm_color":"67","name":"Elementary"},"arcolinux":{"icon":"","color":"#6690eb","cterm_color":"68","name":"ArcoLinux"},"tumbleweed":{"icon":"","color":"#35B9AB","cterm_color":"37","name":"Tumbleweed"},"alpine":{"icon":"","color":"#0d597f","cterm_color":"24","name":"Alpine"},"leap":{"icon":"","color":"#FBC75D","cterm_color":"221","name":"Leap"},"tails":{"icon":"","color":"#56347c","cterm_color":"54","name":"Tails"},"mageia":{"icon":"","color":"#2397d4","cterm_color":"67","name":"Mageia"},"endeavour":{"icon":"","color":"#7b3db9","cterm_color":"91","name":"Endeavour"},"biglinux":{"icon":"","color":"#189fc8","cterm_color":"38","name":"BigLinux"},"slackware":{"icon":"","color":"#475fa9","cterm_color":"61","name":"Slackware"},"rocky":{"icon":"","color":"#0fb37d","cterm_color":"36","name":"RockyLinux"},"redhat":{"icon":"󱄛","color":"#EE0000","cterm_color":"196","name":"Redhat"},"raspberry_pi":{"icon":"","color":"#be1848","cterm_color":"161","name":"RaspberryPiOS"},"qubesos":{"icon":"","color":"#3774d8","cterm_color":"33","name":"QubesOS"},"artix":{"icon":"","color":"#41b4d7","cterm_color":"38","name":"Artix"},"locos":{"icon":"","color":"#fab402","cterm_color":"214","name":"LocOS"},"postmarketos":{"icon":"","color":"#009900","cterm_color":"28","name":"postmarketOS"},"nobara":{"icon":"","color":"#ffffff","cterm_color":"231","name":"NobaraLinux"},"openbsd":{"icon":"","color":"#f2ca30","cterm_color":"220","name":"OpenBSD"},"parabola":{"icon":"","color":"#797dac","cterm_color":"103","name":"ParabolaGNULinuxLibre"},"hyperbola":{"icon":"","color":"#c0c0c0","cterm_color":"250","name":"HyperbolaGNULinuxLibre"},"illumos":{"icon":"","color":"#ff430f","cterm_color":"196","name":"Illumos"},"manjaro":{"icon":"","color":"#33b959","cterm_color":"35","name":"Manjaro"},"windows":{"icon":"","color":"#00A4EF","cterm_color":"39","name":"Windows"},"parrot":{"icon":"","color":"#54deff","cterm_color":"45","name":"Parrot"},"garuda":{"icon":"","color":"#2974e1","cterm_color":"33","name":"GarudaLinux"},"aosc":{"icon":"","color":"#c00000","cterm_color":"124","name":"AOSC"},"crystallinux":{"icon":"","color":"#a900ff","cterm_color":"129","name":"CrystalLinux"},"opensuse":{"icon":"","color":"#6fb424","cterm_color":"70","name":"openSUSE"},"archcraft":{"icon":"","color":"#86bba3","cterm_color":"108","name":"Archcraft"},"apple":{"icon":"","color":"#A2AAAD","cterm_color":"248","name":"Apple"},"nixos":{"icon":"","color":"#7ab1db","cterm_color":"110","name":"NixOS"},"mxlinux":{"icon":"","color":"#ffffff","cterm_color":"231","name":"MXLinux"},"mint":{"icon":"󰣭","color":"#66af3d","cterm_color":"70","name":"Mint"},"deepin":{"icon":"","color":"#2ca7f8","cterm_color":"39","name":"Deepin"},"lxle":{"icon":"","color":"#474747","cterm_color":"238","name":"LXLE"},"puppylinux":{"icon":"","color":"#a2aeb9","cterm_color":"145","name":"PuppyLinux"},"arch":{"icon":"󰣇","color":"#0f94d2","cterm_color":"67","name":"Arch"},"archlabs":{"icon":"","color":"#503f42","cterm_color":"238","name":"Archlabs"},"kubuntu":{"icon":"","color":"#007ac2","cterm_color":"32","name":"Kubuntu"},"kdeneon":{"icon":"","color":"#20a6a4","cterm_color":"37","name":"KDEneon"},"kali":{"icon":"","color":"#2777ff","cterm_color":"69","name":"Kali"},"pop_os":{"icon":"","color":"#48b9c7","cterm_color":"73","name":"Pop_OS"},"guix":{"icon":"","color":"#ffcc00","cterm_color":"220","name":"Guix"},"devuan":{"icon":"","color":"#404a52","cterm_color":"238","name":"Devuan"},"freebsd":{"icon":"","color":"#c90f02","cterm_color":"160","name":"FreeBSD"},"zorin":{"icon":"","color":"#14a1e8","cterm_color":"39","name":"Zorin"},"solus":{"icon":"","color":"#4b5163","cterm_color":"239","name":"Solus"}},"icons_by_file_extension":{"otf":{"icon":"","color":"#ECECEC","cterm_color":"255","name":"OpenTypeFont"},"import":{"icon":"","color":"#ECECEC","cterm_color":"255","name":"ImportConfiguration"},"krz":{"icon":"","color":"#f245fb","cterm_color":"201","name":"Krita"},"adb":{"icon":"","color":"#22ffff","cterm_color":"51","name":"AdaBody"},"ttf":{"icon":"","color":"#ECECEC","cterm_color":"255","name":"TrueTypeFont"},"webpack":{"icon":"󰜫","color":"#519aba","cterm_color":"74","name":"Webpack"},"dart":{"icon":"","color":"#03589C","cterm_color":"25","name":"Dart"},"vsh":{"icon":"","color":"#5d87bf","cterm_color":"67","name":"Vlang"},"doc":{"icon":"󰈬","color":"#185abd","cterm_color":"26","name":"Doc"},"zsh":{"icon":"","color":"#89e051","cterm_color":"113","name":"Zsh"},"ex":{"icon":"","color":"#a074c4","cterm_color":"140","name":"Ex"},"hx":{"icon":"","color":"#ea8220","cterm_color":"208","name":"Haxe"},"fodt":{"icon":"","color":"#2DCBFD","cterm_color":"81","name":"LibreOfficeWriter"},"mojo":{"icon":"","color":"#ff4c1f","cterm_color":"196","name":"Mojo"},"templ":{"icon":"","color":"#dbbd30","cterm_color":"178","name":"Templ"},"nix":{"icon":"","color":"#7ebae4","cterm_color":"110","name":"Nix"},"cshtml":{"icon":"󱦗","color":"#512bd4","cterm_color":"56","name":"RazorPage"},"fish":{"icon":"","color":"#4d5a5e","cterm_color":"240","name":"Fish"},"ply":{"icon":"󰆧","color":"#888888","cterm_color":"102","name":"3DObjectFile"},"sldprt":{"icon":"󰻫","color":"#839463","cterm_color":"101","name":"SolidWorksPrt"},"gemspec":{"icon":"","color":"#701516","cterm_color":"52","name":"Gemspec"},"mjs":{"icon":"","color":"#f1e05a","cterm_color":"185","name":"Mjs"},"csh":{"icon":"","color":"#4d5a5e","cterm_color":"240","name":"Csh"},"cmake":{"icon":"","color":"#dce3eb","cterm_color":"254","name":"CMake"},"fodp":{"icon":"","color":"#FE9C45","cterm_color":"215","name":"LibreOfficeImpress"},"vi":{"icon":"","color":"#fec60a","cterm_color":"220","name":"LabView"},"msf":{"icon":"","color":"#137be1","cterm_color":"33","name":"Thunderbird"},"blp":{"icon":"󰺾","color":"#5796E2","cterm_color":"68","name":"Blueprint"},"less":{"icon":"","color":"#563d7c","cterm_color":"54","name":"Less"},"sh":{"icon":"","color":"#4d5a5e","cterm_color":"240","name":"Sh"},"odg":{"icon":"","color":"#FFFB57","cterm_color":"227","name":"LibreOfficeGraphics"},"mint":{"icon":"󰌪","color":"#87c095","cterm_color":"108","name":"Mint"},"dll":{"icon":"","color":"#4d2c0b","cterm_color":"52","name":"Dll"},"odf":{"icon":"","color":"#FF5A96","cterm_color":"204","name":"LibreOfficeFormula"},"sqlite3":{"icon":"","color":"#dad8d8","cterm_color":"188","name":"Sql"},"Dockerfile":{"icon":"󰡨","color":"#458ee6","cterm_color":"68","name":"Dockerfile"},"ksh":{"icon":"","color":"#4d5a5e","cterm_color":"240","name":"Ksh"},"rmd":{"icon":"","color":"#519aba","cterm_color":"74","name":"Rmd"},"wv":{"icon":"","color":"#00afff","cterm_color":"39","name":"WavPack"},"xml":{"icon":"󰗀","color":"#e37933","cterm_color":"166","name":"Xml"},"markdown":{"icon":"","color":"#dddddd","cterm_color":"253","name":"Markdown"},"qml":{"icon":"","color":"#40cd52","cterm_color":"77","name":"Qt"},"3gp":{"icon":"","color":"#FD971F","cterm_color":"208","name":"3gp"},"pxi":{"icon":"","color":"#5aa7e4","cterm_color":"39","name":"Pxi"},"flac":{"icon":"","color":"#0075aa","cterm_color":"24","name":"FreeLosslessAudioCodec"},"gpr":{"icon":"","color":"#FF33FF","cterm_color":"201","name":"GPRBuildProject"},"huff":{"icon":"󰡘","color":"#4242c7","cterm_color":"56","name":"Huff"},"json":{"icon":"","color":"#cbcb41","cterm_color":"185","name":"Json"},"gv":{"icon":"󱁉","color":"#30638e","cterm_color":"24","name":"Gv"},"bmp":{"icon":"","color":"#a074c4","cterm_color":"140","name":"Bmp"},"lock":{"icon":"","color":"#bbbbbb","cterm_color":"250","name":"Lock"},"sha384":{"icon":"󰕥","color":"#8c86af","cterm_color":"103","name":"Sha384"},"cobol":{"icon":"⚙","color":"#005ca5","cterm_color":"25","name":"Cobol"},"cob":{"icon":"⚙","color":"#005ca5","cterm_color":"25","name":"Cobol"},"java":{"icon":"","color":"#cc3e44","cterm_color":"167","name":"Java"},"cjs":{"icon":"","color":"#cbcb41","cterm_color":"185","name":"Cjs"},"qm":{"icon":"","color":"#2596be","cterm_color":"31","name":"Localization"},"ebuild":{"icon":"","color":"#4C416E","cterm_color":"60","name":"GentooBuild"},"mustache":{"icon":"","color":"#e37933","cterm_color":"166","name":"Mustache"},"terminal":{"icon":"","color":"#31B53E","cterm_color":"34","name":"Terminal"},"ejs":{"icon":"","color":"#cbcb41","cterm_color":"185","name":"Ejs"},"brep":{"icon":"󰻫","color":"#839463","cterm_color":"101","name":"BoundaryRepresentation"},"rar":{"icon":"","color":"#eca517","cterm_color":"214","name":"Rar"},"gradle":{"icon":"","color":"#005f87","cterm_color":"24","name":"Gradle"},"gnumakefile":{"icon":"","color":"#6d8086","cterm_color":"66","name":"Makefile"},"applescript":{"icon":"","color":"#6d8085","cterm_color":"66","name":"AppleScript"},"elm":{"icon":"","color":"#519aba","cterm_color":"74","name":"Elm"},"ebook":{"icon":"","color":"#eab16d","cterm_color":"215","name":"Ebook"},"kra":{"icon":"","color":"#f245fb","cterm_color":"201","name":"Krita"},"tf":{"icon":"","color":"#5F43E9","cterm_color":"93","name":"Terraform"},"xls":{"icon":"󰈛","color":"#207245","cterm_color":"29","name":"Xls"},"fnl":{"icon":"","color":"#fff3d7","cterm_color":"230","name":"Fennel"},"kdbx":{"icon":"","color":"#529b34","cterm_color":"71","name":"Kdbx"},"kicad_pcb":{"icon":"","color":"#ffffff","cterm_color":"231","name":"KiCad"},"cfg":{"icon":"","color":"#6d8086","cterm_color":"66","name":"Configuration"},"ape":{"icon":"","color":"#00afff","cterm_color":"39","name":"MonkeysAudio"},"org":{"icon":"","color":"#77AA99","cterm_color":"73","name":"OrgMode"},"yml":{"icon":"","color":"#6d8086","cterm_color":"66","name":"Yml"},"swift":{"icon":"","color":"#e37933","cterm_color":"166","name":"Swift"},"eln":{"icon":"","color":"#8172be","cterm_color":"97","name":"Elisp"},"sol":{"icon":"","color":"#519aba","cterm_color":"74","name":"Solidity"},"awk":{"icon":"","color":"#4d5a5e","cterm_color":"240","name":"Awk"},"7z":{"icon":"","color":"#eca517","cterm_color":"214","name":"7z"},"apl":{"icon":"⍝","color":"#ffa500","cterm_color":"214","name":"APL"},"epp":{"icon":"","color":"#FFA61A","cterm_color":"214","name":"Epp"},"app":{"icon":"","color":"#9F0500","cterm_color":"124","name":"App"},"dot":{"icon":"󱁉","color":"#30638e","cterm_color":"24","name":"Dot"},"kpp":{"icon":"","color":"#f245fb","cterm_color":"201","name":"Krita"},"eot":{"icon":"","color":"#ECECEC","cterm_color":"255","name":"EmbeddedOpenTypeFont"},"hpp":{"icon":"","color":"#a074c4","cterm_color":"140","name":"Hpp"},"spec.tsx":{"icon":"","color":"#1354bf","cterm_color":"26","name":"TypeScriptReactSpec"},"hurl":{"icon":"","color":"#ff0288","cterm_color":"198","name":"Hurl"},"cxxm":{"icon":"","color":"#519aba","cterm_color":"74","name":"Cxxm"},"c":{"icon":"","color":"#599eff","cterm_color":"111","name":"C"},"fcmacro":{"icon":"","color":"#cb333b","cterm_color":"160","name":"FreeCAD"},"sass":{"icon":"","color":"#f55385","cterm_color":"204","name":"Sass"},"yaml":{"icon":"","color":"#6d8086","cterm_color":"66","name":"Yaml"},"xz":{"icon":"","color":"#eca517","cterm_color":"214","name":"Xz"},"material":{"icon":"󰔉","color":"#B83998","cterm_color":"163","name":"Material"},"json5":{"icon":"","color":"#cbcb41","cterm_color":"185","name":"Json5"},"signature":{"icon":"λ","color":"#e37933","cterm_color":"166","name":"Signature"},"3mf":{"icon":"󰆧","color":"#888888","cterm_color":"102","name":"3DObjectFile"},"jpg":{"icon":"","color":"#a074c4","cterm_color":"140","name":"Jpg"},"xpi":{"icon":"","color":"#ff1b01","cterm_color":"196","name":"Xpi"},"fcmat":{"icon":"","color":"#cb333b","cterm_color":"160","name":"FreeCAD"},"pot":{"icon":"","color":"#2596be","cterm_color":"31","name":"Localization"},"bin":{"icon":"","color":"#9F0500","cterm_color":"124","name":"Bin"},"xlsx":{"icon":"󰈛","color":"#207245","cterm_color":"29","name":"Xlsx"},"aac":{"icon":"","color":"#00afff","cterm_color":"39","name":"AdvancedAudioCoding"},"kicad_sym":{"icon":"","color":"#ffffff","cterm_color":"231","name":"KiCad"},"xcstrings":{"icon":"","color":"#2596be","cterm_color":"31","name":"XcLocalization"},"lff":{"icon":"","color":"#ECECEC","cterm_color":"255","name":"LibrecadFontFile"},"xcf":{"icon":"","color":"#635b46","cterm_color":"240","name":"GIMP"},"azcli":{"icon":"","color":"#0078d4","cterm_color":"32","name":"AzureCli"},"license":{"icon":"","color":"#cbcb41","cterm_color":"185","name":"License"},"jsonc":{"icon":"","color":"#cbcb41","cterm_color":"185","name":"Jsonc"},"xaml":{"icon":"󰙳","color":"#512bd4","cterm_color":"56","name":"Xaml"},"md5":{"icon":"󰕥","color":"#8c86af","cterm_color":"103","name":"Md5"},"xm":{"icon":"","color":"#519aba","cterm_color":"74","name":"Logos"},"sln":{"icon":"","color":"#854CC7","cterm_color":"98","name":"Sln"},"jl":{"icon":"","color":"#a270ba","cterm_color":"133","name":"Jl"},"ml":{"icon":"","color":"#e37933","cterm_color":"166","name":"Ml"},"http":{"icon":"","color":"#008ec7","cterm_color":"31","name":"HTTP"},"x":{"icon":"","color":"#599eff","cterm_color":"111","name":"Logos"},"wvc":{"icon":"","color":"#00afff","cterm_color":"39","name":"WavPackCorrection"},"wrz":{"icon":"󰆧","color":"#888888","cterm_color":"102","name":"VRML"},"csproj":{"icon":"󰪮","color":"#512bd4","cterm_color":"56","name":"CSharpProject"},"wrl":{"icon":"󰆧","color":"#888888","cterm_color":"102","name":"VRML"},"wma":{"icon":"","color":"#00afff","cterm_color":"39","name":"WindowsMediaAudio"},"woff2":{"icon":"","color":"#ECECEC","cterm_color":"255","name":"WebOpenFontFormat"},"woff":{"icon":"","color":"#ECECEC","cterm_color":"255","name":"WebOpenFontFormat"},"tscn":{"icon":"","color":"#6d8086","cterm_color":"66","name":"GodotTextScene"},"webmanifest":{"icon":"","color":"#f1e05a","cterm_color":"185","name":"Webmanifest"},"webm":{"icon":"","color":"#FD971F","cterm_color":"208","name":"Webm"},"fcbak":{"icon":"","color":"#cb333b","cterm_color":"160","name":"FreeCAD"},"log":{"icon":"󰌱","color":"#dddddd","cterm_color":"253","name":"Log"},"wav":{"icon":"","color":"#00afff","cterm_color":"39","name":"WaveformAudioFile"},"wasm":{"icon":"","color":"#5c4cdb","cterm_color":"62","name":"Wasm"},"styl":{"icon":"","color":"#8dc149","cterm_color":"113","name":"Styl"},"gif":{"icon":"","color":"#a074c4","cterm_color":"140","name":"Gif"},"resi":{"icon":"","color":"#f55385","cterm_color":"204","name":"ReScriptInterface"},"aiff":{"icon":"","color":"#00afff","cterm_color":"39","name":"AudioInterchangeFileFormat"},"sha256":{"icon":"󰕥","color":"#8c86af","cterm_color":"103","name":"Sha256"},"igs":{"icon":"󰻫","color":"#839463","cterm_color":"101","name":"Igs"},"vsix":{"icon":"","color":"#854CC7","cterm_color":"98","name":"Vsix"},"vim":{"icon":"","color":"#019833","cterm_color":"28","name":"Vim"},"diff":{"icon":"","color":"#41535b","cterm_color":"239","name":"Diff"},"drl":{"icon":"","color":"#ffafaf","cterm_color":"217","name":"Drools"},"erl":{"icon":"","color":"#B83998","cterm_color":"163","name":"Erl"},"vhdl":{"icon":"󰍛","color":"#019833","cterm_color":"28","name":"VHDL"},"🔥":{"icon":"","color":"#ff4c1f","cterm_color":"196","name":"Mojo"},"hrl":{"icon":"","color":"#B83998","cterm_color":"163","name":"Hrl"},"fsi":{"icon":"","color":"#519aba","cterm_color":"74","name":"Fsi"},"mm":{"icon":"","color":"#519aba","cterm_color":"74","name":"ObjectiveCPlusPlus"},"bz":{"icon":"","color":"#eca517","cterm_color":"214","name":"Bz"},"vh":{"icon":"󰍛","color":"#019833","cterm_color":"28","name":"Verilog"},"kdb":{"icon":"","color":"#529b34","cterm_color":"71","name":"Kdb"},"gz":{"icon":"","color":"#eca517","cterm_color":"214","name":"Gz"},"cpp":{"icon":"","color":"#519aba","cterm_color":"74","name":"Cpp"},"ui":{"icon":"","color":"#015BF0","cterm_color":"27","name":"UI"},"txt":{"icon":"󰈙","color":"#89e051","cterm_color":"113","name":"Txt"},"spec.ts":{"icon":"","color":"#519aba","cterm_color":"74","name":"SpecTs"},"ccm":{"icon":"","color":"#f34b7d","cterm_color":"204","name":"CPlusPlusModule"},"typoscript":{"icon":"","color":"#FF8700","cterm_color":"208","name":"TypoScript"},"typ":{"icon":"","color":"#0dbcc0","cterm_color":"37","name":"Typst"},"txz":{"icon":"","color":"#eca517","cterm_color":"214","name":"Txz"},"test.ts":{"icon":"","color":"#519aba","cterm_color":"74","name":"TestTs"},"tsx":{"icon":"","color":"#1354bf","cterm_color":"26","name":"Tsx"},"mk":{"icon":"","color":"#6d8086","cterm_color":"66","name":"Makefile"},"webp":{"icon":"","color":"#a074c4","cterm_color":"140","name":"Webp"},"opus":{"icon":"","color":"#0075aa","cterm_color":"24","name":"OpusAudioFile"},"bicep":{"icon":"","color":"#519aba","cterm_color":"74","name":"Bicep"},"ts":{"icon":"","color":"#519aba","cterm_color":"74","name":"TypeScript"},"tres":{"icon":"","color":"#6d8086","cterm_color":"66","name":"GodotTextResource"},"torrent":{"icon":"","color":"#44cda8","cterm_color":"43","name":"Torrent"},"cxx":{"icon":"","color":"#519aba","cterm_color":"74","name":"Cxx"},"iso":{"icon":"","color":"#d0bec8","cterm_color":"181","name":"Iso"},"ixx":{"icon":"","color":"#519aba","cterm_color":"74","name":"Ixx"},"hxx":{"icon":"","color":"#a074c4","cterm_color":"140","name":"Hxx"},"gql":{"icon":"","color":"#e535ab","cterm_color":"199","name":"GraphQL"},"tmux":{"icon":"","color":"#14ba19","cterm_color":"34","name":"Tmux"},"ini":{"icon":"","color":"#6d8086","cterm_color":"66","name":"Ini"},"m3u8":{"icon":"󰲹","color":"#ed95ae","cterm_color":"211","name":"M3u8"},"image":{"icon":"","color":"#d0bec8","cterm_color":"181","name":"Image"},"tfvars":{"icon":"","color":"#5F43E9","cterm_color":"93","name":"TFVars"},"tex":{"icon":"","color":"#3D6117","cterm_color":"22","name":"Tex"},"cbl":{"icon":"⚙","color":"#005ca5","cterm_color":"25","name":"Cobol"},"flc":{"icon":"","color":"#ECECEC","cterm_color":"255","name":"FIGletFontControl"},"elc":{"icon":"","color":"#8172be","cterm_color":"97","name":"Elisp"},"test.tsx":{"icon":"","color":"#1354bf","cterm_color":"26","name":"TypeScriptReactTest"},"twig":{"icon":"","color":"#8dc149","cterm_color":"113","name":"Twig"},"sql":{"icon":"","color":"#dad8d8","cterm_color":"188","name":"Sql"},"test.jsx":{"icon":"","color":"#20c2e3","cterm_color":"45","name":"JavaScriptReactTest"},"htm":{"icon":"","color":"#e34c26","cterm_color":"196","name":"Htm"},"gcode":{"icon":"󰐫","color":"#1471ad","cterm_color":"32","name":"GCode"},"test.js":{"icon":"","color":"#cbcb41","cterm_color":"185","name":"TestJs"},"ino":{"icon":"","color":"#56b6c2","cterm_color":"73","name":"Arduino"},"tcl":{"icon":"󰛓","color":"#1e5cb3","cterm_color":"25","name":"Tcl"},"cljs":{"icon":"","color":"#519aba","cterm_color":"74","name":"ClojureJS"},"tsconfig":{"icon":"","color":"#FF8700","cterm_color":"208","name":"TypoScriptConfig"},"img":{"icon":"","color":"#d0bec8","cterm_color":"181","name":"Img"},"t":{"icon":"","color":"#519aba","cterm_color":"74","name":"Tor"},"fcstd1":{"icon":"","color":"#cb333b","cterm_color":"160","name":"FreeCAD"},"out":{"icon":"","color":"#9F0500","cterm_color":"124","name":"Out"},"jsx":{"icon":"","color":"#20c2e3","cterm_color":"45","name":"Jsx"},"bash":{"icon":"","color":"#89e051","cterm_color":"113","name":"Bash"},"edn":{"icon":"","color":"#519aba","cterm_color":"74","name":"Edn"},"rss":{"icon":"","color":"#FB9D3B","cterm_color":"215","name":"Rss"},"flf":{"icon":"","color":"#ECECEC","cterm_color":"255","name":"FIGletFontFormat"},"cache":{"icon":"","color":"#ffffff","cterm_color":"231","name":"Cache"},"sbt":{"icon":"","color":"#cc3e44","cterm_color":"167","name":"sbt"},"cppm":{"icon":"","color":"#519aba","cterm_color":"74","name":"Cppm"},"svelte":{"icon":"","color":"#ff3e00","cterm_color":"196","name":"Svelte"},"mo":{"icon":"∞","color":"#9772FB","cterm_color":"135","name":"Motoko"},"sv":{"icon":"󰍛","color":"#019833","cterm_color":"28","name":"SystemVerilog"},"ko":{"icon":"","color":"#dcddd6","cterm_color":"253","name":"LinuxKernelObject"},"suo":{"icon":"","color":"#854CC7","cterm_color":"98","name":"Suo"},"sldasm":{"icon":"󰻫","color":"#839463","cterm_color":"101","name":"SolidWorksAsm"},"icalendar":{"icon":"","color":"#2B2e83","cterm_color":"18","name":"Icalendar"},"go":{"icon":"","color":"#519aba","cterm_color":"74","name":"Go"},"sublime":{"icon":"","color":"#e37933","cterm_color":"166","name":"Sublime"},"stl":{"icon":"󰆧","color":"#888888","cterm_color":"102","name":"3DObjectFile"},"mobi":{"icon":"","color":"#eab16d","cterm_color":"215","name":"Mobi"},"graphql":{"icon":"","color":"#e535ab","cterm_color":"199","name":"GraphQL"},"m3u":{"icon":"󰲹","color":"#ed95ae","cterm_color":"211","name":"M3u"},"cpy":{"icon":"⚙","color":"#005ca5","cterm_color":"25","name":"Cobol"},"kdenlive":{"icon":"","color":"#83b8f2","cterm_color":"110","name":"Kdenlive"},"pyo":{"icon":"","color":"#ffe291","cterm_color":"222","name":"Pyo"},"po":{"icon":"","color":"#2596be","cterm_color":"31","name":"Localization"},"scala":{"icon":"","color":"#cc3e44","cterm_color":"167","name":"Scala"},"exs":{"icon":"","color":"#a074c4","cterm_color":"140","name":"Exs"},"odp":{"icon":"","color":"#FE9C45","cterm_color":"215","name":"LibreOfficeImpress"},"dump":{"icon":"","color":"#dad8d8","cterm_color":"188","name":"Dump"},"stp":{"icon":"󰻫","color":"#839463","cterm_color":"101","name":"Stp"},"step":{"icon":"󰻫","color":"#839463","cterm_color":"101","name":"Step"},"ste":{"icon":"󰻫","color":"#839463","cterm_color":"101","name":"Ste"},"aif":{"icon":"","color":"#00afff","cterm_color":"39","name":"AudioInterchangeFileFormat"},"strings":{"icon":"","color":"#2596be","cterm_color":"31","name":"Localization"},"cp":{"icon":"","color":"#519aba","cterm_color":"74","name":"Cp"},"fsscript":{"icon":"","color":"#519aba","cterm_color":"74","name":"Fsscript"},"mli":{"icon":"","color":"#e37933","cterm_color":"166","name":"Mli"},"bak":{"icon":"󰁯","color":"#6d8086","cterm_color":"66","name":"Backup"},"ssa":{"icon":"󰨖","color":"#ffb713","cterm_color":"214","name":"Ssa"},"toml":{"icon":"","color":"#9c4221","cterm_color":"124","name":"Toml"},"makefile":{"icon":"","color":"#6d8086","cterm_color":"66","name":"Makefile"},"php":{"icon":"","color":"#a074c4","cterm_color":"140","name":"Php"},"zst":{"icon":"","color":"#eca517","cterm_color":"214","name":"Zst"},"spec.jsx":{"icon":"","color":"#20c2e3","cterm_color":"45","name":"JavaScriptReactSpec"},"kbx":{"icon":"󰯄","color":"#737672","cterm_color":"243","name":"Kbx"},"fbx":{"icon":"󰆧","color":"#888888","cterm_color":"102","name":"3DObjectFile"},"blend":{"icon":"󰂫","color":"#ea7600","cterm_color":"208","name":"Blender"},"ifc":{"icon":"󰻫","color":"#839463","cterm_color":"101","name":"Ifc"},"spec.js":{"icon":"","color":"#cbcb41","cterm_color":"185","name":"SpecJs"},"so":{"icon":"","color":"#dcddd6","cterm_color":"253","name":"SharedObject"},"desktop":{"icon":"","color":"#563d7c","cterm_color":"54","name":"DesktopEntry"},"sml":{"icon":"λ","color":"#e37933","cterm_color":"166","name":"Sml"},"slvs":{"icon":"󰻫","color":"#839463","cterm_color":"101","name":"SolveSpace"},"pp":{"icon":"","color":"#FFA61A","cterm_color":"214","name":"Pp"},"ps1":{"icon":"󰨊","color":"#4273ca","cterm_color":"68","name":"PsScriptfile"},"dropbox":{"icon":"","color":"#0061FE","cterm_color":"27","name":"Dropbox"},"kicad_mod":{"icon":"","color":"#ffffff","cterm_color":"231","name":"KiCad"},"bat":{"icon":"","color":"#C1F12E","cterm_color":"191","name":"Bat"},"slim":{"icon":"","color":"#e34c26","cterm_color":"196","name":"Slim"},"skp":{"icon":"󰻫","color":"#839463","cterm_color":"101","name":"SketchUp"},"css":{"icon":"","color":"#42a5f5","cterm_color":"75","name":"Css"},"xul":{"icon":"","color":"#e37933","cterm_color":"166","name":"Xul"},"ige":{"icon":"󰻫","color":"#839463","cterm_color":"101","name":"Ige"},"glb":{"icon":"","color":"#FFB13B","cterm_color":"214","name":"BinaryGLTF"},"ppt":{"icon":"󰈧","color":"#cb4a32","cterm_color":"160","name":"Ppt"},"sha512":{"icon":"󰕥","color":"#8c86af","cterm_color":"103","name":"Sha512"},"ics":{"icon":"","color":"#2B2e83","cterm_color":"18","name":"Ics"},"mdx":{"icon":"","color":"#519aba","cterm_color":"74","name":"Mdx"},"sha1":{"icon":"󰕥","color":"#8c86af","cterm_color":"103","name":"Sha1"},"f3d":{"icon":"󰻫","color":"#839463","cterm_color":"101","name":"Fusion360"},"ass":{"icon":"󰨖","color":"#ffb713","cterm_color":"214","name":"Ass"},"godot":{"icon":"","color":"#6d8086","cterm_color":"66","name":"GodotProject"},"ifb":{"icon":"","color":"#2B2e83","cterm_color":"18","name":"Ifb"},"cson":{"icon":"","color":"#cbcb41","cterm_color":"185","name":"Cson"},"lib":{"icon":"","color":"#4d2c0b","cterm_color":"52","name":"Lib"},"luac":{"icon":"","color":"#51a0cf","cterm_color":"74","name":"Lua"},"heex":{"icon":"","color":"#a074c4","cterm_color":"140","name":"Heex"},"scm":{"icon":"󰘧","color":"#eeeeee","cterm_color":"255","name":"Scheme"},"psd1":{"icon":"󰨊","color":"#6975c4","cterm_color":"68","name":"PsManifestfile"},"sc":{"icon":"","color":"#cc3e44","cterm_color":"167","name":"ScalaScript"},"scad":{"icon":"","color":"#f9d72c","cterm_color":"220","name":"OpenSCAD"},"kts":{"icon":"","color":"#7F52FF","cterm_color":"99","name":"KotlinScript"},"svh":{"icon":"󰍛","color":"#019833","cterm_color":"28","name":"SystemVerilog"},"mts":{"icon":"","color":"#519aba","cterm_color":"74","name":"Mts"},"nfo":{"icon":"","color":"#ffffcd","cterm_color":"230","name":"Nfo"},"pck":{"icon":"","color":"#6d8086","cterm_color":"66","name":"PackedResource"},"rproj":{"icon":"󰗆","color":"#358a5b","cterm_color":"29","name":"Rproj"},"rlib":{"icon":"","color":"#dea584","cterm_color":"216","name":"Rlib"},"cljd":{"icon":"","color":"#519aba","cterm_color":"74","name":"ClojureDart"},"ods":{"icon":"","color":"#78FC4E","cterm_color":"119","name":"LibreOfficeCalc"},"res":{"icon":"","color":"#cc3e44","cterm_color":"167","name":"ReScript"},"apk":{"icon":"","color":"#34a853","cterm_color":"35","name":"apk"},"haml":{"icon":"","color":"#eaeae1","cterm_color":"255","name":"Haml"},"d.ts":{"icon":"","color":"#d59855","cterm_color":"172","name":"TypeScriptDeclaration"},"razor":{"icon":"󱦘","color":"#512bd4","cterm_color":"56","name":"RazorPage"},"rake":{"icon":"","color":"#701516","cterm_color":"52","name":"Rake"},"patch":{"icon":"","color":"#41535b","cterm_color":"239","name":"Patch"},"cuh":{"icon":"","color":"#a074c4","cterm_color":"140","name":"cudah"},"d":{"icon":"","color":"#b03931","cterm_color":"124","name":"D"},"query":{"icon":"","color":"#90a850","cterm_color":"107","name":"Query"},"psb":{"icon":"","color":"#519aba","cterm_color":"74","name":"Psb"},"nu":{"icon":">","color":"#3aa675","cterm_color":"36","name":"Nushell"},"mov":{"icon":"","color":"#FD971F","cterm_color":"208","name":"MOV"},"lrc":{"icon":"󰨖","color":"#ffb713","cterm_color":"214","name":"Lrc"},"pyx":{"icon":"","color":"#5aa7e4","cterm_color":"39","name":"Pyx"},"pyw":{"icon":"","color":"#5aa7e4","cterm_color":"39","name":"Pyw"},"cu":{"icon":"","color":"#89e051","cterm_color":"113","name":"cuda"},"bazel":{"icon":"","color":"#89e051","cterm_color":"113","name":"Bazel"},"obj":{"icon":"󰆧","color":"#888888","cterm_color":"102","name":"3DObjectFile"},"pyi":{"icon":"","color":"#ffbc03","cterm_color":"214","name":"Pyi"},"pyd":{"icon":"","color":"#ffe291","cterm_color":"222","name":"Pyd"},"exe":{"icon":"","color":"#9F0500","cterm_color":"124","name":"Exe"},"pyc":{"icon":"","color":"#ffe291","cterm_color":"222","name":"Pyc"},"fctb":{"icon":"","color":"#cb333b","cterm_color":"160","name":"FreeCAD"},"part":{"icon":"","color":"#44cda8","cterm_color":"43","name":"Part"},"blade.php":{"icon":"","color":"#f05340","cterm_color":"203","name":"Blade"},"git":{"icon":"","color":"#F14C28","cterm_color":"196","name":"GitLogo"},"psd":{"icon":"","color":"#519aba","cterm_color":"74","name":"Psd"},"qss":{"icon":"","color":"#40cd52","cterm_color":"77","name":"Qt"},"csv":{"icon":"","color":"#89e051","cterm_color":"113","name":"Csv"},"psm1":{"icon":"󰨊","color":"#6975c4","cterm_color":"68","name":"PsScriptModulefile"},"dconf":{"icon":"","color":"#ffffff","cterm_color":"231","name":"Dconf"},"config.ru":{"icon":"","color":"#701516","cterm_color":"52","name":"ConfigRu"},"prisma":{"icon":"","color":"#5a67d8","cterm_color":"62","name":"Prisma"},"conf":{"icon":"","color":"#6d8086","cterm_color":"66","name":"Conf"},"clj":{"icon":"","color":"#8dc149","cterm_color":"113","name":"Clojure"},"o":{"icon":"","color":"#9F0500","cterm_color":"124","name":"ObjectFile"},"mp4":{"icon":"","color":"#FD971F","cterm_color":"208","name":"Mp4"},"cc":{"icon":"","color":"#f34b7d","cterm_color":"204","name":"CPlusPlus"},"kicad_prl":{"icon":"","color":"#ffffff","cterm_color":"231","name":"KiCad"},"bz3":{"icon":"","color":"#eca517","cterm_color":"214","name":"Bz3"},"asc":{"icon":"󰦝","color":"#576d7f","cterm_color":"242","name":"Asc"},"png":{"icon":"","color":"#a074c4","cterm_color":"140","name":"Png"},"android":{"icon":"","color":"#34a853","cterm_color":"35","name":"Android"},"pm":{"icon":"","color":"#519aba","cterm_color":"74","name":"Pm"},"h":{"icon":"","color":"#a074c4","cterm_color":"140","name":"H"},"pls":{"icon":"󰲹","color":"#ed95ae","cterm_color":"211","name":"Pls"},"ipynb":{"icon":"","color":"#f57d01","cterm_color":"208","name":"Notebook"},"pl":{"icon":"","color":"#519aba","cterm_color":"74","name":"Pl"},"ads":{"icon":"","color":"#ffffff","cterm_color":"231","name":"AdaSpecification"},"sqlite":{"icon":"","color":"#dad8d8","cterm_color":"188","name":"Sql"},"pdf":{"icon":"","color":"#b30b00","cterm_color":"124","name":"Pdf"},"pcm":{"icon":"","color":"#0075aa","cterm_color":"24","name":"PulseCodeModulation"},"ico":{"icon":"","color":"#cbcb41","cterm_color":"185","name":"Ico"},"a":{"icon":"","color":"#dcddd6","cterm_color":"253","name":"StaticLibraryArchive"},"R":{"icon":"󰟔","color":"#2266ba","cterm_color":"25","name":"R"},"ogg":{"icon":"","color":"#0075aa","cterm_color":"24","name":"OggVorbis"},"pxd":{"icon":"","color":"#5aa7e4","cterm_color":"39","name":"Pxd"},"kdenlivetitle":{"icon":"","color":"#83b8f2","cterm_color":"110","name":"Kdenlive"},"jxl":{"icon":"","color":"#a074c4","cterm_color":"140","name":"JpegXl"},"nswag":{"icon":"","color":"#85ea2d","cterm_color":"112","name":"Nswag"},"nim":{"icon":"","color":"#f3d400","cterm_color":"220","name":"Nim"},"bqn":{"icon":"⎉","color":"#2b7067","cterm_color":"23","name":"BQN"},"cts":{"icon":"","color":"#519aba","cterm_color":"74","name":"Cts"},"fcparam":{"icon":"","color":"#cb333b","cterm_color":"160","name":"FreeCAD"},"rs":{"icon":"","color":"#dea584","cterm_color":"216","name":"Rs"},"mpp":{"icon":"","color":"#519aba","cterm_color":"74","name":"Mpp"},"fdmdownload":{"icon":"","color":"#44cda8","cterm_color":"43","name":"Fdmdownload"},"pptx":{"icon":"󰈧","color":"#cb4a32","cterm_color":"160","name":"Pptx"},"jpeg":{"icon":"","color":"#a074c4","cterm_color":"140","name":"Jpeg"},"bib":{"icon":"󱉟","color":"#cbcb41","cterm_color":"185","name":"BibTeX"},"vhd":{"icon":"󰍛","color":"#019833","cterm_color":"28","name":"VHDL"},"m":{"icon":"","color":"#599eff","cterm_color":"111","name":"ObjectiveC"},"js":{"icon":"","color":"#cbcb41","cterm_color":"185","name":"Js"},"eex":{"icon":"","color":"#a074c4","cterm_color":"140","name":"Eex"},"tbc":{"icon":"󰛓","color":"#1e5cb3","cterm_color":"25","name":"Tcl"},"astro":{"icon":"","color":"#e23f67","cterm_color":"197","name":"Astro"},"sha224":{"icon":"󰕥","color":"#8c86af","cterm_color":"103","name":"Sha224"},"xcplayground":{"icon":"","color":"#e37933","cterm_color":"166","name":"XcPlayground"},"el":{"icon":"","color":"#8172be","cterm_color":"97","name":"Elisp"},"m4v":{"icon":"","color":"#FD971F","cterm_color":"208","name":"M4V"},"m4a":{"icon":"","color":"#00afff","cterm_color":"39","name":"MPEG4"},"cs":{"icon":"󰌛","color":"#596706","cterm_color":"58","name":"Cs"},"hs":{"icon":"","color":"#a074c4","cterm_color":"140","name":"Hs"},"tgz":{"icon":"","color":"#eca517","cterm_color":"214","name":"Tgz"},"fs":{"icon":"","color":"#519aba","cterm_color":"74","name":"Fs"},"luau":{"icon":"","color":"#00a2ff","cterm_color":"75","name":"Luau"},"dxf":{"icon":"󰻫","color":"#839463","cterm_color":"101","name":"AutoCADDxf"},"download":{"icon":"","color":"#44cda8","cterm_color":"43","name":"Download"},"cast":{"icon":"","color":"#FD971F","cterm_color":"208","name":"Asciinema"},"qrc":{"icon":"","color":"#40cd52","cterm_color":"77","name":"Qt"},"lua":{"icon":"","color":"#51a0cf","cterm_color":"74","name":"Lua"},"lhs":{"icon":"","color":"#a074c4","cterm_color":"140","name":"Lhs"},"md":{"icon":"","color":"#dddddd","cterm_color":"253","name":"Md"},"leex":{"icon":"","color":"#a074c4","cterm_color":"140","name":"Leex"},"ai":{"icon":"","color":"#cbcb41","cterm_color":"185","name":"Ai"},"lck":{"icon":"","color":"#bbbbbb","cterm_color":"250","name":"Lock"},"kt":{"icon":"","color":"#7F52FF","cterm_color":"99","name":"Kotlin"},"bicepparam":{"icon":"","color":"#9f74b3","cterm_color":"133","name":"BicepParameters"},"hex":{"icon":"","color":"#2e63ff","cterm_color":"27","name":"Hexadecimal"},"zig":{"icon":"","color":"#f69a1b","cterm_color":"172","name":"Zig"},"bzl":{"icon":"","color":"#89e051","cterm_color":"113","name":"Bzl"},"cljc":{"icon":"","color":"#8dc149","cterm_color":"113","name":"ClojureC"},"kicad_dru":{"icon":"","color":"#ffffff","cterm_color":"231","name":"KiCad"},"fctl":{"icon":"","color":"#cb333b","cterm_color":"160","name":"FreeCAD"},"f#":{"icon":"","color":"#519aba","cterm_color":"74","name":"Fsharp"},"odt":{"icon":"","color":"#2DCBFD","cterm_color":"81","name":"LibreOfficeWriter"},"conda":{"icon":"","color":"#43b02a","cterm_color":"34","name":"Conda"},"vala":{"icon":"","color":"#7b3db9","cterm_color":"91","name":"Vala"},"erb":{"icon":"","color":"#701516","cterm_color":"52","name":"Erb"},"mp3":{"icon":"","color":"#00afff","cterm_color":"39","name":"MPEGAudioLayerIII"},"bz2":{"icon":"","color":"#eca517","cterm_color":"214","name":"Bz2"},"coffee":{"icon":"","color":"#cbcb41","cterm_color":"185","name":"Coffee"},"cr":{"icon":"","color":"#c8c8c8","cterm_color":"251","name":"Crystal"},"f90":{"icon":"󱈚","color":"#734f96","cterm_color":"97","name":"Fortran"},"jwmrc":{"icon":"","color":"#0078cd","cterm_color":"32","name":"JWM"},"c++":{"icon":"","color":"#f34b7d","cterm_color":"204","name":"CPlusPlus"},"fcscript":{"icon":"","color":"#cb333b","cterm_color":"160","name":"FreeCAD"},"fods":{"icon":"","color":"#78FC4E","cterm_color":"119","name":"LibreOfficeCalc"},"cue":{"icon":"󰲹","color":"#ed95ae","cterm_color":"211","name":"Cue"},"srt":{"icon":"󰨖","color":"#ffb713","cterm_color":"214","name":"Srt"},"info":{"icon":"","color":"#ffffcd","cterm_color":"230","name":"Info"},"hh":{"icon":"","color":"#a074c4","cterm_color":"140","name":"Hh"},"sig":{"icon":"λ","color":"#e37933","cterm_color":"166","name":"Sig"},"html":{"icon":"","color":"#e44d26","cterm_color":"196","name":"Html"},"iges":{"icon":"󰻫","color":"#839463","cterm_color":"101","name":"Iges"},"kicad_wks":{"icon":"","color":"#ffffff","cterm_color":"231","name":"KiCad"},"hbs":{"icon":"","color":"#f0772b","cterm_color":"202","name":"Hbs"},"fcstd":{"icon":"","color":"#cb333b","cterm_color":"160","name":"FreeCAD"},"gresource":{"icon":"","color":"#ffffff","cterm_color":"231","name":"GTK"},"sub":{"icon":"󰨖","color":"#ffb713","cterm_color":"214","name":"Sub"},"ical":{"icon":"","color":"#2B2e83","cterm_color":"18","name":"Ical"},"crdownload":{"icon":"","color":"#44cda8","cterm_color":"43","name":"Crdownload"},"pub":{"icon":"󰷖","color":"#e3c58e","cterm_color":"222","name":"Pub"},"vue":{"icon":"","color":"#8dc149","cterm_color":"113","name":"Vue"},"gd":{"icon":"","color":"#6d8086","cterm_color":"66","name":"GDScript"},"fsx":{"icon":"","color":"#519aba","cterm_color":"74","name":"Fsx"},"mkv":{"icon":"","color":"#FD971F","cterm_color":"208","name":"Mkv"},"py":{"icon":"","color":"#ffbc03","cterm_color":"214","name":"Py"},"kicad_sch":{"icon":"","color":"#ffffff","cterm_color":"231","name":"KiCad"},"epub":{"icon":"","color":"#eab16d","cterm_color":"215","name":"Epub"},"env":{"icon":"","color":"#faf743","cterm_color":"227","name":"Env"},"magnet":{"icon":"","color":"#a51b16","cterm_color":"124","name":"Magnet"},"elf":{"icon":"","color":"#9F0500","cterm_color":"124","name":"Elf"},"fodg":{"icon":"","color":"#FFFB57","cterm_color":"227","name":"LibreOfficeGraphics"},"svg":{"icon":"󰜡","color":"#FFB13B","cterm_color":"214","name":"Svg"},"dwg":{"icon":"󰻫","color":"#839463","cterm_color":"101","name":"AutoCADDwg"},"docx":{"icon":"󰈬","color":"#185abd","cterm_color":"26","name":"Docx"},"pro":{"icon":"","color":"#e4b854","cterm_color":"179","name":"Prolog"},"db":{"icon":"","color":"#dad8d8","cterm_color":"188","name":"Db"},"rb":{"icon":"","color":"#701516","cterm_color":"52","name":"Rb"},"r":{"icon":"󰟔","color":"#2266ba","cterm_color":"25","name":"R"},"scss":{"icon":"","color":"#f55385","cterm_color":"204","name":"Scss"},"cow":{"icon":"󰆚","color":"#965824","cterm_color":"130","name":"CowsayFile"},"gleam":{"icon":"","color":"#ffaff3","cterm_color":"219","name":"Gleam"},"v":{"icon":"󰍛","color":"#019833","cterm_color":"28","name":"Verilog"},"kicad_pro":{"icon":"","color":"#ffffff","cterm_color":"231","name":"KiCad"},"liquid":{"icon":"","color":"#95BF47","cterm_color":"106","name":"Liquid"},"zip":{"icon":"","color":"#eca517","cterm_color":"214","name":"Zip"}},"icons_by_window_manager":{"xmonad":{"icon":"","color":"#fd4d5d","cterm_color":"203","name":"xmonad"},"awesomewm":{"icon":"","color":"#535d6c","cterm_color":"59","name":"awesome"},"i3":{"icon":"","color":"#e8ebee","cterm_color":"255","name":"i3"},"river":{"icon":"","color":"#000000","cterm_color":"16","name":"river"},"sway":{"icon":"","color":"#68751c","cterm_color":"64","name":"Sway"},"bspwm":{"icon":"","color":"#4f4f4f","cterm_color":"239","name":"BSPWM"},"qtile":{"icon":"","color":"#ffffff","cterm_color":"231","name":"Qtile"},"dwm":{"icon":"","color":"#1177aa","cterm_color":"31","name":"dwm"},"enlightenment":{"icon":"","color":"#ffffff","cterm_color":"231","name":"Enlightenment"},"jwm":{"icon":"","color":"#0078cd","cterm_color":"32","name":"JWM"},"fluxbox":{"icon":"","color":"#555555","cterm_color":"240","name":"Fluxbox"},"hyprland":{"icon":"","color":"#00aaae","cterm_color":"37","name":"Hyprland"}},"icons_by_desktop_environment":{"lxqt":{"icon":"","color":"#0191d2","cterm_color":"32","name":"LXQt"},"plasma":{"icon":"","color":"#1b89f4","cterm_color":"33","name":"KDEPlasma"},"xfce":{"icon":"","color":"#00aadf","cterm_color":"74","name":"Xfce"},"cinnamon":{"icon":"","color":"#dc682e","cterm_color":"166","name":"Cinnamon"},"gnome":{"icon":"","color":"#ffffff","cterm_color":"231","name":"GNOME"},"budgie":{"icon":"","color":"#4e5361","cterm_color":"240","name":"Budgie"},"lxde":{"icon":"","color":"#a4a4a4","cterm_color":"248","name":"LXDE"},"mate":{"icon":"","color":"#9bda5c","cterm_color":"113","name":"MATE"}}}
+{
+  "icons_by_filename": {
+    "eslint.config.cjs": {
+      "name": "Eslintrc",
+      "cterm_color": "56",
+      "color": "#4B32C3",
+      "icon": ""
+    },
+    "hyprlandd.conf": {
+      "name": "Hyprlandd",
+      "cterm_color": "37",
+      "color": "#00AAAE",
+      "icon": ""
+    },
+    "settings.gradle": {
+      "name": "GradleSettings",
+      "cterm_color": "24",
+      "color": "#005F87",
+      "icon": ""
+    },
+    "PrusaSlicerGcodeViewer.ini": {
+      "name": "PrusaSlicer",
+      "cterm_color": "202",
+      "color": "#EC6B23",
+      "icon": ""
+    },
+    ".nvmrc": {
+      "name": "node",
+      "cterm_color": "71",
+      "color": "#5FA04E",
+      "icon": ""
+    },
+    ".gitmodules": {
+      "name": "GitModules",
+      "cterm_color": "196",
+      "color": "#F54D27",
+      "icon": ""
+    },
+    "tailwind.config.ts": {
+      "name": "TailwindConfig",
+      "cterm_color": "45",
+      "color": "#20C2E3",
+      "icon": "󱏿"
+    },
+    "bun.lockb": {
+      "name": "BunLockfile",
+      "cterm_color": "253",
+      "color": "#EADCD1",
+      "icon": ""
+    },
+    ".npmignore": {
+      "name": "NPMIgnore",
+      "cterm_color": "197",
+      "color": "#E8274B",
+      "icon": ""
+    },
+    "wrangler.jsonc": {
+      "name": "WranglerConfig",
+      "cterm_color": "208",
+      "color": "#F48120",
+      "icon": ""
+    },
+    ".prettierrc.toml": {
+      "name": "PrettierConfig",
+      "cterm_color": "33",
+      "color": "#4285F4",
+      "icon": ""
+    },
+    ".zshenv": {
+      "name": "Zshenv",
+      "cterm_color": "113",
+      "color": "#89E051",
+      "icon": ""
+    },
+    "code_of_conduct": {
+      "name": "CodeOfConduct",
+      "cterm_color": "161",
+      "color": "#E41662",
+      "icon": ""
+    },
+    ".Xauthority": {
+      "name": "Xauthority",
+      "cterm_color": "196",
+      "color": "#E54D18",
+      "icon": ""
+    },
+    "gradle-wrapper.properties": {
+      "name": "GradleWrapperProperties",
+      "cterm_color": "24",
+      "color": "#005F87",
+      "icon": ""
+    },
+    ".clang-tidy": {
+      "name": "ClangConfig",
+      "cterm_color": "66",
+      "color": "#6D8086",
+      "icon": ""
+    },
+    ".prettierrc.cjs": {
+      "name": "PrettierConfig",
+      "cterm_color": "33",
+      "color": "#4285F4",
+      "icon": ""
+    },
+    ".clangd": {
+      "name": "ClangConfig",
+      "cterm_color": "66",
+      "color": "#6D8086",
+      "icon": ""
+    },
+    "playwright.config.js": {
+      "name": "PlaywrightConfig",
+      "cterm_color": "34",
+      "color": "#2FAD33",
+      "icon": ""
+    },
+    ".Xresources": {
+      "name": "Xresources",
+      "cterm_color": "196",
+      "color": "#E54D18",
+      "icon": ""
+    },
+    "weston.ini": {
+      "name": "Weston",
+      "cterm_color": "214",
+      "color": "#FFBB01",
+      "icon": ""
+    },
+    "vite.config.mts": {
+      "name": "ViteConfig",
+      "cterm_color": "214",
+      "color": "#FFA800",
+      "icon": ""
+    },
+    "vercel.json": {
+      "name": "Vercel",
+      "cterm_color": "231",
+      "color": "#FFFFFF",
+      "icon": ""
+    },
+    "docker-compose.yaml": {
+      "name": "Dockerfile",
+      "cterm_color": "68",
+      "color": "#458EE6",
+      "icon": "󰡨"
+    },
+    "compose.yaml": {
+      "name": "Dockerfile",
+      "cterm_color": "68",
+      "color": "#458EE6",
+      "icon": "󰡨"
+    },
+    "build": {
+      "name": "BazelBuild",
+      "cterm_color": "113",
+      "color": "#89E051",
+      "icon": ""
+    },
+    ".luaurc": {
+      "name": "Luaurc",
+      "cterm_color": "75",
+      "color": "#00A2FF",
+      "icon": ""
+    },
+    "AUTHORS.txt": {
+      "name": "AUTHORS",
+      "cterm_color": "135",
+      "color": "#A172FF",
+      "icon": ""
+    },
+    "pnpm-lock.yaml": {
+      "name": "PNPMLock",
+      "cterm_color": "214",
+      "color": "#F9AD02",
+      "icon": ""
+    },
+    ".codespellrc": {
+      "name": "Codespell",
+      "cterm_color": "41",
+      "color": "#35DA60",
+      "icon": "󰓆"
+    },
+    "mix.lock": {
+      "name": "MixLock",
+      "cterm_color": "140",
+      "color": "#A074C4",
+      "icon": ""
+    },
+    "hyprlock.conf": {
+      "name": "Hyprlock",
+      "cterm_color": "37",
+      "color": "#00AAAE",
+      "icon": ""
+    },
+    "bspwmrc": {
+      "name": "BSPWM",
+      "cterm_color": "236",
+      "color": "#2F2F2F",
+      "icon": ""
+    },
+    ".prettierrc.json5": {
+      "name": "PrettierConfig",
+      "cterm_color": "33",
+      "color": "#4285F4",
+      "icon": ""
+    },
+    "license.md": {
+      "name": "License",
+      "cterm_color": "185",
+      "color": "#D0BF41",
+      "icon": ""
+    },
+    ".prettierignore": {
+      "name": "PrettierIgnore",
+      "cterm_color": "33",
+      "color": "#4285F4",
+      "icon": ""
+    },
+    "fp-info-cache": {
+      "name": "KiCadCache",
+      "cterm_color": "231",
+      "color": "#FFFFFF",
+      "icon": ""
+    },
+    "kdeglobals": {
+      "name": "KDEglobals",
+      "cterm_color": "32",
+      "color": "#1C99F3",
+      "icon": ""
+    },
+    ".zshrc": {
+      "name": "Zshrc",
+      "cterm_color": "113",
+      "color": "#89E051",
+      "icon": ""
+    },
+    "webpack": {
+      "name": "Webpack",
+      "cterm_color": "74",
+      "color": "#519ABA",
+      "icon": "󰜫"
+    },
+    "checkhealth": {
+      "name": "Checkhealth",
+      "cterm_color": "75",
+      "color": "#75B4FB",
+      "icon": "󰓙"
+    },
+    ".npmrc": {
+      "name": "NPMrc",
+      "cterm_color": "197",
+      "color": "#E8274B",
+      "icon": ""
+    },
+    "PKGBUILD": {
+      "name": "PKGBUILD",
+      "cterm_color": "67",
+      "color": "#0F94D2",
+      "icon": ""
+    },
+    ".prettierrc.yml": {
+      "name": "PrettierConfig",
+      "cterm_color": "33",
+      "color": "#4285F4",
+      "icon": ""
+    },
+    "commit_editmsg": {
+      "name": "GitCommit",
+      "cterm_color": "196",
+      "color": "#F54D27",
+      "icon": ""
+    },
+    ".gitattributes": {
+      "name": "GitAttributes",
+      "cterm_color": "196",
+      "color": "#F54D27",
+      "icon": ""
+    },
+    ".vimrc": {
+      "name": "Vimrc",
+      "cterm_color": "28",
+      "color": "#019833",
+      "icon": ""
+    },
+    "xsettingsd.conf": {
+      "name": "XSettingsdConf",
+      "cterm_color": "196",
+      "color": "#E54D18",
+      "icon": ""
+    },
+    "gruntfile.babel.js": {
+      "name": "Gruntfile",
+      "cterm_color": "166",
+      "color": "#E37933",
+      "icon": ""
+    },
+    "xorg.conf": {
+      "name": "XorgConf",
+      "cterm_color": "196",
+      "color": "#E54D18",
+      "icon": ""
+    },
+    "xmonad.hs": {
+      "name": "xmonad",
+      "cterm_color": "203",
+      "color": "#FD4D5D",
+      "icon": ""
+    },
+    "xmobarrc.hs": {
+      "name": "xmonad",
+      "cterm_color": "203",
+      "color": "#FD4D5D",
+      "icon": ""
+    },
+    "rakefile": {
+      "name": "Rakefile",
+      "cterm_color": "52",
+      "color": "#701516",
+      "icon": ""
+    },
+    "vite.config.mjs": {
+      "name": "ViteConfig",
+      "cterm_color": "214",
+      "color": "#FFA800",
+      "icon": ""
+    },
+    "xdph.conf": {
+      "name": "XDPH",
+      "cterm_color": "37",
+      "color": "#00AAAE",
+      "icon": ""
+    },
+    "wrangler.toml": {
+      "name": "WranglerConfig",
+      "cterm_color": "208",
+      "color": "#F48120",
+      "icon": ""
+    },
+    ".babelrc": {
+      "name": "Babelrc",
+      "cterm_color": "185",
+      "color": "#CBCB41",
+      "icon": ""
+    },
+    "AUTHORS": {
+      "name": "AUTHORS",
+      "cterm_color": "135",
+      "color": "#A172FF",
+      "icon": ""
+    },
+    "lxde-rc.xml": {
+      "name": "LXDEConfigFile",
+      "cterm_color": "246",
+      "color": "#909090",
+      "icon": ""
+    },
+    "vlcrc": {
+      "name": "VLC",
+      "cterm_color": "208",
+      "color": "#EE7A00",
+      "icon": "󰕼"
+    },
+    "vitest.config.ts": {
+      "name": "VitestConfig",
+      "cterm_color": "106",
+      "color": "#739B1B",
+      "icon": ""
+    },
+    "prisma.config.mts": {
+      "name": "PrismaConfig",
+      "cterm_color": "62",
+      "color": "#5A67D8",
+      "icon": ""
+    },
+    "vitest.config.mts": {
+      "name": "VitestConfig",
+      "cterm_color": "106",
+      "color": "#739B1B",
+      "icon": ""
+    },
+    ".env": {
+      "name": "Env",
+      "cterm_color": "227",
+      "color": "#FAF743",
+      "icon": ""
+    },
+    "vitest.config.mjs": {
+      "name": "VitestConfig",
+      "cterm_color": "106",
+      "color": "#739B1B",
+      "icon": ""
+    },
+    ".condarc": {
+      "name": "Conda",
+      "cterm_color": "34",
+      "color": "#43B02A",
+      "icon": ""
+    },
+    ".pre-commit-config.yaml": {
+      "name": "PreCommitConfig",
+      "cterm_color": "214",
+      "color": "#F8B424",
+      "icon": "󰛢"
+    },
+    "_vimrc": {
+      "name": "Vimrc",
+      "cterm_color": "28",
+      "color": "#019833",
+      "icon": ""
+    },
+    "vitest.config.cts": {
+      "name": "VitestConfig",
+      "cterm_color": "106",
+      "color": "#739B1B",
+      "icon": ""
+    },
+    "vitest.config.cjs": {
+      "name": "VitestConfig",
+      "cterm_color": "106",
+      "color": "#739B1B",
+      "icon": ""
+    },
+    "PrusaSlicer.ini": {
+      "name": "PrusaSlicer",
+      "cterm_color": "202",
+      "color": "#EC6B23",
+      "icon": ""
+    },
+    "vite.config.ts": {
+      "name": "ViteConfig",
+      "cterm_color": "214",
+      "color": "#FFA800",
+      "icon": ""
+    },
+    "xmobarrc": {
+      "name": "xmonad",
+      "cterm_color": "203",
+      "color": "#FD4D5D",
+      "icon": ""
+    },
+    ".editorconfig": {
+      "name": "EditorConfig",
+      "cterm_color": "255",
+      "color": "#FFF2F2",
+      "icon": ""
+    },
+    ".xinitrc": {
+      "name": "XInitrc",
+      "cterm_color": "196",
+      "color": "#E54D18",
+      "icon": ""
+    },
+    "vite.config.cts": {
+      "name": "ViteConfig",
+      "cterm_color": "214",
+      "color": "#FFA800",
+      "icon": ""
+    },
+    "prettier.config.mjs": {
+      "name": "PrettierConfig",
+      "cterm_color": "33",
+      "color": "#4285F4",
+      "icon": ""
+    },
+    "vite.config.cjs": {
+      "name": "ViteConfig",
+      "cterm_color": "214",
+      "color": "#FFA800",
+      "icon": ""
+    },
+    "ext_typoscript_setup.txt": {
+      "name": "TypoScriptSetup",
+      "cterm_color": "208",
+      "color": "#FF8700",
+      "icon": ""
+    },
+    ".prettierrc": {
+      "name": "PrettierConfig",
+      "cterm_color": "33",
+      "color": "#4285F4",
+      "icon": ""
+    },
+    "hypridle.conf": {
+      "name": "Hypridle",
+      "cterm_color": "37",
+      "color": "#00AAAE",
+      "icon": ""
+    },
+    "containerfile": {
+      "name": "Dockerfile",
+      "cterm_color": "68",
+      "color": "#458EE6",
+      "icon": "󰡨"
+    },
+    "vagrantfile": {
+      "name": "Vagrantfile",
+      "cterm_color": "27",
+      "color": "#1563FF",
+      "icon": ""
+    },
+    ".gitlab-ci.yml": {
+      "name": "GitlabCI",
+      "cterm_color": "196",
+      "color": "#E24329",
+      "icon": ""
+    },
+    ".gtkrc-2.0": {
+      "name": "GTK",
+      "cterm_color": "231",
+      "color": "#FFFFFF",
+      "icon": ""
+    },
+    "unlicense": {
+      "name": "License",
+      "cterm_color": "185",
+      "color": "#D0BF41",
+      "icon": ""
+    },
+    "tsconfig.json": {
+      "name": "TSConfig",
+      "cterm_color": "74",
+      "color": "#519ABA",
+      "icon": ""
+    },
+    "tmux.conf.local": {
+      "name": "Tmux",
+      "cterm_color": "34",
+      "color": "#14BA19",
+      "icon": ""
+    },
+    "justfile": {
+      "name": "Justfile",
+      "cterm_color": "66",
+      "color": "#6D8086",
+      "icon": ""
+    },
+    "readme.md": {
+      "name": "Readme",
+      "cterm_color": "255",
+      "color": "#EDEDED",
+      "icon": "󰂺"
+    },
+    "tailwind.config.js": {
+      "name": "TailwindConfig",
+      "cterm_color": "45",
+      "color": "#20C2E3",
+      "icon": "󱏿"
+    },
+    "license": {
+      "name": "License",
+      "cterm_color": "185",
+      "color": "#D0BF41",
+      "icon": ""
+    },
+    "sym-lib-table": {
+      "name": "KiCadSymbolTable",
+      "cterm_color": "231",
+      "color": "#FFFFFF",
+      "icon": ""
+    },
+    "sxhkdrc": {
+      "name": "BSPWM",
+      "cterm_color": "236",
+      "color": "#2F2F2F",
+      "icon": ""
+    },
+    ".gvimrc": {
+      "name": "Gvimrc",
+      "cterm_color": "28",
+      "color": "#019833",
+      "icon": ""
+    },
+    ".SRCINFO": {
+      "name": "SRCINFO",
+      "cterm_color": "67",
+      "color": "#0F94D2",
+      "icon": "󰣇"
+    },
+    "svelte.config.js": {
+      "name": "SvelteConfig",
+      "cterm_color": "196",
+      "color": "#FF3E00",
+      "icon": ""
+    },
+    "security.md": {
+      "name": "Security",
+      "cterm_color": "251",
+      "color": "#BEC4C9",
+      "icon": "󰒃"
+    },
+    "Directory.Build.targets": {
+      "name": "BuildTargets",
+      "cterm_color": "75",
+      "color": "#00A2FF",
+      "icon": ""
+    },
+    "i3status.conf": {
+      "name": "i3",
+      "cterm_color": "255",
+      "color": "#E8EBEE",
+      "icon": ""
+    },
+    "cmakelists.txt": {
+      "name": "CMakeLists",
+      "cterm_color": "254",
+      "color": "#DCE3EB",
+      "icon": ""
+    },
+    "robots.txt": {
+      "name": "RobotsTxt",
+      "cterm_color": "60",
+      "color": "#5D7096",
+      "icon": "󰚩"
+    },
+    "gulpfile.ts": {
+      "name": "Gulpfile",
+      "cterm_color": "167",
+      "color": "#CC3E44",
+      "icon": ""
+    },
+    ".dockerignore": {
+      "name": "Dockerfile",
+      "cterm_color": "68",
+      "color": "#458EE6",
+      "icon": "󰡨"
+    },
+    "rmd": {
+      "name": "Rmd",
+      "cterm_color": "74",
+      "color": "#519ABA",
+      "icon": ""
+    },
+    "nuxt.config.ts": {
+      "name": "NuxtConfig",
+      "cterm_color": "42",
+      "color": "#00C58E",
+      "icon": "󱄆"
+    },
+    "gruntfile.js": {
+      "name": "Gruntfile",
+      "cterm_color": "166",
+      "color": "#E37933",
+      "icon": ""
+    },
+    "prisma.config.ts": {
+      "name": "PrismaConfig",
+      "cterm_color": "62",
+      "color": "#5A67D8",
+      "icon": ""
+    },
+    "cantorrc": {
+      "name": "Cantorrc",
+      "cterm_color": "32",
+      "color": "#1C99F3",
+      "icon": ""
+    },
+    "tailwind.config.mjs": {
+      "name": "TailwindConfig",
+      "cterm_color": "45",
+      "color": "#20C2E3",
+      "icon": "󱏿"
+    },
+    "hyprsunset.conf": {
+      "name": "Hyprsunset",
+      "cterm_color": "37",
+      "color": "#00AAAE",
+      "icon": ""
+    },
+    "readme": {
+      "name": "Readme",
+      "cterm_color": "255",
+      "color": "#EDEDED",
+      "icon": "󰂺"
+    },
+    "py.typed": {
+      "name": "Py.typed",
+      "cterm_color": "214",
+      "color": "#FFBC03",
+      "icon": ""
+    },
+    "procfile": {
+      "name": "Procfile",
+      "cterm_color": "140",
+      "color": "#A074C4",
+      "icon": ""
+    },
+    "eslint.config.ts": {
+      "name": "Eslintrc",
+      "cterm_color": "56",
+      "color": "#4B32C3",
+      "icon": ""
+    },
+    "ionic.config.json": {
+      "name": "Ionic",
+      "cterm_color": "33",
+      "color": "#4F8FF7",
+      "icon": ""
+    },
+    "prettier.config.ts": {
+      "name": "PrettierConfig",
+      "cterm_color": "33",
+      "color": "#4285F4",
+      "icon": ""
+    },
+    "index.theme": {
+      "name": "IndexTheme",
+      "cterm_color": "35",
+      "color": "#2DB96F",
+      "icon": ""
+    },
+    "prettier.config.cjs": {
+      "name": "PrettierConfig",
+      "cterm_color": "33",
+      "color": "#4285F4",
+      "icon": ""
+    },
+    "pom.xml": {
+      "name": "Maven",
+      "cterm_color": "52",
+      "color": "#7A0D21",
+      "icon": ""
+    },
+    "gruntfile.ts": {
+      "name": "Gruntfile",
+      "cterm_color": "166",
+      "color": "#E37933",
+      "icon": ""
+    },
+    "package-lock.json": {
+      "name": "PackageLockJson",
+      "cterm_color": "52",
+      "color": "#7A0D21",
+      "icon": ""
+    },
+    "gtkrc": {
+      "name": "GTK",
+      "cterm_color": "231",
+      "color": "#FFFFFF",
+      "icon": ""
+    },
+    ".xsession": {
+      "name": "Xsession",
+      "cterm_color": "196",
+      "color": "#E54D18",
+      "icon": ""
+    },
+    "Directory.Packages.props": {
+      "name": "PackagesProps",
+      "cterm_color": "75",
+      "color": "#00A2FF",
+      "icon": ""
+    },
+    "brewfile": {
+      "name": "Brewfile",
+      "cterm_color": "52",
+      "color": "#701516",
+      "icon": ""
+    },
+    "playwright.config.mts": {
+      "name": "PlaywrightConfig",
+      "cterm_color": "34",
+      "color": "#2FAD33",
+      "icon": ""
+    },
+    "bun.lock": {
+      "name": "BunLockfile",
+      "cterm_color": "253",
+      "color": "#EADCD1",
+      "icon": ""
+    },
+    ".justfile": {
+      "name": "Justfile",
+      "cterm_color": "66",
+      "color": "#6D8086",
+      "icon": ""
+    },
+    "playwright.config.mjs": {
+      "name": "PlaywrightConfig",
+      "cterm_color": "34",
+      "color": "#2FAD33",
+      "icon": ""
+    },
+    ".prettierrc.js": {
+      "name": "PrettierConfig",
+      "cterm_color": "33",
+      "color": "#4285F4",
+      "icon": ""
+    },
+    ".gitconfig": {
+      "name": "GitConfig",
+      "cterm_color": "196",
+      "color": "#F54D27",
+      "icon": ""
+    },
+    "kalgebrarc": {
+      "name": "Kalgebrarc",
+      "cterm_color": "32",
+      "color": "#1C99F3",
+      "icon": ""
+    },
+    "nuxt.config.mjs": {
+      "name": "NuxtConfig",
+      "cterm_color": "42",
+      "color": "#00C58E",
+      "icon": "󱄆"
+    },
+    "platformio.ini": {
+      "name": "Platformio",
+      "cterm_color": "208",
+      "color": "#F6822B",
+      "icon": ""
+    },
+    ".bash_profile": {
+      "name": "BashProfile",
+      "cterm_color": "113",
+      "color": "#89E051",
+      "icon": ""
+    },
+    "build.gradle": {
+      "name": "GradleBuildScript",
+      "cterm_color": "24",
+      "color": "#005F87",
+      "icon": ""
+    },
+    "package.json": {
+      "name": "PackageJson",
+      "cterm_color": "197",
+      "color": "#E8274B",
+      "icon": ""
+    },
+    "playwright.config.ts": {
+      "name": "PlaywrightConfig",
+      "cterm_color": "34",
+      "color": "#2FAD33",
+      "icon": ""
+    },
+    "next.config.js": {
+      "name": "NextConfigJs",
+      "cterm_color": "231",
+      "color": "#FFFFFF",
+      "icon": ""
+    },
+    "nuxt.config.js": {
+      "name": "NuxtConfig",
+      "cterm_color": "42",
+      "color": "#00C58E",
+      "icon": "󱄆"
+    },
+    ".git-blame-ignore-revs": {
+      "name": "GitBlameIgnore",
+      "cterm_color": "196",
+      "color": "#F54D27",
+      "icon": ""
+    },
+    "node_modules": {
+      "name": "NodeModules",
+      "cterm_color": "197",
+      "color": "#E8274B",
+      "icon": ""
+    },
+    "next.config.ts": {
+      "name": "NextConfigTs",
+      "cterm_color": "231",
+      "color": "#FFFFFF",
+      "icon": ""
+    },
+    "go.mod": {
+      "name": "GoMod",
+      "cterm_color": "38",
+      "color": "#00ADD8",
+      "icon": ""
+    },
+    ".settings.json": {
+      "name": "SettingsJson",
+      "cterm_color": "98",
+      "color": "#854CC7",
+      "icon": ""
+    },
+    "favicon.ico": {
+      "name": "Favicon",
+      "cterm_color": "185",
+      "color": "#CBCB41",
+      "icon": ""
+    },
+    "kdenliverc": {
+      "name": "Kdenliverc",
+      "cterm_color": "110",
+      "color": "#83B8F2",
+      "icon": ""
+    },
+    "makefile": {
+      "name": "Makefile",
+      "cterm_color": "66",
+      "color": "#6D8086",
+      "icon": ""
+    },
+    "prettier.config.js": {
+      "name": "PrettierConfig",
+      "cterm_color": "33",
+      "color": "#4285F4",
+      "icon": ""
+    },
+    "kritarc": {
+      "name": "Kritarc",
+      "cterm_color": "201",
+      "color": "#F245FB",
+      "icon": ""
+    },
+    "kritadisplayrc": {
+      "name": "Kritadisplayrc",
+      "cterm_color": "201",
+      "color": "#F245FB",
+      "icon": ""
+    },
+    "mpv.conf": {
+      "name": "Mpv",
+      "cterm_color": "53",
+      "color": "#3B1342",
+      "icon": ""
+    },
+    "kdenlive-layoutsrc": {
+      "name": "KdenliveLayoutsrc",
+      "cterm_color": "110",
+      "color": "#83B8F2",
+      "icon": ""
+    },
+    "playwright.config.cjs": {
+      "name": "PlaywrightConfig",
+      "cterm_color": "34",
+      "color": "#2FAD33",
+      "icon": ""
+    },
+    "tmux.conf": {
+      "name": "Tmux",
+      "cterm_color": "34",
+      "color": "#14BA19",
+      "icon": ""
+    },
+    ".zprofile": {
+      "name": "Zshprofile",
+      "cterm_color": "113",
+      "color": "#89E051",
+      "icon": ""
+    },
+    "lxqt.conf": {
+      "name": "LXQtConfigFile",
+      "cterm_color": "32",
+      "color": "#0192D3",
+      "icon": ""
+    },
+    ".mailmap": {
+      "name": "Mailmap",
+      "cterm_color": "196",
+      "color": "#F54D27",
+      "icon": "󰊢"
+    },
+    "security": {
+      "name": "Security",
+      "cterm_color": "251",
+      "color": "#BEC4C9",
+      "icon": "󰒃"
+    },
+    "go.sum": {
+      "name": "GoSum",
+      "cterm_color": "38",
+      "color": "#00ADD8",
+      "icon": ""
+    },
+    ".prettierrc.json": {
+      "name": "PrettierConfig",
+      "cterm_color": "33",
+      "color": "#4285F4",
+      "icon": ""
+    },
+    "config": {
+      "name": "Config",
+      "cterm_color": "66",
+      "color": "#6D8086",
+      "icon": ""
+    },
+    "FreeCAD.conf": {
+      "name": "FreeCADConfig",
+      "cterm_color": "160",
+      "color": "#CB333B",
+      "icon": ""
+    },
+    "i3blocks.conf": {
+      "name": "i3",
+      "cterm_color": "255",
+      "color": "#E8EBEE",
+      "icon": ""
+    },
+    "commitlint.config.js": {
+      "name": "CommitlintConfig",
+      "cterm_color": "30",
+      "color": "#2B9689",
+      "icon": "󰜘"
+    },
+    "i18n.config.js": {
+      "name": "I18nConfig",
+      "cterm_color": "104",
+      "color": "#7986CB",
+      "icon": "󰗊"
+    },
+    ".pnpmfile.cjs": {
+      "name": "PNPMFile",
+      "cterm_color": "214",
+      "color": "#F9AD02",
+      "icon": ""
+    },
+    ".luacheckrc": {
+      "name": "Luacheckrc",
+      "cterm_color": "75",
+      "color": "#00A2FF",
+      "icon": ""
+    },
+    "vitest.config.js": {
+      "name": "VitestConfig",
+      "cterm_color": "106",
+      "color": "#739B1B",
+      "icon": ""
+    },
+    "code_of_conduct.md": {
+      "name": "CodeOfConduct",
+      "cterm_color": "161",
+      "color": "#E41662",
+      "icon": ""
+    },
+    "hyprland.conf": {
+      "name": "Hyprland",
+      "cterm_color": "37",
+      "color": "#00AAAE",
+      "icon": ""
+    },
+    "dune": {
+      "name": "Dunefile",
+      "cterm_color": "124",
+      "color": "#8a421e",
+      "icon": ""
+    },
+    "_gvimrc": {
+      "name": "Gvimrc",
+      "cterm_color": "28",
+      "color": "#019833",
+      "icon": ""
+    },
+    "Directory.Build.props": {
+      "name": "BuildProps",
+      "cterm_color": "75",
+      "color": "#00A2FF",
+      "icon": ""
+    },
+    "gradlew": {
+      "name": "GradleWrapperScript",
+      "cterm_color": "24",
+      "color": "#005F87",
+      "icon": ""
+    },
+    "gulpfile.coffee": {
+      "name": "Gulpfile",
+      "cterm_color": "167",
+      "color": "#CC3E44",
+      "icon": ""
+    },
+    "gulpfile.babel.js": {
+      "name": "Gulpfile",
+      "cterm_color": "167",
+      "color": "#CC3E44",
+      "icon": ""
+    },
+    "pnpm-workspace.yaml": {
+      "name": "PNPMWorkspace",
+      "cterm_color": "214",
+      "color": "#F9AD02",
+      "icon": ""
+    },
+    "eslint.config.js": {
+      "name": "Eslintrc",
+      "cterm_color": "56",
+      "color": "#4B32C3",
+      "icon": ""
+    },
+    "dockerfile": {
+      "name": "Dockerfile",
+      "cterm_color": "68",
+      "color": "#458EE6",
+      "icon": "󰡨"
+    },
+    "groovy": {
+      "name": "Groovy",
+      "cterm_color": "24",
+      "color": "#4A687C",
+      "icon": ""
+    },
+    ".gitignore": {
+      "name": "GitIgnore",
+      "cterm_color": "196",
+      "color": "#F54D27",
+      "icon": ""
+    },
+    ".bashrc": {
+      "name": "Bashrc",
+      "cterm_color": "113",
+      "color": "#89E051",
+      "icon": ""
+    },
+    "gulpfile.js": {
+      "name": "Gulpfile",
+      "cterm_color": "167",
+      "color": "#CC3E44",
+      "icon": ""
+    },
+    "gruntfile.coffee": {
+      "name": "Gruntfile",
+      "cterm_color": "166",
+      "color": "#E37933",
+      "icon": ""
+    },
+    "go.work": {
+      "name": "GoWork",
+      "cterm_color": "38",
+      "color": "#00ADD8",
+      "icon": ""
+    },
+    "next.config.cjs": {
+      "name": "NextConfigCjs",
+      "cterm_color": "231",
+      "color": "#FFFFFF",
+      "icon": ""
+    },
+    ".eslintrc": {
+      "name": "Eslintrc",
+      "cterm_color": "56",
+      "color": "#4B32C3",
+      "icon": ""
+    },
+    "commitlint.config.ts": {
+      "name": "CommitlintConfig",
+      "cterm_color": "30",
+      "color": "#2B9689",
+      "icon": "󰜘"
+    },
+    "compose.yml": {
+      "name": "Dockerfile",
+      "cterm_color": "68",
+      "color": "#458EE6",
+      "icon": "󰡨"
+    },
+    "eslint.config.mjs": {
+      "name": "Eslintrc",
+      "cterm_color": "56",
+      "color": "#4B32C3",
+      "icon": ""
+    },
+    "gradle.properties": {
+      "name": "GradleProperties",
+      "cterm_color": "24",
+      "color": "#005F87",
+      "icon": ""
+    },
+    ".clang-format": {
+      "name": "ClangConfig",
+      "cterm_color": "66",
+      "color": "#6D8086",
+      "icon": ""
+    },
+    "docker-compose.yml": {
+      "name": "Dockerfile",
+      "cterm_color": "68",
+      "color": "#458EE6",
+      "icon": "󰡨"
+    },
+    "copying.lesser": {
+      "name": "License",
+      "cterm_color": "185",
+      "color": "#CBCB41",
+      "icon": ""
+    },
+    "copying": {
+      "name": "License",
+      "cterm_color": "185",
+      "color": "#CBCB41",
+      "icon": ""
+    },
+    "fp-lib-table": {
+      "name": "KiCadFootprintTable",
+      "cterm_color": "231",
+      "color": "#FFFFFF",
+      "icon": ""
+    },
+    ".nuxtrc": {
+      "name": "NuxtConfig",
+      "cterm_color": "42",
+      "color": "#00C58E",
+      "icon": "󱄆"
+    },
+    "gnumakefile": {
+      "name": "Makefile",
+      "cterm_color": "66",
+      "color": "#6D8086",
+      "icon": ""
+    },
+    "i18n.config.ts": {
+      "name": "I18nConfig",
+      "cterm_color": "104",
+      "color": "#7986CB",
+      "icon": "󰗊"
+    },
+    ".pylintrc": {
+      "name": "PyLintConfig",
+      "cterm_color": "66",
+      "color": "#6D8086",
+      "icon": ""
+    },
+    "build.zig.zon": {
+      "name": "ZigObjectNotation",
+      "cterm_color": "172",
+      "color": "#F69A1B",
+      "icon": ""
+    },
+    ".prettierrc.mjs": {
+      "name": "PrettierConfig",
+      "cterm_color": "33",
+      "color": "#4285F4",
+      "icon": ""
+    },
+    "hyprpaper.conf": {
+      "name": "Hyprpaper",
+      "cterm_color": "37",
+      "color": "#00AAAE",
+      "icon": ""
+    },
+    "QtProject.conf": {
+      "name": "Qt",
+      "cterm_color": "77",
+      "color": "#40CD52",
+      "icon": ""
+    },
+    ".ds_store": {
+      "name": "DsStore",
+      "cterm_color": "239",
+      "color": "#41535B",
+      "icon": ""
+    },
+    "Jenkinsfile": {
+      "name": "Jenkins",
+      "cterm_color": "160",
+      "color": "#D33833",
+      "icon": ""
+    },
+    "Gemfile": {
+      "name": "Gemfile",
+      "cterm_color": "52",
+      "color": "#701516",
+      "icon": ""
+    },
+    "workspace": {
+      "name": "BazelWorkspace",
+      "cterm_color": "113",
+      "color": "#89E051",
+      "icon": ""
+    },
+    "vite.config.js": {
+      "name": "ViteConfig",
+      "cterm_color": "214",
+      "color": "#FFA800",
+      "icon": ""
+    },
+    ".nanorc": {
+      "name": "Nano",
+      "cterm_color": "54",
+      "color": "#440077",
+      "icon": ""
+    },
+    ".prettierrc.yaml": {
+      "name": "PrettierConfig",
+      "cterm_color": "33",
+      "color": "#4285F4",
+      "icon": ""
+    },
+    "bitbucket-pipelines.yml": {
+      "name": "BitbucketPipelinesConfig",
+      "cterm_color": "33",
+      "color": "#2684FF",
+      "icon": "󰂨"
+    },
+    "playwright.config.cts": {
+      "name": "PlaywrightConfig",
+      "cterm_color": "34",
+      "color": "#2FAD33",
+      "icon": ""
+    },
+    "nuxt.config.cjs": {
+      "name": "NuxtConfig",
+      "cterm_color": "42",
+      "color": "#00C58E",
+      "icon": "󱄆"
+    },
+    ".eslintignore": {
+      "name": "EslintIgnore",
+      "cterm_color": "56",
+      "color": "#4B32C3",
+      "icon": ""
+    }
+  },
+  "icons_by_file_extension": {
+    "txt": {
+      "name": "Txt",
+      "icon": "󰈙",
+      "cterm_color": "113",
+      "color": "#89E051"
+    },
+    "kicad_dru": {
+      "name": "KiCad",
+      "icon": "",
+      "cterm_color": "231",
+      "color": "#FFFFFF"
+    },
+    "cbl": {
+      "name": "Cobol",
+      "icon": "",
+      "cterm_color": "25",
+      "color": "#005CA5"
+    },
+    "mpp": {
+      "name": "Mpp",
+      "icon": "",
+      "cterm_color": "74",
+      "color": "#519ABA"
+    },
+    "cljc": {
+      "name": "ClojureC",
+      "icon": "",
+      "cterm_color": "113",
+      "color": "#8DC149"
+    },
+    "jsonl": {
+      "name": "Jsonl",
+      "icon": "",
+      "cterm_color": "185",
+      "color": "#CBCB41"
+    },
+    "exs": {
+      "name": "Exs",
+      "icon": "",
+      "cterm_color": "140",
+      "color": "#A074C4"
+    },
+    "liquid": {
+      "name": "Liquid",
+      "icon": "",
+      "cterm_color": "106",
+      "color": "#95BF47"
+    },
+    "vue": {
+      "name": "Vue",
+      "icon": "",
+      "cterm_color": "113",
+      "color": "#8DC149"
+    },
+    "hrl": {
+      "name": "Hrl",
+      "icon": "",
+      "cterm_color": "163",
+      "color": "#B83998"
+    },
+    "app": {
+      "name": "App",
+      "icon": "",
+      "cterm_color": "124",
+      "color": "#9F0500"
+    },
+    "stories.vue": {
+      "name": "StorybookVue",
+      "icon": "",
+      "cterm_color": "204",
+      "color": "#FF4785"
+    },
+    "avi": {
+      "name": "AudioVideoInterleave",
+      "icon": "",
+      "cterm_color": "208",
+      "color": "#FD971F"
+    },
+    "makefile": {
+      "name": "Makefile",
+      "icon": "",
+      "cterm_color": "66",
+      "color": "#6D8086"
+    },
+    "hpp": {
+      "name": "Hpp",
+      "icon": "",
+      "cterm_color": "140",
+      "color": "#A074C4"
+    },
+    "ino": {
+      "name": "Arduino",
+      "icon": "",
+      "cterm_color": "73",
+      "color": "#56B6C2"
+    },
+    "drl": {
+      "name": "Drools",
+      "icon": "",
+      "cterm_color": "217",
+      "color": "#FFAFAF"
+    },
+    "epp": {
+      "name": "Epp",
+      "icon": "",
+      "cterm_color": "214",
+      "color": "#FFA61A"
+    },
+    "gv": {
+      "name": "Gv",
+      "icon": "󱁉",
+      "cterm_color": "24",
+      "color": "#30638E"
+    },
+    "cpp": {
+      "name": "Cpp",
+      "icon": "",
+      "cterm_color": "74",
+      "color": "#519ABA"
+    },
+    "stories.jsx": {
+      "name": "StorybookJsx",
+      "icon": "",
+      "cterm_color": "204",
+      "color": "#FF4785"
+    },
+    "git": {
+      "name": "GitLogo",
+      "icon": "",
+      "cterm_color": "196",
+      "color": "#F14C28"
+    },
+    "tgz": {
+      "name": "Tgz",
+      "icon": "",
+      "cterm_color": "214",
+      "color": "#ECA517"
+    },
+    "ical": {
+      "name": "Ical",
+      "icon": "",
+      "cterm_color": "18",
+      "color": "#2B2E83"
+    },
+    "R": {
+      "name": "R",
+      "icon": "󰟔",
+      "cterm_color": "25",
+      "color": "#2266BA"
+    },
+    "ogv": {
+      "name": "OggVideo",
+      "icon": "",
+      "cterm_color": "208",
+      "color": "#FD971F"
+    },
+    "strings": {
+      "name": "Localization",
+      "icon": "",
+      "cterm_color": "31",
+      "color": "#2596BE"
+    },
+    "bmp": {
+      "name": "Bmp",
+      "icon": "",
+      "cterm_color": "140",
+      "color": "#A074C4"
+    },
+    "styl": {
+      "name": "Styl",
+      "icon": "",
+      "cterm_color": "113",
+      "color": "#8DC149"
+    },
+    "ex": {
+      "name": "Ex",
+      "icon": "",
+      "cterm_color": "140",
+      "color": "#A074C4"
+    },
+    "d": {
+      "name": "D",
+      "icon": "",
+      "cterm_color": "124",
+      "color": "#B03931"
+    },
+    "c": {
+      "name": "C",
+      "icon": "",
+      "cterm_color": "111",
+      "color": "#599EFF"
+    },
+    "huff": {
+      "name": "Huff",
+      "icon": "󰡘",
+      "cterm_color": "56",
+      "color": "#4242C7"
+    },
+    "pyw": {
+      "name": "Pyw",
+      "icon": "",
+      "cterm_color": "39",
+      "color": "#5AA7E4"
+    },
+    "a": {
+      "name": "StaticLibraryArchive",
+      "icon": "",
+      "cterm_color": "253",
+      "color": "#DCDDD6"
+    },
+    "bicep": {
+      "name": "Bicep",
+      "icon": "",
+      "cterm_color": "74",
+      "color": "#519ABA"
+    },
+    "download": {
+      "name": "Download",
+      "icon": "",
+      "cterm_color": "43",
+      "color": "#44CDA8"
+    },
+    "pyo": {
+      "name": "Pyo",
+      "icon": "",
+      "cterm_color": "222",
+      "color": "#FFE291"
+    },
+    "cu": {
+      "name": "cuda",
+      "icon": "",
+      "cterm_color": "113",
+      "color": "#89E051"
+    },
+    "h": {
+      "name": "H",
+      "icon": "",
+      "cterm_color": "140",
+      "color": "#A074C4"
+    },
+    "blend": {
+      "name": "Blender",
+      "icon": "󰂫",
+      "cterm_color": "208",
+      "color": "#EA7600"
+    },
+    "zip": {
+      "name": "Zip",
+      "icon": "",
+      "cterm_color": "214",
+      "color": "#ECA517"
+    },
+    "unity": {
+      "name": "Unity",
+      "icon": "",
+      "cterm_color": "231",
+      "color": "#FDFDFD"
+    },
+    "zig": {
+      "name": "Zig",
+      "icon": "",
+      "cterm_color": "172",
+      "color": "#F69A1B"
+    },
+    "yml": {
+      "name": "Yml",
+      "icon": "",
+      "cterm_color": "160",
+      "color": "#D70000"
+    },
+    "m": {
+      "name": "ObjectiveC",
+      "icon": "",
+      "cterm_color": "111",
+      "color": "#599EFF"
+    },
+    "xz": {
+      "name": "Xz",
+      "icon": "",
+      "cterm_color": "214",
+      "color": "#ECA517"
+    },
+    "ifc": {
+      "name": "Ifc",
+      "icon": "󰻫",
+      "cterm_color": "101",
+      "color": "#839463"
+    },
+    "xul": {
+      "name": "Xul",
+      "icon": "",
+      "cterm_color": "166",
+      "color": "#E37933"
+    },
+    "ebuild": {
+      "name": "GentooBuild",
+      "icon": "",
+      "cterm_color": "60",
+      "color": "#4C416E"
+    },
+    "f#": {
+      "name": "Fsharp",
+      "icon": "",
+      "cterm_color": "74",
+      "color": "#519ABA"
+    },
+    "fish": {
+      "name": "Fish",
+      "icon": "",
+      "cterm_color": "240",
+      "color": "#4D5A5E"
+    },
+    "scm": {
+      "name": "Scheme",
+      "icon": "󰘧",
+      "cterm_color": "255",
+      "color": "#EEEEEE"
+    },
+    "tbc": {
+      "name": "Tcl",
+      "icon": "󰛓",
+      "cterm_color": "25",
+      "color": "#1E5CB3"
+    },
+    "slim": {
+      "name": "Slim",
+      "icon": "",
+      "cterm_color": "196",
+      "color": "#E34C26"
+    },
+    "pyi": {
+      "name": "Pyi",
+      "icon": "",
+      "cterm_color": "214",
+      "color": "#FFBC03"
+    },
+    "xpi": {
+      "name": "Xpi",
+      "icon": "",
+      "cterm_color": "196",
+      "color": "#FF1B01"
+    },
+    "astro": {
+      "name": "Astro",
+      "icon": "",
+      "cterm_color": "197",
+      "color": "#E23F67"
+    },
+    "lrc": {
+      "name": "Lrc",
+      "icon": "󰨖",
+      "cterm_color": "214",
+      "color": "#FFB713"
+    },
+    "vala": {
+      "name": "Vala",
+      "icon": "",
+      "cterm_color": "91",
+      "color": "#7B3DB9"
+    },
+    "tmpl": {
+      "name": "Template",
+      "icon": "",
+      "cterm_color": "178",
+      "color": "#DBBD30"
+    },
+    "xm": {
+      "name": "Logos",
+      "icon": "",
+      "cterm_color": "74",
+      "color": "#519ABA"
+    },
+    "f90": {
+      "name": "Fortran",
+      "icon": "󱈚",
+      "cterm_color": "97",
+      "color": "#734F96"
+    },
+    "fods": {
+      "name": "LibreOfficeCalc",
+      "icon": "",
+      "cterm_color": "119",
+      "color": "#78FC4E"
+    },
+    "elf": {
+      "name": "Elf",
+      "icon": "",
+      "cterm_color": "124",
+      "color": "#9F0500"
+    },
+    "pcm": {
+      "name": "PulseCodeModulation",
+      "icon": "",
+      "cterm_color": "24",
+      "color": "#0075AA"
+    },
+    "kdenlivetitle": {
+      "name": "Kdenlive",
+      "icon": "",
+      "cterm_color": "110",
+      "color": "#83B8F2"
+    },
+    "xcstrings": {
+      "name": "XcLocalization",
+      "icon": "",
+      "cterm_color": "31",
+      "color": "#2596BE"
+    },
+    "ccm": {
+      "name": "CPlusPlusModule",
+      "icon": "",
+      "cterm_color": "204",
+      "color": "#F34B7D"
+    },
+    "aac": {
+      "name": "AdvancedAudioCoding",
+      "icon": "",
+      "cterm_color": "39",
+      "color": "#00AFFF"
+    },
+    "kicad_prl": {
+      "name": "KiCad",
+      "icon": "",
+      "cterm_color": "231",
+      "color": "#FFFFFF"
+    },
+    "xcplayground": {
+      "name": "XcPlayground",
+      "icon": "",
+      "cterm_color": "166",
+      "color": "#E37933"
+    },
+    "xcf": {
+      "name": "GIMP",
+      "icon": "",
+      "cterm_color": "240",
+      "color": "#635B46"
+    },
+    "cfc": {
+      "name": "ColdFusionScript",
+      "icon": "",
+      "cterm_color": "38",
+      "color": "#01A4BA"
+    },
+    "less": {
+      "name": "Less",
+      "icon": "",
+      "cterm_color": "54",
+      "color": "#563D7C"
+    },
+    "hh": {
+      "name": "Hh",
+      "icon": "",
+      "cterm_color": "140",
+      "color": "#A074C4"
+    },
+    "xaml": {
+      "name": "Xaml",
+      "icon": "󰙳",
+      "cterm_color": "56",
+      "color": "#512BD4"
+    },
+    "hx": {
+      "name": "Haxe",
+      "icon": "",
+      "cterm_color": "208",
+      "color": "#EA8220"
+    },
+    "wvc": {
+      "name": "WavPackCorrection",
+      "icon": "",
+      "cterm_color": "39",
+      "color": "#00AFFF"
+    },
+    "pck": {
+      "name": "PackedResource",
+      "icon": "",
+      "cterm_color": "66",
+      "color": "#6D8086"
+    },
+    "eot": {
+      "name": "EmbeddedOpenTypeFont",
+      "icon": "",
+      "cterm_color": "255",
+      "color": "#ECECEC"
+    },
+    "docx": {
+      "name": "Docx",
+      "icon": "󰈬",
+      "cterm_color": "26",
+      "color": "#185ABD"
+    },
+    "sqlite3": {
+      "name": "Sql",
+      "icon": "",
+      "cterm_color": "188",
+      "color": "#DAD8D8"
+    },
+    "wv": {
+      "name": "WavPack",
+      "icon": "",
+      "cterm_color": "39",
+      "color": "#00AFFF"
+    },
+    "cxxm": {
+      "name": "Cxxm",
+      "icon": "",
+      "cterm_color": "74",
+      "color": "#519ABA"
+    },
+    "dot": {
+      "name": "Dot",
+      "icon": "󱁉",
+      "cterm_color": "24",
+      "color": "#30638E"
+    },
+    "tsconfig": {
+      "name": "TypoScriptConfig",
+      "icon": "",
+      "cterm_color": "208",
+      "color": "#FF8700"
+    },
+    "wrz": {
+      "name": "VRML",
+      "icon": "󰆧",
+      "cterm_color": "102",
+      "color": "#888888"
+    },
+    "stl": {
+      "name": "3DObjectFile",
+      "icon": "󰆧",
+      "cterm_color": "102",
+      "color": "#888888"
+    },
+    "wrl": {
+      "name": "VRML",
+      "icon": "󰆧",
+      "cterm_color": "102",
+      "color": "#888888"
+    },
+    "gz": {
+      "name": "Gz",
+      "icon": "",
+      "cterm_color": "214",
+      "color": "#ECA517"
+    },
+    "woff2": {
+      "name": "WebOpenFontFormat",
+      "icon": "",
+      "cterm_color": "255",
+      "color": "#ECECEC"
+    },
+    "stories.mjs": {
+      "name": "StorybookMjs",
+      "icon": "",
+      "cterm_color": "204",
+      "color": "#FF4785"
+    },
+    "fctb": {
+      "name": "FreeCAD",
+      "icon": "",
+      "cterm_color": "160",
+      "color": "#CB333B"
+    },
+    "asm": {
+      "name": "ASM",
+      "icon": "",
+      "cterm_color": "31",
+      "color": "#0091BD"
+    },
+    "ogx": {
+      "name": "OggMultiplex",
+      "icon": "",
+      "cterm_color": "208",
+      "color": "#FD971F"
+    },
+    "wmv": {
+      "name": "WindowsMediaVideo",
+      "icon": "",
+      "cterm_color": "208",
+      "color": "#FD971F"
+    },
+    "terminal": {
+      "name": "Terminal",
+      "icon": "",
+      "cterm_color": "34",
+      "color": "#31B53E"
+    },
+    "webpack": {
+      "name": "Webpack",
+      "icon": "󰜫",
+      "cterm_color": "74",
+      "color": "#519ABA"
+    },
+    "v": {
+      "name": "Verilog",
+      "icon": "󰍛",
+      "cterm_color": "28",
+      "color": "#019833"
+    },
+    "webmanifest": {
+      "name": "Webmanifest",
+      "icon": "",
+      "cterm_color": "185",
+      "color": "#F1E05A"
+    },
+    "webm": {
+      "name": "Webm",
+      "icon": "",
+      "cterm_color": "208",
+      "color": "#FD971F"
+    },
+    "wav": {
+      "name": "WaveformAudioFile",
+      "icon": "",
+      "cterm_color": "39",
+      "color": "#00AFFF"
+    },
+    "wasm": {
+      "name": "Wasm",
+      "icon": "",
+      "cterm_color": "62",
+      "color": "#5C4CDB"
+    },
+    "ape": {
+      "name": "MonkeysAudio",
+      "icon": "",
+      "cterm_color": "39",
+      "color": "#00AFFF"
+    },
+    "pot": {
+      "name": "Localization",
+      "icon": "",
+      "cterm_color": "31",
+      "color": "#2596BE"
+    },
+    "skp": {
+      "name": "SketchUp",
+      "icon": "󰻫",
+      "cterm_color": "101",
+      "color": "#839463"
+    },
+    "license": {
+      "name": "License",
+      "icon": "",
+      "cterm_color": "185",
+      "color": "#CBCB41"
+    },
+    "vsix": {
+      "name": "Vsix",
+      "icon": "",
+      "cterm_color": "98",
+      "color": "#854CC7"
+    },
+    "vsh": {
+      "name": "Vlang",
+      "icon": "",
+      "cterm_color": "67",
+      "color": "#5D87BF"
+    },
+    "vim": {
+      "name": "Vim",
+      "icon": "",
+      "cterm_color": "28",
+      "color": "#019833"
+    },
+    "ai": {
+      "name": "Ai",
+      "icon": "",
+      "cterm_color": "185",
+      "color": "#CBCB41"
+    },
+    "fctl": {
+      "name": "FreeCAD",
+      "icon": "",
+      "cterm_color": "160",
+      "color": "#CB333B"
+    },
+    "markdown": {
+      "name": "Markdown",
+      "icon": "",
+      "cterm_color": "253",
+      "color": "#DDDDDD"
+    },
+    "cts": {
+      "name": "Cts",
+      "icon": "",
+      "cterm_color": "74",
+      "color": "#519ABA"
+    },
+    "config.ru": {
+      "name": "ConfigRu",
+      "icon": "",
+      "cterm_color": "52",
+      "color": "#701516"
+    },
+    "stp": {
+      "name": "Stp",
+      "icon": "󰻫",
+      "cterm_color": "101",
+      "color": "#839463"
+    },
+    "feature": {
+      "name": "Feature",
+      "icon": "",
+      "cterm_color": "34",
+      "color": "#00A818"
+    },
+    "cfg": {
+      "name": "Configuration",
+      "icon": "",
+      "cterm_color": "66",
+      "color": "#6D8086"
+    },
+    "mov": {
+      "name": "MOV",
+      "icon": "",
+      "cterm_color": "208",
+      "color": "#FD971F"
+    },
+    "ads": {
+      "name": "AdaSpecification",
+      "icon": "",
+      "cterm_color": "140",
+      "color": "#A074C4"
+    },
+    "vh": {
+      "name": "Verilog",
+      "icon": "󰍛",
+      "cterm_color": "28",
+      "color": "#019833"
+    },
+    "blp": {
+      "name": "Blueprint",
+      "icon": "󰺾",
+      "cterm_color": "68",
+      "color": "#5796E2"
+    },
+    "bz": {
+      "name": "Bz",
+      "icon": "",
+      "cterm_color": "214",
+      "color": "#ECA517"
+    },
+    "lff": {
+      "name": "LibrecadFontFile",
+      "icon": "",
+      "cterm_color": "255",
+      "color": "#ECECEC"
+    },
+    "torrent": {
+      "name": "Torrent",
+      "icon": "",
+      "cterm_color": "43",
+      "color": "#44CDA8"
+    },
+    "rmd": {
+      "name": "Rmd",
+      "icon": "",
+      "cterm_color": "74",
+      "color": "#519ABA"
+    },
+    "mkv": {
+      "name": "Mkv",
+      "icon": "",
+      "cterm_color": "208",
+      "color": "#FD971F"
+    },
+    "webp": {
+      "name": "Webp",
+      "icon": "",
+      "cterm_color": "140",
+      "color": "#A074C4"
+    },
+    "bin": {
+      "name": "Bin",
+      "icon": "",
+      "cterm_color": "124",
+      "color": "#9F0500"
+    },
+    "svg": {
+      "name": "Svg",
+      "icon": "󰜡",
+      "cterm_color": "214",
+      "color": "#FFB13B"
+    },
+    "hxx": {
+      "name": "Hxx",
+      "icon": "",
+      "cterm_color": "140",
+      "color": "#A074C4"
+    },
+    "ui": {
+      "name": "UI",
+      "icon": "",
+      "cterm_color": "27",
+      "color": "#015BF0"
+    },
+    "oga": {
+      "name": "OggVorbis",
+      "icon": "",
+      "cterm_color": "24",
+      "color": "#0075AA"
+    },
+    "apk": {
+      "name": "apk",
+      "icon": "",
+      "cterm_color": "35",
+      "color": "#34A853"
+    },
+    "🔥": {
+      "name": "Mojo",
+      "icon": "",
+      "cterm_color": "196",
+      "color": "#FF4C1F"
+    },
+    "cxx": {
+      "name": "Cxx",
+      "icon": "",
+      "cterm_color": "74",
+      "color": "#519ABA"
+    },
+    "gradle": {
+      "name": "Gradle",
+      "icon": "",
+      "cterm_color": "24",
+      "color": "#005F87"
+    },
+    "ods": {
+      "name": "LibreOfficeCalc",
+      "icon": "",
+      "cterm_color": "119",
+      "color": "#78FC4E"
+    },
+    "eex": {
+      "name": "Eex",
+      "icon": "",
+      "cterm_color": "140",
+      "color": "#A074C4"
+    },
+    "typ": {
+      "name": "Typst",
+      "icon": "",
+      "cterm_color": "37",
+      "color": "#0DBCC0"
+    },
+    "avif": {
+      "name": "Avif",
+      "icon": "",
+      "cterm_color": "140",
+      "color": "#A074C4"
+    },
+    "out": {
+      "name": "Out",
+      "icon": "",
+      "cterm_color": "124",
+      "color": "#9F0500"
+    },
+    "ogg": {
+      "name": "OggVorbis",
+      "icon": "",
+      "cterm_color": "24",
+      "color": "#0075AA"
+    },
+    "import": {
+      "name": "ImportConfiguration",
+      "icon": "",
+      "cterm_color": "255",
+      "color": "#ECECEC"
+    },
+    "bazel": {
+      "name": "Bazel",
+      "icon": "",
+      "cterm_color": "113",
+      "color": "#89E051"
+    },
+    "dwg": {
+      "name": "AutoCADDwg",
+      "icon": "󰻫",
+      "cterm_color": "101",
+      "color": "#839463"
+    },
+    "pxi": {
+      "name": "Pxi",
+      "icon": "",
+      "cterm_color": "39",
+      "color": "#5AA7E4"
+    },
+    "ttf": {
+      "name": "TrueTypeFont",
+      "icon": "",
+      "cterm_color": "255",
+      "color": "#ECECEC"
+    },
+    "tsx": {
+      "name": "Tsx",
+      "icon": "",
+      "cterm_color": "26",
+      "color": "#1354BF"
+    },
+    "tscn": {
+      "name": "GodotTextScene",
+      "icon": "",
+      "cterm_color": "66",
+      "color": "#6D8086"
+    },
+    "kdbx": {
+      "name": "Kdbx",
+      "icon": "",
+      "cterm_color": "71",
+      "color": "#529B34"
+    },
+    "heex": {
+      "name": "Heex",
+      "icon": "",
+      "cterm_color": "140",
+      "color": "#A074C4"
+    },
+    "sldprt": {
+      "name": "SolidWorksPrt",
+      "icon": "󰻫",
+      "cterm_color": "101",
+      "color": "#839463"
+    },
+    "hex": {
+      "name": "Hexadecimal",
+      "icon": "",
+      "cterm_color": "27",
+      "color": "#2E63FF"
+    },
+    "erb": {
+      "name": "Erb",
+      "icon": "",
+      "cterm_color": "52",
+      "color": "#701516"
+    },
+    "vi": {
+      "name": "LabView",
+      "icon": "",
+      "cterm_color": "220",
+      "color": "#FEC60A"
+    },
+    "ksh": {
+      "name": "Ksh",
+      "icon": "",
+      "cterm_color": "240",
+      "color": "#4D5A5E"
+    },
+    "sqlite": {
+      "name": "Sql",
+      "icon": "",
+      "cterm_color": "188",
+      "color": "#DAD8D8"
+    },
+    "toml": {
+      "name": "Toml",
+      "icon": "",
+      "cterm_color": "124",
+      "color": "#9C4221"
+    },
+    "spec.jsx": {
+      "name": "JavaScriptReactSpec",
+      "icon": "",
+      "cterm_color": "45",
+      "color": "#20C2E3"
+    },
+    "sh": {
+      "name": "Sh",
+      "icon": "",
+      "cterm_color": "240",
+      "color": "#4D5A5E"
+    },
+    "tfvars": {
+      "name": "TFVars",
+      "icon": "",
+      "cterm_color": "93",
+      "color": "#5F43E9"
+    },
+    "3gp": {
+      "name": "3gp",
+      "icon": "",
+      "cterm_color": "208",
+      "color": "#FD971F"
+    },
+    "tf": {
+      "name": "Terraform",
+      "icon": "",
+      "cterm_color": "93",
+      "color": "#5F43E9"
+    },
+    "csh": {
+      "name": "Csh",
+      "icon": "",
+      "cterm_color": "240",
+      "color": "#4D5A5E"
+    },
+    "tex": {
+      "name": "Tex",
+      "icon": "",
+      "cterm_color": "22",
+      "color": "#3D6117"
+    },
+    "android": {
+      "name": "Android",
+      "icon": "",
+      "cterm_color": "35",
+      "color": "#34A853"
+    },
+    "aiff": {
+      "name": "AudioInterchangeFileFormat",
+      "icon": "",
+      "cterm_color": "39",
+      "color": "#00AFFF"
+    },
+    "diff": {
+      "name": "Diff",
+      "icon": "",
+      "cterm_color": "239",
+      "color": "#41535B"
+    },
+    "7z": {
+      "name": "7z",
+      "icon": "",
+      "cterm_color": "214",
+      "color": "#ECA517"
+    },
+    "norg": {
+      "name": "Norg",
+      "icon": "",
+      "cterm_color": "32",
+      "color": "#4878BE"
+    },
+    "test.tsx": {
+      "name": "TypeScriptReactTest",
+      "icon": "",
+      "cterm_color": "26",
+      "color": "#1354BF"
+    },
+    "apl": {
+      "name": "APL",
+      "icon": "",
+      "cterm_color": "35",
+      "color": "#24A148"
+    },
+    "sldasm": {
+      "name": "SolidWorksAsm",
+      "icon": "󰻫",
+      "cterm_color": "101",
+      "color": "#839463"
+    },
+    "cjs": {
+      "name": "Cjs",
+      "icon": "",
+      "cterm_color": "185",
+      "color": "#CBCB41"
+    },
+    "test.ts": {
+      "name": "TestTs",
+      "icon": "",
+      "cterm_color": "74",
+      "color": "#519ABA"
+    },
+    "ejs": {
+      "name": "Ejs",
+      "icon": "",
+      "cterm_color": "185",
+      "color": "#CBCB41"
+    },
+    "test.jsx": {
+      "name": "JavaScriptReactTest",
+      "icon": "",
+      "cterm_color": "45",
+      "color": "#20C2E3"
+    },
+    "test.js": {
+      "name": "TestJs",
+      "icon": "",
+      "cterm_color": "185",
+      "color": "#CBCB41"
+    },
+    "wma": {
+      "name": "WindowsMediaAudio",
+      "icon": "",
+      "cterm_color": "39",
+      "color": "#00AFFF"
+    },
+    "templ": {
+      "name": "Templ",
+      "icon": "",
+      "cterm_color": "178",
+      "color": "#DBBD30"
+    },
+    "msf": {
+      "name": "Thunderbird",
+      "icon": "",
+      "cterm_color": "33",
+      "color": "#137BE1"
+    },
+    "query": {
+      "name": "Query",
+      "icon": "",
+      "cterm_color": "107",
+      "color": "#90A850"
+    },
+    "tcl": {
+      "name": "Tcl",
+      "icon": "󰛓",
+      "cterm_color": "25",
+      "color": "#1E5CB3"
+    },
+    "desktop": {
+      "name": "DesktopEntry",
+      "icon": "",
+      "cterm_color": "54",
+      "color": "#563D7C"
+    },
+    "svx": {
+      "name": "SvelteMarkdown",
+      "icon": "",
+      "cterm_color": "197",
+      "color": "#FF0042"
+    },
+    "cobol": {
+      "name": "Cobol",
+      "icon": "",
+      "cterm_color": "25",
+      "color": "#005CA5"
+    },
+    "t": {
+      "name": "Tor",
+      "icon": "",
+      "cterm_color": "74",
+      "color": "#519ABA"
+    },
+    "swift": {
+      "name": "Swift",
+      "icon": "",
+      "cterm_color": "166",
+      "color": "#E37933"
+    },
+    "svh": {
+      "name": "SystemVerilog",
+      "icon": "󰍛",
+      "cterm_color": "28",
+      "color": "#019833"
+    },
+    "m3u8": {
+      "name": "M3u8",
+      "icon": "󰲹",
+      "cterm_color": "211",
+      "color": "#ED95AE"
+    },
+    "scad": {
+      "name": "OpenSCAD",
+      "icon": "",
+      "cterm_color": "220",
+      "color": "#F9D72C"
+    },
+    "svelte": {
+      "name": "Svelte",
+      "icon": "",
+      "cterm_color": "196",
+      "color": "#FF3E00"
+    },
+    "bak": {
+      "name": "Backup",
+      "icon": "󰁯",
+      "cterm_color": "66",
+      "color": "#6D8086"
+    },
+    "sv": {
+      "name": "SystemVerilog",
+      "icon": "󰍛",
+      "cterm_color": "28",
+      "color": "#019833"
+    },
+    "nu": {
+      "name": "Nushell",
+      "icon": "",
+      "cterm_color": "36",
+      "color": "#3AA675"
+    },
+    "java": {
+      "name": "Java",
+      "icon": "",
+      "cterm_color": "167",
+      "color": "#CC3E44"
+    },
+    "sublime": {
+      "name": "Sublime",
+      "icon": "",
+      "cterm_color": "166",
+      "color": "#E37933"
+    },
+    "sub": {
+      "name": "Sub",
+      "icon": "󰨖",
+      "cterm_color": "214",
+      "color": "#FFB713"
+    },
+    "jar": {
+      "name": "Jar",
+      "icon": "",
+      "cterm_color": "215",
+      "color": "#ffaf67"
+    },
+    "mjs": {
+      "name": "Mjs",
+      "icon": "",
+      "cterm_color": "185",
+      "color": "#F1E05A"
+    },
+    "magnet": {
+      "name": "Magnet",
+      "icon": "",
+      "cterm_color": "124",
+      "color": "#A51B16"
+    },
+    "el": {
+      "name": "Elisp",
+      "icon": "",
+      "cterm_color": "97",
+      "color": "#8172BE"
+    },
+    "jwmrc": {
+      "name": "JWM",
+      "icon": "",
+      "cterm_color": "32",
+      "color": "#0078CD"
+    },
+    "cache": {
+      "name": "Cache",
+      "icon": "",
+      "cterm_color": "231",
+      "color": "#FFFFFF"
+    },
+    "odf": {
+      "name": "LibreOfficeFormula",
+      "icon": "",
+      "cterm_color": "204",
+      "color": "#FF5A96"
+    },
+    "pdf": {
+      "name": "Pdf",
+      "icon": "",
+      "cterm_color": "124",
+      "color": "#B30B00"
+    },
+    "fodp": {
+      "name": "LibreOfficeImpress",
+      "icon": "",
+      "cterm_color": "215",
+      "color": "#FE9C45"
+    },
+    "vhdl": {
+      "name": "VHDL",
+      "icon": "󰍛",
+      "cterm_color": "28",
+      "color": "#019833"
+    },
+    "stories.tsx": {
+      "name": "StorybookTsx",
+      "icon": "",
+      "cterm_color": "204",
+      "color": "#FF4785"
+    },
+    "jsx": {
+      "name": "Jsx",
+      "icon": "",
+      "cterm_color": "45",
+      "color": "#20C2E3"
+    },
+    "gql": {
+      "name": "GraphQL",
+      "icon": "",
+      "cterm_color": "199",
+      "color": "#E535AB"
+    },
+    "cs": {
+      "name": "Cs",
+      "icon": "󰌛",
+      "cterm_color": "58",
+      "color": "#596706"
+    },
+    "pyd": {
+      "name": "Pyd",
+      "icon": "",
+      "cterm_color": "222",
+      "color": "#FFE291"
+    },
+    "asc": {
+      "name": "Asc",
+      "icon": "󰦝",
+      "cterm_color": "242",
+      "color": "#576D7F"
+    },
+    "bz3": {
+      "name": "Bz3",
+      "icon": "",
+      "cterm_color": "214",
+      "color": "#ECA517"
+    },
+    "woff": {
+      "name": "WebOpenFontFormat",
+      "icon": "",
+      "cterm_color": "255",
+      "color": "#ECECEC"
+    },
+    "otf": {
+      "name": "OpenTypeFont",
+      "icon": "",
+      "cterm_color": "255",
+      "color": "#ECECEC"
+    },
+    "stories.js": {
+      "name": "StorybookJavaScript",
+      "icon": "",
+      "cterm_color": "204",
+      "color": "#FF4785"
+    },
+    "pptx": {
+      "name": "Pptx",
+      "icon": "󰈧",
+      "cterm_color": "160",
+      "color": "#CB4A32"
+    },
+    "elm": {
+      "name": "Elm",
+      "icon": "",
+      "cterm_color": "74",
+      "color": "#519ABA"
+    },
+    "glb": {
+      "name": "BinaryGLTF",
+      "icon": "",
+      "cterm_color": "214",
+      "color": "#FFB13B"
+    },
+    "fsx": {
+      "name": "Fsx",
+      "icon": "",
+      "cterm_color": "74",
+      "color": "#519ABA"
+    },
+    "py": {
+      "name": "Py",
+      "icon": "",
+      "cterm_color": "214",
+      "color": "#FFBC03"
+    },
+    "ste": {
+      "name": "Ste",
+      "icon": "󰻫",
+      "cterm_color": "101",
+      "color": "#839463"
+    },
+    "sln": {
+      "name": "Sln",
+      "icon": "",
+      "cterm_color": "98",
+      "color": "#854CC7"
+    },
+    "gleam": {
+      "name": "Gleam",
+      "icon": "",
+      "cterm_color": "219",
+      "color": "#FFAFF3"
+    },
+    "fcscript": {
+      "name": "FreeCAD",
+      "icon": "",
+      "cterm_color": "160",
+      "color": "#CB333B"
+    },
+    "spec.tsx": {
+      "name": "TypeScriptReactSpec",
+      "icon": "",
+      "cterm_color": "26",
+      "color": "#1354BF"
+    },
+    "eln": {
+      "name": "Elisp",
+      "icon": "",
+      "cterm_color": "97",
+      "color": "#8172BE"
+    },
+    "sql": {
+      "name": "Sql",
+      "icon": "",
+      "cterm_color": "188",
+      "color": "#DAD8D8"
+    },
+    "rkt": {
+      "name": "Racket",
+      "icon": "󰘧",
+      "cterm_color": "124",
+      "color": "#9F1D20"
+    },
+    "md5": {
+      "name": "Md5",
+      "icon": "󰕥",
+      "cterm_color": "103",
+      "color": "#8C86AF"
+    },
+    "clj": {
+      "name": "Clojure",
+      "icon": "",
+      "cterm_color": "113",
+      "color": "#8DC149"
+    },
+    "sha224": {
+      "name": "Sha224",
+      "icon": "󰕥",
+      "cterm_color": "103",
+      "color": "#8C86AF"
+    },
+    "spec.js": {
+      "name": "SpecJs",
+      "icon": "",
+      "cterm_color": "185",
+      "color": "#CBCB41"
+    },
+    "sha384": {
+      "name": "Sha384",
+      "icon": "󰕥",
+      "cterm_color": "103",
+      "color": "#8C86AF"
+    },
+    "sol": {
+      "name": "Solidity",
+      "icon": "",
+      "cterm_color": "74",
+      "color": "#519ABA"
+    },
+    "so": {
+      "name": "SharedObject",
+      "icon": "",
+      "cterm_color": "253",
+      "color": "#DCDDD6"
+    },
+    "sml": {
+      "name": "Sml",
+      "icon": "󰘧",
+      "cterm_color": "166",
+      "color": "#E37933"
+    },
+    "mdx": {
+      "name": "Mdx",
+      "icon": "",
+      "cterm_color": "74",
+      "color": "#519ABA"
+    },
+    "slvs": {
+      "name": "SolveSpace",
+      "icon": "󰻫",
+      "cterm_color": "101",
+      "color": "#839463"
+    },
+    "slnx": {
+      "name": "Slnx",
+      "icon": "",
+      "cterm_color": "98",
+      "color": "#854CC7"
+    },
+    "ssa": {
+      "name": "Ssa",
+      "icon": "󰨖",
+      "cterm_color": "214",
+      "color": "#FFB713"
+    },
+    "kra": {
+      "name": "Krita",
+      "icon": "",
+      "cterm_color": "201",
+      "color": "#F245FB"
+    },
+    "sig": {
+      "name": "Sig",
+      "icon": "󰘧",
+      "cterm_color": "166",
+      "color": "#E37933"
+    },
+    "jpeg": {
+      "name": "Jpeg",
+      "icon": "",
+      "cterm_color": "140",
+      "color": "#A074C4"
+    },
+    "cshtml": {
+      "name": "RazorPage",
+      "icon": "󱦗",
+      "cterm_color": "56",
+      "color": "#512BD4"
+    },
+    "fsi": {
+      "name": "Fsi",
+      "icon": "",
+      "cterm_color": "74",
+      "color": "#519ABA"
+    },
+    "coffee": {
+      "name": "Coffee",
+      "icon": "",
+      "cterm_color": "185",
+      "color": "#CBCB41"
+    },
+    "bzl": {
+      "name": "Bzl",
+      "icon": "",
+      "cterm_color": "113",
+      "color": "#89E051"
+    },
+    "sha512": {
+      "name": "Sha512",
+      "icon": "󰕥",
+      "cterm_color": "103",
+      "color": "#8C86AF"
+    },
+    "flac": {
+      "name": "FreeLosslessAudioCodec",
+      "icon": "",
+      "cterm_color": "24",
+      "color": "#0075AA"
+    },
+    "sha256": {
+      "name": "Sha256",
+      "icon": "󰕥",
+      "cterm_color": "103",
+      "color": "#8C86AF"
+    },
+    "org": {
+      "name": "OrgMode",
+      "icon": "",
+      "cterm_color": "73",
+      "color": "#77AA99"
+    },
+    "spec.ts": {
+      "name": "SpecTs",
+      "icon": "",
+      "cterm_color": "74",
+      "color": "#519ABA"
+    },
+    "brep": {
+      "name": "BoundaryRepresentation",
+      "icon": "󰻫",
+      "cterm_color": "101",
+      "color": "#839463"
+    },
+    "pub": {
+      "name": "Pub",
+      "icon": "󰷖",
+      "cterm_color": "222",
+      "color": "#E3C58E"
+    },
+    "jsonc": {
+      "name": "Jsonc",
+      "icon": "",
+      "cterm_color": "185",
+      "color": "#CBCB41"
+    },
+    "sha1": {
+      "name": "Sha1",
+      "icon": "󰕥",
+      "cterm_color": "103",
+      "color": "#8C86AF"
+    },
+    "tmux": {
+      "name": "Tmux",
+      "icon": "",
+      "cterm_color": "34",
+      "color": "#14BA19"
+    },
+    "vert": {
+      "name": "VertexShader",
+      "icon": "",
+      "cterm_color": "67",
+      "color": "#5586A6"
+    },
+    "cpy": {
+      "name": "Cobol",
+      "icon": "",
+      "cterm_color": "25",
+      "color": "#005CA5"
+    },
+    "xml": {
+      "name": "Xml",
+      "icon": "󰗀",
+      "cterm_color": "166",
+      "color": "#E37933"
+    },
+    "sc": {
+      "name": "ScalaScript",
+      "icon": "",
+      "cterm_color": "167",
+      "color": "#CC3E44"
+    },
+    "cljs": {
+      "name": "ClojureJS",
+      "icon": "",
+      "cterm_color": "74",
+      "color": "#519ABA"
+    },
+    "kicad_sym": {
+      "name": "KiCad",
+      "icon": "",
+      "cterm_color": "231",
+      "color": "#FFFFFF"
+    },
+    "bat": {
+      "name": "Bat",
+      "icon": "",
+      "cterm_color": "191",
+      "color": "#C1F12E"
+    },
+    "fodg": {
+      "name": "LibreOfficeGraphics",
+      "icon": "",
+      "cterm_color": "227",
+      "color": "#FFFB57"
+    },
+    "sass": {
+      "name": "Sass",
+      "icon": "",
+      "cterm_color": "204",
+      "color": "#F55385"
+    },
+    "cuh": {
+      "name": "cudah",
+      "icon": "",
+      "cterm_color": "140",
+      "color": "#A074C4"
+    },
+    "rasi": {
+      "name": "Rasi",
+      "icon": "",
+      "cterm_color": "185",
+      "color": "#CBCB41"
+    },
+    "dll": {
+      "name": "Dll",
+      "icon": "",
+      "cterm_color": "52",
+      "color": "#4D2C0B"
+    },
+    "ics": {
+      "name": "Ics",
+      "icon": "",
+      "cterm_color": "18",
+      "color": "#2B2E83"
+    },
+    "razor": {
+      "name": "RazorPage",
+      "icon": "󱦘",
+      "cterm_color": "56",
+      "color": "#512BD4"
+    },
+    "gpr": {
+      "name": "GPRBuildProject",
+      "icon": "",
+      "cterm_color": "66",
+      "color": "#6D8086"
+    },
+    "kbx": {
+      "name": "Kbx",
+      "icon": "󰯄",
+      "cterm_color": "243",
+      "color": "#737672"
+    },
+    "mustache": {
+      "name": "Mustache",
+      "icon": "",
+      "cterm_color": "166",
+      "color": "#E37933"
+    },
+    "resi": {
+      "name": "ReScriptInterface",
+      "icon": "",
+      "cterm_color": "204",
+      "color": "#F55385"
+    },
+    "res": {
+      "name": "ReScript",
+      "icon": "",
+      "cterm_color": "167",
+      "color": "#CC3E44"
+    },
+    "mp3": {
+      "name": "MPEGAudioLayerIII",
+      "icon": "",
+      "cterm_color": "39",
+      "color": "#00AFFF"
+    },
+    "hurl": {
+      "name": "Hurl",
+      "icon": "",
+      "cterm_color": "198",
+      "color": "#FF0288"
+    },
+    "gnumakefile": {
+      "name": "Makefile",
+      "icon": "",
+      "cterm_color": "66",
+      "color": "#6D8086"
+    },
+    "rproj": {
+      "name": "Rproj",
+      "icon": "󰗆",
+      "cterm_color": "29",
+      "color": "#358A5B"
+    },
+    "rar": {
+      "name": "Rar",
+      "icon": "",
+      "cterm_color": "214",
+      "color": "#ECA517"
+    },
+    "rake": {
+      "name": "Rake",
+      "icon": "",
+      "cterm_color": "52",
+      "color": "#701516"
+    },
+    "igs": {
+      "name": "Igs",
+      "icon": "󰻫",
+      "cterm_color": "101",
+      "color": "#839463"
+    },
+    "elc": {
+      "name": "Elisp",
+      "icon": "",
+      "cterm_color": "97",
+      "color": "#8172BE"
+    },
+    "dump": {
+      "name": "Dump",
+      "icon": "",
+      "cterm_color": "188",
+      "color": "#DAD8D8"
+    },
+    "qrc": {
+      "name": "Qt",
+      "icon": "",
+      "cterm_color": "77",
+      "color": "#40CD52"
+    },
+    "qml": {
+      "name": "Qt",
+      "icon": "",
+      "cterm_color": "77",
+      "color": "#40CD52"
+    },
+    "ifb": {
+      "name": "Ifb",
+      "icon": "",
+      "cterm_color": "18",
+      "color": "#2B2E83"
+    },
+    "qm": {
+      "name": "Localization",
+      "icon": "",
+      "cterm_color": "31",
+      "color": "#2596BE"
+    },
+    "mm": {
+      "name": "ObjectiveCPlusPlus",
+      "icon": "",
+      "cterm_color": "74",
+      "color": "#519ABA"
+    },
+    "pyx": {
+      "name": "Pyx",
+      "icon": "",
+      "cterm_color": "39",
+      "color": "#5AA7E4"
+    },
+    "typoscript": {
+      "name": "TypoScript",
+      "icon": "",
+      "cterm_color": "208",
+      "color": "#FF8700"
+    },
+    "pm": {
+      "name": "Pm",
+      "icon": "",
+      "cterm_color": "74",
+      "color": "#519ABA"
+    },
+    "pyc": {
+      "name": "Pyc",
+      "icon": "",
+      "cterm_color": "222",
+      "color": "#FFE291"
+    },
+    "mo": {
+      "name": "Motoko",
+      "icon": "",
+      "cterm_color": "135",
+      "color": "#9772FB"
+    },
+    "zsh": {
+      "name": "Zsh",
+      "icon": "",
+      "cterm_color": "113",
+      "color": "#89E051"
+    },
+    "frag": {
+      "name": "FragmentShader",
+      "icon": "",
+      "cterm_color": "67",
+      "color": "#5586A6"
+    },
+    "fbx": {
+      "name": "3DObjectFile",
+      "icon": "󰆧",
+      "cterm_color": "102",
+      "color": "#888888"
+    },
+    "stories.svelte": {
+      "name": "StorybookSvelte",
+      "icon": "",
+      "cterm_color": "204",
+      "color": "#FF4785"
+    },
+    "step": {
+      "name": "Step",
+      "icon": "󰻫",
+      "cterm_color": "101",
+      "color": "#839463"
+    },
+    "go": {
+      "name": "Go",
+      "icon": "",
+      "cterm_color": "38",
+      "color": "#00ADD8"
+    },
+    "mp4": {
+      "name": "Mp4",
+      "icon": "",
+      "cterm_color": "208",
+      "color": "#FD971F"
+    },
+    "bicepparam": {
+      "name": "BicepParameters",
+      "icon": "",
+      "cterm_color": "133",
+      "color": "#9F74B3"
+    },
+    "c++": {
+      "name": "CPlusPlus",
+      "icon": "",
+      "cterm_color": "204",
+      "color": "#F34B7D"
+    },
+    "ada": {
+      "name": "AdaFile",
+      "icon": "",
+      "cterm_color": "111",
+      "color": "#599EFF"
+    },
+    "twig": {
+      "name": "Twig",
+      "icon": "",
+      "cterm_color": "113",
+      "color": "#8DC149"
+    },
+    "pxd": {
+      "name": "Pxd",
+      "icon": "",
+      "cterm_color": "39",
+      "color": "#5AA7E4"
+    },
+    "odt": {
+      "name": "LibreOfficeWriter",
+      "icon": "",
+      "cterm_color": "81",
+      "color": "#2DCBFD"
+    },
+    "psd1": {
+      "name": "PsManifestfile",
+      "icon": "󰨊",
+      "cterm_color": "68",
+      "color": "#6975C4"
+    },
+    "po": {
+      "name": "Localization",
+      "icon": "",
+      "cterm_color": "31",
+      "color": "#2596BE"
+    },
+    "psd": {
+      "name": "Psd",
+      "icon": "",
+      "cterm_color": "74",
+      "color": "#519ABA"
+    },
+    "cob": {
+      "name": "Cobol",
+      "icon": "",
+      "cterm_color": "25",
+      "color": "#005CA5"
+    },
+    "rb": {
+      "name": "Rb",
+      "icon": "",
+      "cterm_color": "52",
+      "color": "#701516"
+    },
+    "ps1": {
+      "name": "PsScriptfile",
+      "icon": "󰨊",
+      "cterm_color": "68",
+      "color": "#4273CA"
+    },
+    "fcmat": {
+      "name": "FreeCAD",
+      "icon": "",
+      "cterm_color": "160",
+      "color": "#CB333B"
+    },
+    "tres": {
+      "name": "GodotTextResource",
+      "icon": "",
+      "cterm_color": "66",
+      "color": "#6D8086"
+    },
+    "prisma": {
+      "name": "Prisma",
+      "icon": "",
+      "cterm_color": "62",
+      "color": "#5A67D8"
+    },
+    "prefab": {
+      "name": "Prefab",
+      "icon": "",
+      "cterm_color": "117",
+      "color": "#94D4F9"
+    },
+    "ppt": {
+      "name": "Ppt",
+      "icon": "󰈧",
+      "cterm_color": "160",
+      "color": "#CB4A32"
+    },
+    "applescript": {
+      "name": "AppleScript",
+      "icon": "",
+      "cterm_color": "66",
+      "color": "#6D8085"
+    },
+    "pp": {
+      "name": "Pp",
+      "icon": "",
+      "cterm_color": "214",
+      "color": "#FFA61A"
+    },
+    "cp": {
+      "name": "Cp",
+      "icon": "",
+      "cterm_color": "74",
+      "color": "#519ABA"
+    },
+    "png": {
+      "name": "Png",
+      "icon": "",
+      "cterm_color": "140",
+      "color": "#A074C4"
+    },
+    "ply": {
+      "name": "3DObjectFile",
+      "icon": "󰆧",
+      "cterm_color": "102",
+      "color": "#888888"
+    },
+    "pls": {
+      "name": "Pls",
+      "icon": "󰲹",
+      "cterm_color": "211",
+      "color": "#ED95AE"
+    },
+    "pl": {
+      "name": "Pl",
+      "icon": "",
+      "cterm_color": "74",
+      "color": "#519ABA"
+    },
+    "php": {
+      "name": "Php",
+      "icon": "",
+      "cterm_color": "140",
+      "color": "#A074C4"
+    },
+    "dxf": {
+      "name": "AutoCADDxf",
+      "icon": "󰻫",
+      "cterm_color": "101",
+      "color": "#839463"
+    },
+    "patch": {
+      "name": "Patch",
+      "icon": "",
+      "cterm_color": "239",
+      "color": "#41535B"
+    },
+    "part": {
+      "name": "Part",
+      "icon": "",
+      "cterm_color": "43",
+      "color": "#44CDA8"
+    },
+    "opus": {
+      "name": "OpusAudioFile",
+      "icon": "",
+      "cterm_color": "24",
+      "color": "#0075AA"
+    },
+    "gcode": {
+      "name": "GCode",
+      "icon": "󰐫",
+      "cterm_color": "32",
+      "color": "#1471AD"
+    },
+    "psm1": {
+      "name": "PsScriptModulefile",
+      "icon": "󰨊",
+      "cterm_color": "68",
+      "color": "#6975C4"
+    },
+    "cppm": {
+      "name": "Cppm",
+      "icon": "",
+      "cterm_color": "74",
+      "color": "#519ABA"
+    },
+    "m4v": {
+      "name": "M4V",
+      "icon": "",
+      "cterm_color": "208",
+      "color": "#FD971F"
+    },
+    "fcmacro": {
+      "name": "FreeCAD",
+      "icon": "",
+      "cterm_color": "160",
+      "color": "#CB333B"
+    },
+    "doc": {
+      "name": "Doc",
+      "icon": "󰈬",
+      "cterm_color": "26",
+      "color": "#185ABD"
+    },
+    "odg": {
+      "name": "LibreOfficeGraphics",
+      "icon": "",
+      "cterm_color": "227",
+      "color": "#FFFB57"
+    },
+    "ko": {
+      "name": "LinuxKernelObject",
+      "icon": "",
+      "cterm_color": "253",
+      "color": "#DCDDD6"
+    },
+    "o": {
+      "name": "ObjectFile",
+      "icon": "",
+      "cterm_color": "124",
+      "color": "#9F0500"
+    },
+    "suo": {
+      "name": "Suo",
+      "icon": "",
+      "cterm_color": "98",
+      "color": "#854CC7"
+    },
+    "fcstd1": {
+      "name": "FreeCAD",
+      "icon": "",
+      "cterm_color": "160",
+      "color": "#CB333B"
+    },
+    "http": {
+      "name": "HTTP",
+      "icon": "",
+      "cterm_color": "31",
+      "color": "#008EC7"
+    },
+    "nswag": {
+      "name": "Nswag",
+      "icon": "",
+      "cterm_color": "112",
+      "color": "#85EA2D"
+    },
+    "nix": {
+      "name": "Nix",
+      "icon": "",
+      "cterm_color": "110",
+      "color": "#7EBAE4"
+    },
+    "kdenlive": {
+      "name": "Kdenlive",
+      "icon": "",
+      "cterm_color": "110",
+      "color": "#83B8F2"
+    },
+    "geom": {
+      "name": "GeometryShader",
+      "icon": "",
+      "cterm_color": "67",
+      "color": "#5586A6"
+    },
+    "nim": {
+      "name": "Nim",
+      "icon": "",
+      "cterm_color": "220",
+      "color": "#F3D400"
+    },
+    "env": {
+      "name": "Env",
+      "icon": "",
+      "cterm_color": "227",
+      "color": "#FAF743"
+    },
+    "nfo": {
+      "name": "Nfo",
+      "icon": "",
+      "cterm_color": "230",
+      "color": "#FFFFCD"
+    },
+    "mts": {
+      "name": "Mts",
+      "icon": "",
+      "cterm_color": "74",
+      "color": "#519ABA"
+    },
+    "azcli": {
+      "name": "AzureCli",
+      "icon": "",
+      "cterm_color": "32",
+      "color": "#0078D4"
+    },
+    "bash": {
+      "name": "Bash",
+      "icon": "",
+      "cterm_color": "113",
+      "color": "#89E051"
+    },
+    "lock": {
+      "name": "Lock",
+      "icon": "",
+      "cterm_color": "250",
+      "color": "#BBBBBB"
+    },
+    "fcstd": {
+      "name": "FreeCAD",
+      "icon": "",
+      "cterm_color": "160",
+      "color": "#CB333B"
+    },
+    "vhd": {
+      "name": "VHDL",
+      "icon": "󰍛",
+      "cterm_color": "28",
+      "color": "#019833"
+    },
+    "mojo": {
+      "name": "Mojo",
+      "icon": "",
+      "cterm_color": "196",
+      "color": "#FF4C1F"
+    },
+    "luau": {
+      "name": "Luau",
+      "icon": "",
+      "cterm_color": "75",
+      "color": "#00A2FF"
+    },
+    "mli": {
+      "name": "Mli",
+      "icon": "",
+      "cterm_color": "166",
+      "color": "#E37933"
+    },
+    "ml": {
+      "name": "Ml",
+      "icon": "",
+      "cterm_color": "166",
+      "color": "#E37933"
+    },
+    "bz2": {
+      "name": "Bz2",
+      "icon": "",
+      "cterm_color": "214",
+      "color": "#ECA517"
+    },
+    "mk": {
+      "name": "Makefile",
+      "icon": "",
+      "cterm_color": "66",
+      "color": "#6D8086"
+    },
+    "csv": {
+      "name": "Csv",
+      "icon": "",
+      "cterm_color": "113",
+      "color": "#89E051"
+    },
+    "mint": {
+      "name": "Mint",
+      "icon": "󰌪",
+      "cterm_color": "108",
+      "color": "#87C095"
+    },
+    "crdownload": {
+      "name": "Crdownload",
+      "icon": "",
+      "cterm_color": "43",
+      "color": "#44CDA8"
+    },
+    "spx": {
+      "name": "OggSpeexAudio",
+      "icon": "",
+      "cterm_color": "24",
+      "color": "#0075AA"
+    },
+    "yaml": {
+      "name": "Yaml",
+      "icon": "",
+      "cterm_color": "160",
+      "color": "#D70000"
+    },
+    "pro": {
+      "name": "Prolog",
+      "icon": "",
+      "cterm_color": "179",
+      "color": "#E4B854"
+    },
+    "material": {
+      "name": "Material",
+      "icon": "",
+      "cterm_color": "163",
+      "color": "#B83998"
+    },
+    "m3u": {
+      "name": "M3u",
+      "icon": "󰲹",
+      "cterm_color": "211",
+      "color": "#ED95AE"
+    },
+    "odp": {
+      "name": "LibreOfficeImpress",
+      "icon": "",
+      "cterm_color": "215",
+      "color": "#FE9C45"
+    },
+    "Dockerfile": {
+      "name": "Dockerfile",
+      "icon": "󰡨",
+      "cterm_color": "68",
+      "color": "#458EE6"
+    },
+    "fcbak": {
+      "name": "FreeCAD",
+      "icon": "",
+      "cterm_color": "160",
+      "color": "#CB333B"
+    },
+    "dconf": {
+      "name": "Dconf",
+      "icon": "",
+      "cterm_color": "231",
+      "color": "#FFFFFF"
+    },
+    "bqn": {
+      "name": "APL",
+      "icon": "",
+      "cterm_color": "35",
+      "color": "#24A148"
+    },
+    "svgz": {
+      "name": "Svgz",
+      "icon": "󰜡",
+      "cterm_color": "214",
+      "color": "#FFB13B"
+    },
+    "md": {
+      "name": "Md",
+      "icon": "",
+      "cterm_color": "253",
+      "color": "#DDDDDD"
+    },
+    "aif": {
+      "name": "AudioInterchangeFileFormat",
+      "icon": "",
+      "cterm_color": "39",
+      "color": "#00AFFF"
+    },
+    "bib": {
+      "name": "BibTeX",
+      "icon": "󱉟",
+      "cterm_color": "185",
+      "color": "#CBCB41"
+    },
+    "mobi": {
+      "name": "Mobi",
+      "icon": "",
+      "cterm_color": "215",
+      "color": "#EAB16D"
+    },
+    "luac": {
+      "name": "Lua",
+      "icon": "",
+      "cterm_color": "74",
+      "color": "#51A0CF"
+    },
+    "ebook": {
+      "name": "Ebook",
+      "icon": "",
+      "cterm_color": "215",
+      "color": "#EAB16D"
+    },
+    "krz": {
+      "name": "Krita",
+      "icon": "",
+      "cterm_color": "201",
+      "color": "#F245FB"
+    },
+    "conf": {
+      "name": "Conf",
+      "icon": "",
+      "cterm_color": "66",
+      "color": "#6D8086"
+    },
+    "iges": {
+      "name": "Iges",
+      "icon": "󰻫",
+      "cterm_color": "101",
+      "color": "#839463"
+    },
+    "exe": {
+      "name": "Exe",
+      "icon": "",
+      "cterm_color": "124",
+      "color": "#9F0500"
+    },
+    "lua": {
+      "name": "Lua",
+      "icon": "",
+      "cterm_color": "74",
+      "color": "#51A0CF"
+    },
+    "scala": {
+      "name": "Scala",
+      "icon": "",
+      "cterm_color": "167",
+      "color": "#CC3E44"
+    },
+    "signature": {
+      "name": "Signature",
+      "icon": "󰘧",
+      "cterm_color": "166",
+      "color": "#E37933"
+    },
+    "lib": {
+      "name": "Lib",
+      "icon": "",
+      "cterm_color": "52",
+      "color": "#4D2C0B"
+    },
+    "image": {
+      "name": "Image",
+      "icon": "",
+      "cterm_color": "181",
+      "color": "#D0BEC8"
+    },
+    "lhs": {
+      "name": "Lhs",
+      "icon": "",
+      "cterm_color": "140",
+      "color": "#A074C4"
+    },
+    "scss": {
+      "name": "Scss",
+      "icon": "",
+      "cterm_color": "204",
+      "color": "#F55385"
+    },
+    "leex": {
+      "name": "Leex",
+      "icon": "",
+      "cterm_color": "140",
+      "color": "#A074C4"
+    },
+    "lck": {
+      "name": "Lock",
+      "icon": "",
+      "cterm_color": "250",
+      "color": "#BBBBBB"
+    },
+    "kicad_sch": {
+      "name": "KiCad",
+      "icon": "",
+      "cterm_color": "231",
+      "color": "#FFFFFF"
+    },
+    "iso": {
+      "name": "Iso",
+      "icon": "",
+      "cterm_color": "181",
+      "color": "#D0BEC8"
+    },
+    "kts": {
+      "name": "KotlinScript",
+      "icon": "",
+      "cterm_color": "99",
+      "color": "#7F52FF"
+    },
+    "kt": {
+      "name": "Kotlin",
+      "icon": "",
+      "cterm_color": "99",
+      "color": "#7F52FF"
+    },
+    "log": {
+      "name": "Log",
+      "icon": "󰌱",
+      "cterm_color": "253",
+      "color": "#DDDDDD"
+    },
+    "kpp": {
+      "name": "Krita",
+      "icon": "",
+      "cterm_color": "201",
+      "color": "#F245FB"
+    },
+    "obj": {
+      "name": "3DObjectFile",
+      "icon": "󰆧",
+      "cterm_color": "102",
+      "color": "#888888"
+    },
+    "db": {
+      "name": "Db",
+      "icon": "",
+      "cterm_color": "188",
+      "color": "#DAD8D8"
+    },
+    "kicad_wks": {
+      "name": "KiCad",
+      "icon": "",
+      "cterm_color": "231",
+      "color": "#FFFFFF"
+    },
+    "kicad_pro": {
+      "name": "KiCad",
+      "icon": "",
+      "cterm_color": "231",
+      "color": "#FFFFFF"
+    },
+    "cow": {
+      "name": "CowsayFile",
+      "icon": "󰆚",
+      "cterm_color": "130",
+      "color": "#965824"
+    },
+    "dart": {
+      "name": "Dart",
+      "icon": "",
+      "cterm_color": "25",
+      "color": "#03589C"
+    },
+    "json": {
+      "name": "Json",
+      "icon": "",
+      "cterm_color": "185",
+      "color": "#CBCB41"
+    },
+    "ico": {
+      "name": "Ico",
+      "icon": "",
+      "cterm_color": "185",
+      "color": "#CBCB41"
+    },
+    "kicad_mod": {
+      "name": "KiCad",
+      "icon": "",
+      "cterm_color": "231",
+      "color": "#FFFFFF"
+    },
+    "kdb": {
+      "name": "Kdb",
+      "icon": "",
+      "cterm_color": "71",
+      "color": "#529B34"
+    },
+    "rlib": {
+      "name": "Rlib",
+      "icon": "",
+      "cterm_color": "216",
+      "color": "#DEA584"
+    },
+    "jxl": {
+      "name": "JpegXl",
+      "icon": "",
+      "cterm_color": "140",
+      "color": "#A074C4"
+    },
+    "fcparam": {
+      "name": "FreeCAD",
+      "icon": "",
+      "cterm_color": "160",
+      "color": "#CB333B"
+    },
+    "kicad_pcb": {
+      "name": "KiCad",
+      "icon": "",
+      "cterm_color": "231",
+      "color": "#FFFFFF"
+    },
+    "haml": {
+      "name": "Haml",
+      "icon": "",
+      "cterm_color": "255",
+      "color": "#EAEAE1"
+    },
+    "js": {
+      "name": "Js",
+      "icon": "",
+      "cterm_color": "185",
+      "color": "#CBCB41"
+    },
+    "jpg": {
+      "name": "Jpg",
+      "icon": "",
+      "cterm_color": "140",
+      "color": "#A074C4"
+    },
+    "jl": {
+      "name": "Jl",
+      "icon": "",
+      "cterm_color": "133",
+      "color": "#A270BA"
+    },
+    "ixx": {
+      "name": "Ixx",
+      "icon": "",
+      "cterm_color": "74",
+      "color": "#519ABA"
+    },
+    "ipynb": {
+      "name": "Notebook",
+      "icon": "",
+      "cterm_color": "208",
+      "color": "#F57D01"
+    },
+    "cfm": {
+      "name": "ColdFusionTag",
+      "icon": "",
+      "cterm_color": "38",
+      "color": "#01A4BA"
+    },
+    "3mf": {
+      "name": "3DObjectFile",
+      "icon": "󰆧",
+      "cterm_color": "102",
+      "color": "#888888"
+    },
+    "s": {
+      "name": "ASM",
+      "icon": "",
+      "cterm_color": "25",
+      "color": "#0071C5"
+    },
+    "hs": {
+      "name": "Hs",
+      "icon": "",
+      "cterm_color": "140",
+      "color": "#A074C4"
+    },
+    "fodt": {
+      "name": "LibreOfficeWriter",
+      "icon": "",
+      "cterm_color": "81",
+      "color": "#2DCBFD"
+    },
+    "odin": {
+      "name": "Odin",
+      "icon": "󰟢",
+      "cterm_color": "32",
+      "color": "#3882D2"
+    },
+    "cc": {
+      "name": "CPlusPlus",
+      "icon": "",
+      "cterm_color": "204",
+      "color": "#F34B7D"
+    },
+    "r": {
+      "name": "R",
+      "icon": "󰟔",
+      "cterm_color": "25",
+      "color": "#2266BA"
+    },
+    "srt": {
+      "name": "Srt",
+      "icon": "󰨖",
+      "cterm_color": "214",
+      "color": "#FFB713"
+    },
+    "rs": {
+      "name": "Rs",
+      "icon": "",
+      "cterm_color": "216",
+      "color": "#DEA584"
+    },
+    "html": {
+      "name": "Html",
+      "icon": "",
+      "cterm_color": "196",
+      "color": "#E44D26"
+    },
+    "icalendar": {
+      "name": "Icalendar",
+      "icon": "",
+      "cterm_color": "18",
+      "color": "#2B2E83"
+    },
+    "cson": {
+      "name": "Cson",
+      "icon": "",
+      "cterm_color": "185",
+      "color": "#CBCB41"
+    },
+    "x": {
+      "name": "Logos",
+      "icon": "",
+      "cterm_color": "111",
+      "color": "#599EFF"
+    },
+    "xslt": {
+      "name": "Xslt",
+      "icon": "󰗀",
+      "cterm_color": "74",
+      "color": "#33A9DC"
+    },
+    "ts": {
+      "name": "TypeScript",
+      "icon": "",
+      "cterm_color": "74",
+      "color": "#519ABA"
+    },
+    "cast": {
+      "name": "Asciinema",
+      "icon": "",
+      "cterm_color": "208",
+      "color": "#FD971F"
+    },
+    "csproj": {
+      "name": "CSharpProject",
+      "icon": "󰪮",
+      "cterm_color": "56",
+      "color": "#512BD4"
+    },
+    "hbs": {
+      "name": "Hbs",
+      "icon": "",
+      "cterm_color": "202",
+      "color": "#F0772B"
+    },
+    "gemspec": {
+      "name": "Gemspec",
+      "icon": "",
+      "cterm_color": "52",
+      "color": "#701516"
+    },
+    "sbt": {
+      "name": "sbt",
+      "icon": "",
+      "cterm_color": "167",
+      "color": "#CC3E44"
+    },
+    "cr": {
+      "name": "Crystal",
+      "icon": "",
+      "cterm_color": "251",
+      "color": "#C8C8C8"
+    },
+    "psb": {
+      "name": "Psb",
+      "icon": "",
+      "cterm_color": "74",
+      "color": "#519ABA"
+    },
+    "erl": {
+      "name": "Erl",
+      "icon": "",
+      "cterm_color": "163",
+      "color": "#B83998"
+    },
+    "ige": {
+      "name": "Ige",
+      "icon": "󰻫",
+      "cterm_color": "101",
+      "color": "#839463"
+    },
+    "gif": {
+      "name": "Gif",
+      "icon": "",
+      "cterm_color": "140",
+      "color": "#A074C4"
+    },
+    "gresource": {
+      "name": "GTK",
+      "icon": "",
+      "cterm_color": "231",
+      "color": "#FFFFFF"
+    },
+    "f3d": {
+      "name": "Fusion360",
+      "icon": "󰻫",
+      "cterm_color": "101",
+      "color": "#839463"
+    },
+    "fsscript": {
+      "name": "Fsscript",
+      "icon": "",
+      "cterm_color": "74",
+      "color": "#519ABA"
+    },
+    "cljd": {
+      "name": "ClojureDart",
+      "icon": "",
+      "cterm_color": "74",
+      "color": "#519ABA"
+    },
+    "dropbox": {
+      "name": "Dropbox",
+      "icon": "",
+      "cterm_color": "27",
+      "color": "#0061FE"
+    },
+    "txz": {
+      "name": "Txz",
+      "icon": "",
+      "cterm_color": "214",
+      "color": "#ECA517"
+    },
+    "info": {
+      "name": "Info",
+      "icon": "",
+      "cterm_color": "230",
+      "color": "#FFFFCD"
+    },
+    "fnl": {
+      "name": "Fennel",
+      "icon": "",
+      "cterm_color": "230",
+      "color": "#FFF3D7"
+    },
+    "d.ts": {
+      "name": "TypeScriptDeclaration",
+      "icon": "",
+      "cterm_color": "172",
+      "color": "#D59855"
+    },
+    "awk": {
+      "name": "Awk",
+      "icon": "",
+      "cterm_color": "240",
+      "color": "#4D5A5E"
+    },
+    "flc": {
+      "name": "FIGletFontControl",
+      "icon": "",
+      "cterm_color": "255",
+      "color": "#ECECEC"
+    },
+    "fdmdownload": {
+      "name": "Fdmdownload",
+      "icon": "",
+      "cterm_color": "43",
+      "color": "#44CDA8"
+    },
+    "json5": {
+      "name": "Json5",
+      "icon": "",
+      "cterm_color": "185",
+      "color": "#CBCB41"
+    },
+    "img": {
+      "name": "Img",
+      "icon": "",
+      "cterm_color": "181",
+      "color": "#D0BEC8"
+    },
+    "xlsx": {
+      "name": "Xlsx",
+      "icon": "󰈛",
+      "cterm_color": "29",
+      "color": "#207245"
+    },
+    "gd": {
+      "name": "GDScript",
+      "icon": "",
+      "cterm_color": "66",
+      "color": "#6D8086"
+    },
+    "htm": {
+      "name": "Htm",
+      "icon": "",
+      "cterm_color": "196",
+      "color": "#E34C26"
+    },
+    "glsl": {
+      "name": "OpenGLShadingLanguage",
+      "icon": "",
+      "cterm_color": "67",
+      "color": "#5586A6"
+    },
+    "epub": {
+      "name": "Epub",
+      "icon": "",
+      "cterm_color": "215",
+      "color": "#EAB16D"
+    },
+    "xls": {
+      "name": "Xls",
+      "icon": "󰈛",
+      "cterm_color": "29",
+      "color": "#207245"
+    },
+    "qss": {
+      "name": "Qt",
+      "icon": "",
+      "cterm_color": "77",
+      "color": "#40CD52"
+    },
+    "rss": {
+      "name": "Rss",
+      "icon": "",
+      "cterm_color": "215",
+      "color": "#FB9D3B"
+    },
+    "zst": {
+      "name": "Zst",
+      "icon": "",
+      "cterm_color": "214",
+      "color": "#ECA517"
+    },
+    "dockerignore": {
+      "name": "DockerIgnore",
+      "icon": "󰡨",
+      "cterm_color": "68",
+      "color": "#458EE6"
+    },
+    "edn": {
+      "name": "Edn",
+      "icon": "",
+      "cterm_color": "74",
+      "color": "#519ABA"
+    },
+    "m4a": {
+      "name": "MPEG4",
+      "icon": "",
+      "cterm_color": "39",
+      "color": "#00AFFF"
+    },
+    "adb": {
+      "name": "AdaBody",
+      "icon": "",
+      "cterm_color": "111",
+      "color": "#599EFF"
+    },
+    "flf": {
+      "name": "FIGletFontFormat",
+      "icon": "",
+      "cterm_color": "255",
+      "color": "#ECECEC"
+    },
+    "ini": {
+      "name": "Ini",
+      "icon": "",
+      "cterm_color": "66",
+      "color": "#6D8086"
+    },
+    "cue": {
+      "name": "Cue",
+      "icon": "󰲹",
+      "cterm_color": "211",
+      "color": "#ED95AE"
+    },
+    "conda": {
+      "name": "Conda",
+      "icon": "",
+      "cterm_color": "34",
+      "color": "#43B02A"
+    },
+    "css": {
+      "name": "Css",
+      "icon": "",
+      "cterm_color": "91",
+      "color": "#663399"
+    },
+    "blade.php": {
+      "name": "Blade",
+      "icon": "",
+      "cterm_color": "203",
+      "color": "#F05340"
+    },
+    "stories.ts": {
+      "name": "StorybookTypeScript",
+      "icon": "",
+      "cterm_color": "204",
+      "color": "#FF4785"
+    },
+    "godot": {
+      "name": "GodotProject",
+      "icon": "",
+      "cterm_color": "66",
+      "color": "#6D8086"
+    },
+    "fs": {
+      "name": "Fs",
+      "icon": "",
+      "cterm_color": "74",
+      "color": "#519ABA"
+    },
+    "ass": {
+      "name": "Ass",
+      "icon": "󰨖",
+      "cterm_color": "214",
+      "color": "#FFB713"
+    },
+    "graphql": {
+      "name": "GraphQL",
+      "icon": "",
+      "cterm_color": "199",
+      "color": "#E535AB"
+    },
+    "cmake": {
+      "name": "CMake",
+      "icon": "",
+      "cterm_color": "254",
+      "color": "#DCE3EB"
+    }
+  }
+}
