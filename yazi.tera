@@ -146,3 +146,24 @@ border = { fg = "{{ accent.hex }}" }
 title  = { fg = "{{ accent.hex }}" }
 tbl_cell = { fg = "{{ accent.hex }}", reversed = true }
 tbl_col = { bold = true }
+
+[icon]
+dirs = [
+	{ name = ".config", text = "", fg = "{{ accent.hex }}" },
+	{ name = ".git", text = "", fg = "{{ accent.hex }}" },
+	{ name = ".github", text = "", fg = "{{ accent.hex }}" },
+	{ name = ".npm", text = "", fg = "{{ accent.hex }}" },
+	{ name = "Desktop", text = "", fg = "{{ accent.hex }}" },
+	{ name = "Development", text = "", fg = "{{ accent.hex }}" },
+	{ name = "Documents", text = "", fg = "{{ accent.hex }}" },
+	{ name = "Downloads", text = "", fg = "{{ accent.hex }}" },
+	{ name = "Library", text = "", fg = "{{ accent.hex }}" },
+	{ name = "Movies", text = "", fg = "{{ accent.hex }}" },
+	{ name = "Music", text = "", fg = "{{ accent.hex }}" },
+	{ name = "Pictures", text = "", fg = "{{ accent.hex }}" },
+	{ name = "Public", text = "", fg = "{{ accent.hex }}" },
+	{ name = "Videos", text = "", fg = "{{ accent.hex }}" },
+]
+conds = [
+	{ if = "dir", text = "", fg = "{{ accent.hex }}" },
+]
