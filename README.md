@@ -50,7 +50,11 @@ To contribute to this port you will need the following dependencies installed:
 
 Edit `yazi.tera` to make changes to the theme. Run `just build` to build the output themes in `themes/`.
 
-To update the icons data, you will additionally need [Lua](https://lua.org/start.html), [LuaRocks](https://luarocks.org/), and the [`dkjson` LuaRocks module](https://luarocks.org/modules/dhkolf/dkjson). Run `just icons` to fetch and process the data from [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons).
+### Icons
+
+To avoid refetching the icon rule metadata every time we rebuild the themes, icon data is saved in `icons.json` and updated when necessary.
+
+To update the icons data, you will additionally need [Lua](https://lua.org/start.html), [LuaRocks](https://luarocks.org/), and the [`dkjson` LuaRocks module](https://luarocks.org/modules/dhkolf/dkjson). Run the `./update_icons.sh` script to fetch and process the data from [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons).
 
 ## 💝 Thanks to
 
