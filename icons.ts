@@ -1,5 +1,5 @@
 import { closest } from "ctpvert";
-import { type ColorName, flavorEntries, flavors } from "@catppuccin/palette";
+import { type ColorName, flavorEntries } from "@catppuccin/palette";
 
 const { icons_by_filename, icons_by_file_extension } = JSON.parse(
   await Deno.readTextFile("./icons.json"),
@@ -30,14 +30,13 @@ for (const [identifier, { colors, colorEntries }] of flavorEntries) {
     output += `${name} = [\n`;
     for (const [key, { color, icon }] of Object.entries(icons)) {
       const fg = colors[
-          (hex_to_color_overrides[
-            color as keyof typeof hex_to_color_overrides
-          ] ||
-            closest(color)[identifier].name) as ColorName
-        ]
+        (hex_to_color_overrides[
+          color as keyof typeof hex_to_color_overrides
+        ] ||
+          closest(color)[identifier].name) as ColorName
+      ]
         .hex;
-      output +=
-        `  { name = "${key}", text = "${icon}", fg = "${fg}" },\n`;
+      output += `  { name = "${key}", text = "${icon}", fg = "${fg}" },\n`;
     }
     output += "]\n";
   };
@@ -45,12 +44,15 @@ for (const [identifier, { colors, colorEntries }] of flavorEntries) {
   addIcons(icons_by_filename, "files");
   addIcons(icons_by_file_extension, "exts");
 
-  await Promise.all(colorEntries.filter(([_, c]) => c.accent).map(async ([accent]) => {
-    const dist = `themes/${identifier}/catppuccin-${identifier}-${accent}.toml`;
-    const theme = await Deno.readTextFile(dist);
-    await Deno.writeTextFile(
-      dist,
-      theme + "\n" + output,
-    );
-  }));
+  await Promise.all(
+    colorEntries.filter(([_, c]) => c.accent).map(async ([accent]) => {
+      const dist =
+        `themes/${identifier}/catppuccin-${identifier}-${accent}.toml`;
+      const theme = await Deno.readTextFile(dist);
+      await Deno.writeTextFile(
+        dist,
+        theme + "\n" + output,
+      );
+    }),
+  );
 }
