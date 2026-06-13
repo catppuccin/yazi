@@ -138,7 +138,7 @@ rules = [
 	{ url = "*/", is = "dummy", bg = "{{ red.hex }}" },
 
 	# Fallback
-	{ url = "*/", fg = "{{ accent.hex }}" }
+	{ url = "*/", fg = "{{ accent.hex }}" },
 ]
 
 [spot]
