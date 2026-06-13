@@ -36,7 +36,7 @@ for (const [identifier, { colors, colorEntries }] of flavorEntries) {
           closest(color)[identifier].name) as ColorName
       ]
         .hex;
-      output += `  { name = "${key}", text = "${icon}", fg = "${fg}" },\n`;
+      output += `\t{ name = "${key}", text = "${icon}", fg = "${fg}" },\n`;
     }
     output += "]\n";
   };
