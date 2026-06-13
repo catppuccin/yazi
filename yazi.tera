@@ -165,5 +165,18 @@ dirs = [
 	{ name = "Videos", text = "", fg = "{{ accent.hex }}" },
 ]
 conds = [
+	# Special files
+	{ if = "orphan", text = "", fg = "{{ text.hex }}" },
+	{ if = "link", text = "", fg = "{{ subtext0.hex }}" },
+	{ if = "block", text = "", fg = "{{ yellow.hex }}" },
+	{ if = "char", text = "", fg = "{{ yellow.hex }}" },
+	{ if = "fifo", text = "", fg = "{{ yellow.hex }}" },
+	{ if = "sock", text = "", fg = "{{ yellow.hex }}" },
+	{ if = "sticky", text = "", fg = "{{ yellow.hex }}" },
+	{ if = "dummy", text = "", fg = "{{ red.hex }}" },
+
+	# Fallback
 	{ if = "dir", text = "", fg = "{{ accent.hex }}" },
+	{ if = "exec", text = "", fg = "{{ green.hex }}" },
+	{ if = "!dir", text = "", fg = "{{ text.hex }}" },
 ]
