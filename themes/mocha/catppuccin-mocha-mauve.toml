@@ -90,11 +90,10 @@ separator       = "  "
 separator_style = { fg = "#585b70" }
 
 [help]
-on      = { fg = "#94e2d5" }
-run     = { fg = "#f5c2e7" }
-desc    = { fg = "#9399b2" }
+border  = { fg = "#cba6f7" }
+chord   = { fg = "#94e2d5" }
+action  = { fg = "#9399b2" }
 hovered = { bg = "#585b70", bold = true }
-footer  = { fg = "#cdd6f4", bg = "#45475a" }
 
 [notify]
 title_info  = { fg = "#94e2d5" }
