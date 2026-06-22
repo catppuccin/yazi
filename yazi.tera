@@ -102,11 +102,10 @@ separator       = "  "
 separator_style = { fg = "{{ surface2.hex }}" }
 
 [help]
-on      = { fg = "{{ teal.hex }}" }
-run     = { fg = "{{ pink.hex }}" }
-desc    = { fg = "{{ overlay2.hex }}" }
+border  = { fg = "{{ accent.hex }}" }
+chord   = { fg = "{{ teal.hex }}" }
+action  = { fg = "{{ overlay2.hex }}" }
 hovered = { bg = "{{ surface2.hex }}", bold = true }
-footer  = { fg = "{{ text.hex }}", bg = "{{ surface1.hex }}" }
 
 [notify]
 title_info  = { fg = "{{ teal.hex }}" }
