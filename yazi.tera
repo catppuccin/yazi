@@ -94,7 +94,8 @@ title   = {}
 hovered = { fg = "{{ pink.hex }}", bold = true }
 
 [which]
-mask            = { bg = "{{ surface0.hex }}" }
+border          = { fg = "{{ accent.hex }}" }
+mask            = {}
 cand            = { fg = "{{ teal.hex }}" }
 rest            = { fg = "{{ overlay2.hex }}" }
 desc            = { fg = "{{ pink.hex }}" }

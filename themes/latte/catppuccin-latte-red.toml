@@ -82,7 +82,8 @@ title   = {}
 hovered = { fg = "#ea76cb", bold = true }
 
 [which]
-mask            = { bg = "#ccd0da" }
+border          = { fg = "#d20f39" }
+mask            = {}
 cand            = { fg = "#179299" }
 rest            = { fg = "#7c7f93" }
 desc            = { fg = "#ea76cb" }
