@@ -116,14 +116,14 @@ title_error = { fg = "{{ red.hex }}" }
 [filetype]
 rules = [
 	# Media
-	{ mime = "image/*", fg = "{{ yellow.hex }}" },
-	{ mime = "{audio,video}/*", fg = "{{ pink.hex }}" },
+	{ mime = "**/image/*", fg = "{{ yellow.hex }}" },
+	{ mime = "**/{audio,video}/*", fg = "{{ pink.hex }}" },
 
 	# Archives
-	{ mime = "application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "{{ red.hex }}" },
+	{ mime = "**/application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "{{ red.hex }}" },
 
 	# Documents
-	{ mime = "application/{pdf,doc,rtf}", fg = "{{ sky.hex }}" },
+	{ mime = "**/application/{pdf,doc,rtf}", fg = "{{ sky.hex }}" },
 
 	# Virtual file system
 	{ mime = "vfs/{absent,stale}", fg = "{{ surface1.hex }}" },

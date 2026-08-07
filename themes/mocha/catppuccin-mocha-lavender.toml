@@ -104,14 +104,14 @@ title_error = { fg = "#f38ba8" }
 [filetype]
 rules = [
 	# Media
-	{ mime = "image/*", fg = "#f9e2af" },
-	{ mime = "{audio,video}/*", fg = "#f5c2e7" },
+	{ mime = "**/image/*", fg = "#f9e2af" },
+	{ mime = "**/{audio,video}/*", fg = "#f5c2e7" },
 
 	# Archives
-	{ mime = "application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "#f38ba8" },
+	{ mime = "**/application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "#f38ba8" },
 
 	# Documents
-	{ mime = "application/{pdf,doc,rtf}", fg = "#89dceb" },
+	{ mime = "**/application/{pdf,doc,rtf}", fg = "#89dceb" },
 
 	# Virtual file system
 	{ mime = "vfs/{absent,stale}", fg = "#45475a" },
