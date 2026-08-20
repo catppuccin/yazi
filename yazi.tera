@@ -94,7 +94,8 @@ title   = {}
 hovered = { fg = "{{ pink.hex }}", bold = true }
 
 [which]
-mask            = { bg = "{{ surface0.hex }}" }
+border          = { fg = "{{ accent.hex }}" }
+mask            = {}
 cand            = { fg = "{{ teal.hex }}" }
 rest            = { fg = "{{ overlay2.hex }}" }
 desc            = { fg = "{{ pink.hex }}" }
@@ -102,11 +103,10 @@ separator       = "  "
 separator_style = { fg = "{{ surface2.hex }}" }
 
 [help]
-on      = { fg = "{{ teal.hex }}" }
-run     = { fg = "{{ pink.hex }}" }
-desc    = { fg = "{{ overlay2.hex }}" }
+border  = { fg = "{{ accent.hex }}" }
+chord   = { fg = "{{ teal.hex }}" }
+action  = { fg = "{{ overlay2.hex }}" }
 hovered = { bg = "{{ surface2.hex }}", bold = true }
-footer  = { fg = "{{ text.hex }}", bg = "{{ surface1.hex }}" }
 
 [notify]
 title_info  = { fg = "{{ teal.hex }}" }
@@ -116,14 +116,14 @@ title_error = { fg = "{{ red.hex }}" }
 [filetype]
 rules = [
 	# Media
-	{ mime = "image/*", fg = "{{ yellow.hex }}" },
-	{ mime = "{audio,video}/*", fg = "{{ pink.hex }}" },
+	{ mime = "**/image/*", fg = "{{ yellow.hex }}" },
+	{ mime = "**/{audio,video}/*", fg = "{{ pink.hex }}" },
 
 	# Archives
-	{ mime = "application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "{{ red.hex }}" },
+	{ mime = "**/application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "{{ red.hex }}" },
 
 	# Documents
-	{ mime = "application/{pdf,doc,rtf}", fg = "{{ sky.hex }}" },
+	{ mime = "**/application/{pdf,doc,rtf}", fg = "{{ sky.hex }}" },
 
 	# Virtual file system
 	{ mime = "vfs/{absent,stale}", fg = "{{ surface1.hex }}" },
