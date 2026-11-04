@@ -58,6 +58,7 @@ perm_sep   = { fg = "#7f849c" }
 border   = { fg = "#74c7ec" }
 title    = {}
 value    = {}
+hint     = { fg = "#a6adc8", italic = true }
 selected = { reversed = true }
 
 [pick]

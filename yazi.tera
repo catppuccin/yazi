@@ -70,6 +70,7 @@ perm_sep   = { fg = "{{ overlay1.hex }}" }
 border   = { fg = "{{ accent.hex }}" }
 title    = {}
 value    = {}
+hint     = { fg = "{{ subtext0.hex }}", italic = true }
 selected = { reversed = true }
 
 [pick]
